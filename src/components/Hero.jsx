@@ -33,7 +33,6 @@ const Hero = () => {
           <p className="text-base text-lightText pr-32 font-medium">
             Explore the site to learn, get advice and start benefitting!
           </p>
-          <Button className="w-40 h-14" />
         </div>
       </Container>
     </div>

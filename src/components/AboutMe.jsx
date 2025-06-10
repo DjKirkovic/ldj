@@ -28,7 +28,6 @@ const AboutMe = () => {
         <p>
           desc 2
         </p>
-        <Button title="Learn more" className="w-40 h-14" />
       </div>
     </Container>
   );
