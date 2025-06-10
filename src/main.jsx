@@ -8,7 +8,7 @@ import Footer from "./components/Footer.jsx";
 import About from "./pages/About.jsx";
 import Services from "./pages/Services.jsx";
 import Portfolio from "./components/Portfolio.jsx";
-import ConatctPage from "./pages/ContactPage.jsx";
+import ContactPage from "./pages/ContactPage.jsx";
 import PortfolioPage from "./pages/PortfolioPage.jsx";
 
 const Layout = () => {
@@ -44,7 +44,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/contact",
-        element: <ConatctPage />,
+        element: <ContactPage />,
       },
     ],
   },

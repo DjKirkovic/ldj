@@ -1,19 +1,13 @@
 import React from "react";
-import { FaFacebook, FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
 
 const SocialIcon = () => {
   return (
     <div className="flex items-center gap-5">
-      <a href="#" className="portfolioIconStyle">
-        <FaXTwitter />
-      </a>
-      <a href="#" className="portfolioIconStyle">
-        <FaFacebook />
-      </a>
-      <a href="#" className="portfolioIconStyle">
+      <a href="https://github.com/DjKirkovic" className="portfolioIconStyle">
         <FaGithub />
       </a>
-      <a href="#" className="portfolioIconStyle">
+      <a href="https://www.linkedin.com/in/martinkirk/" className="portfolioIconStyle">
         <FaLinkedin />
       </a>
     </div>

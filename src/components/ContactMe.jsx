@@ -37,7 +37,7 @@ const ContactMe = () => {
           <div className="py-5 flex flex-col gap-2">
             <p className="text-lg text-white font-bold">Martin Kirk</p>
             <p className="text-lg font-medium">Founder, LifeDJ</p>
-            <p className="uppercase">Find me</p>
+            <p className="uppercase">Find me on:</p>
           </div>
           <SocialIcon />
         </div>
