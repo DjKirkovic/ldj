@@ -57,7 +57,7 @@ const Hero = () => {
               ...then THIS site is for YOU!
             </p> 
             <p class="mb-8">
-              Use the top menu items to navigate between contenta.
+              Use the top menu items to navigate between contents.
             </p> 
             <p>
               Explore the site to learn, get advice and start benefitting!
