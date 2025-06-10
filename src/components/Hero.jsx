@@ -16,7 +16,7 @@ const Hero = () => {
       <Container className="py-20">
         <div className="w-1/2 flex flex-col gap-y-5">
           <h2 className="text-7xl font-bold text-white">
-            Hi, I’m <span className="text-designColor">Martin Kirk</span>
+            Hi, I’m <span className="text-designColour">Martin Kirk</span>
           </h2>
           <h2 className="text-4xl font-bold text-white">
             a{" "}

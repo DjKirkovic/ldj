@@ -5,7 +5,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 const PortfolioCard = ({ item }) => {
   return (
-    <div className="w-full bg-black p-10 bg-gradient-to-tr from-primaryColor to-primaryColor/80 shadow-lg shadow-lightText/10 rounded-lg ">
+    <div className="w-full bg-black p-10 bg-gradient-to-tr from-primaryColour to-primaryColour/80 shadow-lg shadow-lightText/10 rounded-lg ">
       <a href={item.link} target="_blank">
         <div className="w-full h-72 rounded-lg overflow-hidden relative group">
           <img
@@ -16,11 +16,11 @@ const PortfolioCard = ({ item }) => {
           <AiOutlineMenu className="absolute top-4 right-4 text-lg" />
         </div>
         <div className="flex flex-col gap-5 pt-5">
-          <p className="text-xs font-semibold uppercase text-designColor">
+          <p className="text-xs font-semibold uppercase text-designColour">
             {item.subtitle}
           </p>
           <div>
-            <h2 className="text-lg font-bold hover:text-designColor duration-300 cursor-pointer relative group overflow-hidden">
+            <h2 className="text-lg font-bold hover:text-designColour duration-300 cursor-pointer relative group overflow-hidden">
               {item.title}
               <span className="absolute bottom-0 translate-y-5 -translate-x-5 group-hover:translate-y-0 group-hover:translate-x-0 duration-500">
                 <MdArrowOutward />

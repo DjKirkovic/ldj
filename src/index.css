@@ -1,17 +1,56 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import "tailwindcss";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@theme{
+--color-malachite-50: #f0fdf1;
+--color-malachite-100: #ddfbe1;
+--color-malachite-200: #bdf5c6;
+--color-malachite-300: #89ec99;
+--color-malachite-400: #4eda65;
+--color-malachite-500: #2bd447;
+--color-malachite-600: #1a9f30;
+--color-malachite-700: #187d2a;
+--color-malachite-800: #186326;
+--color-malachite-900: #165121;
+--color-malachite-950: #062d0e;
+--color-prussian-blue-50: #f1f7fe;
+--color-prussian-blue-100: #e3eefb;
+--color-prussian-blue-200: #c0ddf7;
+--color-prussian-blue-300: #89c1f0;
+--color-prussian-blue-400: #4aa1e6;
+--color-prussian-blue-500: #2285d5;
+--color-prussian-blue-600: #1469b5;
+--color-prussian-blue-700: #125492;
+--color-prussian-blue-800: #134779;
+--color-prussian-blue-900: #123456;
+--color-prussian-blue-950: #0e2743;
+--color-primaryColour: "#16181C";
+--color-lightText: "#878e99";
+--color-designColour: "#ff014f";
+--color-titleColour: "#c4cfde";
+--color-test: "linear-gradient(145deg, #1e2024, #23272b)";
+}
 
 @layer components {
   .iconstyle {
-    @apply text-lg text-designColor;
+    @apply text-lg;
   }
   .portfolioIconStyle {
-    @apply bg-stone-800 w-10 h-10 inline-flex text-white text-base justify-center items-center rounded-md hover:text-designColor duration-500 hover:-translate-y-2 hover:bg-black shadow-md shadow-gray-200/10 hover:shadow-designColor/10;
+    @apply bg-stone-800 w-10 h-10 inline-flex text-white text-base justify-center items-center rounded-md hover:text-white duration-500 hover:-translate-y-2 hover:bg-black shadow-md shadow-gray-200/10 hover:shadow-white/10;
   }
   .inputStyle {
-    @apply flex-1 rounded-md bg-black text-white px-6 py-2  outline-none border border-lightText placeholder:text-gray-500 focus-within:border-designColor duration-300;
+    @apply flex-1 rounded-md bg-black text-white px-6 py-2  outline-none border border-lightText placeholder:text-gray-500 focus-within:border-white duration-300;
   }
 }
+
+
+    /* extend: {
+      fontFamily: {
+        bodyFont: ["Roboto", "sans - serif"],
+      },*/
+      
+      
+      /*
+      backgroundImage: {
+        "hero-image": "url('./banner.jpg')",
+      }, */

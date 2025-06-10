@@ -2,7 +2,7 @@ import React from "react";
 
 const Subtitle = ({ title }) => {
   return (
-    <p className="text-base text-designColor uppercase font-medium">{title}</p>
+    <p className="text-base text-designColour uppercase font-medium">{title}</p>
   );
 };
 

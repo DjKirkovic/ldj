@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 import Button from "./ui/Button";
 import { useLocation } from "react-router-dom";
+import "../index.css";
 const Header = () => {
   const location = useLocation();
   const pathname = location.pathname;
@@ -15,7 +16,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="w-full h-20 bg-[#16181C]/90 backdrop-blur  sticky top-0 z-50">
+    <header className="w-full h-20 bg-[#16181C]/90 backdrop-blur-2xl sticky top-0 z-50">
       <div className="h-full max-w-screen-xl mx-auto flex items-center justify-between ">
         <div>
           <Link to={"/"}>
@@ -27,8 +28,8 @@ const Header = () => {
             <Link key={link} to={link}>
               <p
                 className={`${
-                  pathname === link ? "text-designColor" : "text-lightText"
-                } text-sm uppercase font-semibold hover:text-designColor cursor-pointer duration-300 `}
+                  pathname === link ? "text-#FF0000" : "text-#878e99"
+                } text-sm uppercase font-semibold hover:text-designColour cursor-pointer duration-300 `}
               >
                 {title}
               </p>

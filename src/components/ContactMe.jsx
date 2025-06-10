@@ -98,7 +98,7 @@ const ContactMe = () => {
           </div>
           <button
             onClick={handleSubmit}
-            className="border-[1px] border-gray-500 py-2 rounded-md hover:border-designColor duration-300 uppercase hover:text-white"
+            className="border-[1px] border-gray-500 py-2 rounded-md hover:border-designColour duration-300 uppercase hover:text-white"
           >
             Send Message
           </button>
