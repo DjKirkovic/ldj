@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 import Button from "./ui/Button";
 import { useLocation } from "react-router-dom";
-import CustColours from "./ui/CustColours";
 
 const Header = () => {
   const location = useLocation();
@@ -29,8 +28,8 @@ const Header = () => {
             <Link key={link} to={link}>
               <p
                 className={`${
-                  pathname === link ? "text-designColor" : "text-lightText"
-                } text-sm uppercase font-semibold hover:text-designColour cursor-pointer duration-300 `}
+                  pathname === link ? "text-white" : "text-green-500" //"text-designColor" : "text-lightText"
+                } text-sm uppercase font-semibold hover:text-blue-500 cursor-pointer duration-300 `}
               >
                 {title}
               </p>

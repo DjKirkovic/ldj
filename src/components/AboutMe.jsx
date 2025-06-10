@@ -14,7 +14,7 @@ const AboutMe = () => {
           <img
             src={AboutMeImg}
             alt="aboutMeImage"
-            className="h-300 group-hover:scale-110 duration-200 rounded-md"
+            className="h-full group-hover:scale-210 duration-500 rounded-md"
           />
         </div>
       </div>
