@@ -8,12 +8,12 @@ import { MdArrowOutward } from "react-icons/md";
 import PortfolioCard from "./ui/PortfolioCard";
 import { portfolioData } from "../constant/data";
 
-const Portfolio = () => {
+const Photos = () => {
   return (
     <Container className="border-b border-black">
       <div className="flex flex-col items-center">
         <Subtitle title="" />
-        <Title title="Portfolio" />
+        <Title title="Photos" />
       </div>
       <div className="grid grid-cols-3 gap-10 pt-10">
         {portfolioData.map((item) => (
@@ -24,4 +24,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Photos;

@@ -1,10 +1,10 @@
 import React from "react";
-import Portfolio from "../components/Portfolio";
+import Photos from "../components/Photos";
 
 const PortfolioPage = () => {
   return (
     <div className="bg-primaryColour text-gray-200">
-      <Portfolio />
+      <Photos />
     </div>
   );
 };

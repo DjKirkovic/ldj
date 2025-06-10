@@ -7,7 +7,7 @@ import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 import Footer from "./components/Footer.jsx";
 import About from "./pages/About.jsx";
 import Services from "./pages/Services.jsx";
-import Portfolio from "./components/Portfolio.jsx";
+import Photos from "./components/Photos.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 import PortfolioPage from "./pages/PortfolioPage.jsx";
 
@@ -39,7 +39,7 @@ const router = createBrowserRouter([
         element: <Services />,
       },
       {
-        path: "/portfolio",
+        path: "/Photos",
         element: <PortfolioPage />,
       },
       {

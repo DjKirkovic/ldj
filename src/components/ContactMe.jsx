@@ -20,6 +20,8 @@ const ContactMe = () => {
     setSubject("");
     setMessages("");
   };
+const inputStyle = "flex-1 rounded-md bg-black text-white px-6 py-2  outline-none border border-lightText placeholder:text-gray-500 focus-within:border-designColor duration-300;"
+
   return (
     <Container className="border-b border-black">
       <div className="flex flex-col items-center">
@@ -48,7 +50,7 @@ const ContactMe = () => {
               <input
                 type="text"
                 placeholder="Enter your name"
-                className="inputStyle"
+                className={inputStyle}
                 onChange={(e) => setUserName(e.target.value)}
                 value={userName}
               />
@@ -58,7 +60,7 @@ const ContactMe = () => {
               <input
                 type="text"
                 placeholder="Enter your phone number"
-                className="inputStyle"
+                className={inputStyle}
                 onChange={(e) => setPhone(e.target.value)}
                 value={phone}
               />
@@ -69,7 +71,7 @@ const ContactMe = () => {
             <input
               type="email"
               placeholder="Enter your Email"
-              className="inputStyle"
+              className={inputStyle}
               onChange={(e) => setEmail(e.target.value)}
               value={email}
             />
@@ -79,7 +81,7 @@ const ContactMe = () => {
             <input
               type="text"
               placeholder="Define a subject"
-              className="inputStyle"
+              className={inputStyle}
               onChange={(e) => setSubject(e.target.value)}
               value={subject}
             />
@@ -89,7 +91,7 @@ const ContactMe = () => {
             <textarea
               type="text"
               placeholder="Enter your messages..."
-              className="inputStyle"
+              className={inputStyle}
               cols={1}
               rows={3}
               onChange={(e) => setMessages(e.target.value)}
