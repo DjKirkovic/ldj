@@ -27,7 +27,10 @@ const ContactMe = () => {
       },
       body: json
     }).then((res) => res.json());
-    //if (res.success) {console.log("Success", res);}   
+    if (res.success) {
+      //console.log("Success", res);
+      document.getElementById("contact-form").reset();   
+    }   
   };
 
 const inputStyle = "flex-1 rounded-md bg-black text-white px-6 py-2  outline-none border border-lightText placeholder:text-gray-500 focus-within:border-designColor duration-300;"
@@ -53,7 +56,7 @@ const inputStyle = "flex-1 rounded-md bg-black text-white px-6 py-2  outline-non
           </div>
           <SocialIcon />
         </div>
-        <form onSubmit={onSubmit} className="w-2/3">
+        <form id="contact-form" onSubmit={onSubmit} className="w-2/3">
           <div className=" bg-stone-950/50 p-10 rounded-lg flex flex-col gap-10">
             <div className="flex justify-between gap-7">
               <div className="flex flex-1 flex-col gap-3">
