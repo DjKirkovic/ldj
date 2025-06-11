@@ -7,23 +7,33 @@ import { contact1 } from "../assets/getImage";
 import SocialIcon from "./ui/SocialIcon";
 
 const ContactMe = () => {
-  const [userName, setUserName] = useState("");
-  const [phone, setPhone] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [messages, setMessages] = useState("");
-  const handleSubmit = () => {
-    console.log(userName, phone, email, subject, messages);
-    setUserName("");
-    setPhone("");
-    setEmail("");
-    setSubject("");
-    setMessages("");
+
+  const onSubmit = async (event) => {
+    //console.log(event.target[0].value); //extract props
+    
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "9c91e788-b808-4900-a164-b8bea6ee8467");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+    //if (res.success) {console.log("Success", res);}   
   };
+
 const inputStyle = "flex-1 rounded-md bg-black text-white px-6 py-2  outline-none border border-lightText placeholder:text-gray-500 focus-within:border-designColor duration-300;"
 
   return (
-    <Container className="border-b border-black">
+    <Container className="border-b border-black">  
       <div className="flex flex-col items-center">
         <Title title="Contact Me" />
       </div>
@@ -43,68 +53,66 @@ const inputStyle = "flex-1 rounded-md bg-black text-white px-6 py-2  outline-non
           </div>
           <SocialIcon />
         </div>
-        <div className="w-2/3 bg-stone-950/50 p-10 rounded-lg flex flex-col gap-10">
-          <div className="flex justify-between gap-7">
-            <div className="flex flex-1 flex-col gap-3">
-              <p className="text-sm uppercase">Your name</p>
+        <form onSubmit={onSubmit} className="w-2/3">
+          <div className=" bg-stone-950/50 p-10 rounded-lg flex flex-col gap-10">
+            <div className="flex justify-between gap-7">
+              <div className="flex flex-1 flex-col gap-3">
+                <p className="text-sm uppercase">Your name</p>
+                <input
+                  type="text"
+                  placeholder="Enter your name"
+                  className={inputStyle}
+                  name="name"
+                />
+              </div>
+              <div className="flex flex-1 flex-col gap-3">
+                <p className="text-sm uppercase">Phone Number</p>
+                <input
+                  type="text"
+                  placeholder="Enter your phone number"
+                  className={inputStyle}
+                  name="phone"
+                />
+              </div>
+            </div>
+            <div className="flex flex-col gap-3">
+              <p className="text-sm uppercase">Email</p>
               <input
-                type="text"
-                placeholder="Enter your name"
+                type="email"
+                placeholder="Enter your Email"
                 className={inputStyle}
-                onChange={(e) => setUserName(e.target.value)}
-                value={userName}
+                name="email"
               />
             </div>
-            <div className="flex flex-1 flex-col gap-3">
-              <p className="text-sm uppercase">Phone Number</p>
+            <div className="flex flex-col gap-3">
+              <p className="text-sm uppercase">Subject</p>
               <input
                 type="text"
-                placeholder="Enter your phone number"
+                placeholder="Define a subject"
                 className={inputStyle}
-                onChange={(e) => setPhone(e.target.value)}
-                value={phone}
+                name="subject"
               />
             </div>
+            <div className="flex flex-col gap-3">
+              <p className="text-sm uppercase">Your Message</p>
+              <textarea
+                type="text"
+                placeholder="Enter your messages..."
+                className={inputStyle}
+                cols={1}
+                rows={3}
+                name="message"
+              />
+            </div> 
+            <button
+              type="submit"
+              className="border-[1px] border-gray-500 py-2 rounded-md hover:border-designColour duration-300 uppercase hover:text-white"
+            >
+              Send Message
+            </button>
+          
           </div>
-          <div className="flex flex-col gap-3">
-            <p className="text-sm uppercase">Email</p>
-            <input
-              type="email"
-              placeholder="Enter your Email"
-              className={inputStyle}
-              onChange={(e) => setEmail(e.target.value)}
-              value={email}
-            />
-          </div>
-          <div className="flex flex-col gap-3">
-            <p className="text-sm uppercase">Subject</p>
-            <input
-              type="text"
-              placeholder="Define a subject"
-              className={inputStyle}
-              onChange={(e) => setSubject(e.target.value)}
-              value={subject}
-            />
-          </div>
-          <div className="flex flex-col gap-3">
-            <p className="text-sm uppercase">Your Message</p>
-            <textarea
-              type="text"
-              placeholder="Enter your messages..."
-              className={inputStyle}
-              cols={1}
-              rows={3}
-              onChange={(e) => setMessages(e.target.value)}
-              value={messages}
-            />
-          </div>
-          <button
-            onClick={handleSubmit}
-            className="border-[1px] border-gray-500 py-2 rounded-md hover:border-designColour duration-300 uppercase hover:text-white"
-          >
-            Send Message
-          </button>
-        </div>
+        </form> 
       </div>
     </Container>
   );
