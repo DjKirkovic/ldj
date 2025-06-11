@@ -30,10 +30,14 @@ const AboutMe = () => {
             Based in Denmark, I'm not your typical Dane. I am half Egyptian, spent half my life in the UK, 'represent' three further nationalities via marriage, and have travelled across four continents.<br />&#60; That's me in Tokyo by the way... 
           </p>
           <p><b>Outlook</b><br />
-            So, how does the above shape me?! I suppose it makes me understand diversity and differences...more?...than most people.
+            So, how does the above shape me?! I suppose it makes me understand diversity and differences...<i>more?</i>
           </p>
           <p><b>This site</b><br />
-            OK, so - what does this mean for this website?! Well, the site encapsulates and communicates my viewing angles and knowledge through insights into culture, logic application & decision making.  
+            OK, so - what does this mean for this website?! Well, the site encapsulates and communicates my viewing angles and knowledge through insights into culture, logic application & decision making.
+          </p>
+          <p><b>Why?</b><br />
+            Always a relevant question! This website is designed to benefit YOU via useful, inspiring and "wow" contents.<br />
+            Feedback, good as bad, is always welcome. Do drop a line via the Contact page to help me help you <i>better</i>! 
           </p>
         </div>
       </div>
