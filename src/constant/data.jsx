@@ -13,32 +13,36 @@ export const featuresData = [
   {
     id: 1,
     icon: <AiOutlineMenu />,
-    title: "Life Coaching",
-    descripton:
-      "Serving of useful advice.",
+    title: "Specialist IT Services",
+    description:
+      "Support, web and app insights.",
+    //link: onClick={()=>console.log(item)}
+    link: "#/services/it",
   },
   {
     id: 2,
-    icon: <IoBookOutline />,
-    title: "Photography",
-    descripton:
-      "Coverage of wide use cases.",
+    icon: <AiOutlineMenu />,
+    title: "Project Management",
+    description:
+      "Certified guidance on various projects.",
+    link: "#/services/projects",
   },
   {
     id: 3,
-    icon: <AiOutlineMenu />,
-    title: "Specialist IT Services",
-    descripton:
-      "Support, web and app needs.",
+    icon: <IoBookOutline />,
+    title: "Photography",
+    description:
+      "Coverage of wide use cases.",
+    link: "#/services/photography",
   },
   {
     id: 4,
     icon: <AiOutlineMenu />,
-    title: "Project Management",
-    descripton:
-      "Certified guidance on various projects.",
+    title: "Life Coaching",
+    description:
+      "Serving of useful advice.",
+    link: "#/services/life",
   },
-
 ];
 
 export const portfolioData = [

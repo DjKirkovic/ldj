@@ -7,7 +7,7 @@ const FeatureCard = ({ item }) => {
       <span className={iconstyle}>{item.icon}</span>
 
       <p className="text-lg font-bold">{item.title}</p>
-      <p className="text-base font-medium">{item.descripton}</p>
+      <p className="text-base font-medium">{item.description}</p>
       <IoMdArrowRoundForward className={iconstyle} />
     </div>
   );

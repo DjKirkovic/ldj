@@ -6,7 +6,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 const PortfolioCard = ({ item }) => {
   return (
     <div className="w-full bg-black p-10 bg-gradient-to-tr from-primaryColour to-primaryColour/80 shadow-lg shadow-lightText/10 rounded-lg ">
-      <a href={item.link} target="_blank">
+      <a href="#news">
         <div className="w-full h-72 rounded-lg overflow-hidden relative group">
           <img
             src={item.img}
@@ -34,3 +34,5 @@ const PortfolioCard = ({ item }) => {
 };
 
 export default PortfolioCard;
+
+//<a href={item.link} target="_blank">

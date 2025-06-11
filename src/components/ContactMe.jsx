@@ -83,7 +83,7 @@ const inputStyle = "flex-1 rounded-md bg-black text-white px-6 py-2  outline-non
               <p className="text-sm uppercase">Email</p>
               <input
                 type="email"
-                placeholder="Enter your Email"
+                placeholder="Enter your email"
                 className={inputStyle}
                 name="email"
               />
@@ -101,7 +101,7 @@ const inputStyle = "flex-1 rounded-md bg-black text-white px-6 py-2  outline-non
               <p className="text-sm uppercase">Your Message</p>
               <textarea
                 type="text"
-                placeholder="Enter your messages..."
+                placeholder="Enter your message..."
                 className={inputStyle}
                 cols={1}
                 rows={3}
