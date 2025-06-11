@@ -22,23 +22,6 @@ const Features = () => {
             <FeatureCard key={item.id} item={item} />
         ))}
       </div>
-      <div className="text-black id='news1'">
-        abc
-      </div>
-
-      <div className="text-black id='news2' pb-60">
-        abc
-      </div>
-
-      <div className="text-black id='news3' pb-60">
-        abc3
-      </div>
-      <div className="text-black id='news4' pb-60">
-        abc4
-      </div>
-      <div className="text-black id='news' pb-30">
-        abc5
-      </div>
     </Container>
   );
 };
