@@ -29,7 +29,8 @@ const ContactMe = () => {
     }).then((res) => res.json());
     if (res.success) {
       //console.log("Success", res);
-      document.getElementById("contact-form").reset();   
+      document.getElementById("contact-form").reset();
+      alert("Thank you for your message!"); 
     }   
   };
 
