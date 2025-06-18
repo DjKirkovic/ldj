@@ -28,12 +28,11 @@ const ContactMe = () => {
       body: json
     }).then((res) => res.json());
     if (res.success) {
-      //console.log("Success", res);
       document.getElementById("contact-form").reset();
       alert("Thank you for your message!"); 
     }   
   };
-
+//console.log("Success", res);
 const inputStyle = "flex-1 rounded-md bg-black text-white px-6 py-2  outline-none border border-lightText placeholder:text-gray-500 focus-within:border-designColor duration-300;"
 
   return (
@@ -51,7 +50,7 @@ const inputStyle = "flex-1 rounded-md bg-black text-white px-6 py-2  outline-non
             />
           </div>
           <div className="py-5 flex flex-col gap-2">
-            <p className="text-lg text-white font-bold">Martin Kirk</p>
+            <p className="text-lg text-white font-bold">Martin</p>
             <p className="text-lg font-medium">Founder, LifeDJ</p>
             <p className="uppercase">Find me on:</p>
           </div>

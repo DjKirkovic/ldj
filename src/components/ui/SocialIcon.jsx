@@ -8,9 +8,6 @@ const SocialIcon = () => {
       <a title="Github" href="https://github.com/DjKirkovic" target="_blank" rel="noopener noreferrer" className={portfolioIconStyle}>
         <FaGithub />
       </a>
-      <a title="LinkedIn" href="https://www.linkedin.com/in/martinkirk/" target="_blank" rel="noopener noreferrer" className={portfolioIconStyle}>
-        <FaLinkedin />
-      </a>
     </div>
   );
 };
