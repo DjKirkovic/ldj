@@ -44,7 +44,7 @@ const Hero = () => {
                 COMMUNICATIONS / written MAGIC
               </li>
               <li> 
-                GRAPHS, data and analytics JUICE 
+                GRAPHS, data and analytical WONDERS 
               </li>
               <li> 
                 PHOTOS that'll land you in visual HEAVEN
