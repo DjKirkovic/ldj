@@ -41,16 +41,16 @@ const Hero = () => {
           <p class="mb-8">If you're after:</p>
             <ul class="list-disc mb-8 ml-4">  
               <li> 
-                ANYTHING and everything TECH
+                COMMUNICATIONS - articles, reviews, insights, or any other written MAGIC
               </li>
               <li> 
                 GRAPHS, data and analytics JUICE 
               </li>
               <li> 
-                PHOTOS that'll blow your socks OFF
+                PHOTOS that'll land you in visual HEAVEN
               </li>
               <li> 
-                TIPS on improving your LIFE
+                TIPS that will work for improving your LIFE
               </li>
               </ul>
             <p class="mb-8">
@@ -60,7 +60,7 @@ const Hero = () => {
               Use the top menu items to navigate between contents.
             </p> 
             <p>
-              Explore the site to learn, get advice and start benefitting!
+              Explore the site to learn, get advice and start benefitting, now!
             </p>
           </div>
         </div>
