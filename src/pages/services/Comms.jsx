@@ -13,20 +13,17 @@ const Comms = () => {
         </div>
    </div>
 
-    <p><b>IT Support</b><br />
-        Ever needed something IT support-related you just weren't getting? I know the feeling!<br /><br />Here's a mathematical equation example from a <u>company</u> perspective:<br />
-        In W time you need to help X customers with Y issues and have Z resources to do it with
-        ...only: Z is WAY insufficient. Like this:<br />
-        W = time - 1 work day <br />
-        X = customers - 100 people <br />
-        Y = workload - 200 issues (i.e. avg. two per person)<br />
-        Z = HR - 2 staff <br /><br />
-      So how to proceed?<br /><br />
-      Common corporate answer: Work poor Z-duo into the ground...in a frantic attempt to serve all X and/or resolve all Y within as little W as possible.<br /><br />
-      My answer? Give Z 50 people each to make initial/holding contact with. Then tackle Y systematically based on priority - think ITIL. Then reward Z in hard times! <br />
-      Reasoning? Support is about <u>people</u> - both X and Z. W and Y are just distracting conformities. By taking care of the people involved, you maximise business value.<br /><br />Morale: YOU, the company, need to support X+Z to best support YOURSELF!<br /><br />
-    </p>
-    <p><b>Web</b><br />
+    <p><b>Web publishing</b><br />
+        Writing for the web is impossibly hard. Trust me, I know the feeling!<br /><br />So what insights can <i>I</i> bring you here? First, here's my resume for web writing:<br />
+        Corporate websites <br />
+        Press releases on intl. portals like EurekAlert <br />
+        News articles <br />
+        
+      So here's my wisdom:<br />
+      Find your scene: What's your message, why, and is the web at all the right place for it?
+      <br />
+      </p>
+    <p><b>Web research</b><br />
         The internet is packed. Astronomical amounts of contents, YouTubers, InstaGramers, Twitterers, Facebookers, Influencers, and not least visitors of all the aforementioned. <br />So, WHY?<br />
         Do we benefit swarming like bees around this honey stash? Not much. Do we overly THINK we will? YES! Agreeing on this part-false pretense, we may as well try to succeed. <br />
         Now then, what does this stash contain for us: <br /><br />
