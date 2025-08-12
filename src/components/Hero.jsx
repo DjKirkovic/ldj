@@ -41,7 +41,7 @@ const Hero = () => {
           <p class="mb-8">If you're after:</p>
             <ul class="list-disc mb-8 ml-4">  
               <li> 
-                COMMUNICATIONS - articles, reviews, insights, or any other written MAGIC
+                COMMUNICATIONS and general written MAGIC
               </li>
               <li> 
                 GRAPHS, data and analytics JUICE 
