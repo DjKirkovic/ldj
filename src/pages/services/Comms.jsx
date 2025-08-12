@@ -21,7 +21,6 @@ const Comms = () => {
         
       So here's my wisdom:<br />
       Find your scene: What's your message, why, and is the web at all the right place for it?
-      <br />
       </p>
     <p><b>Web research</b><br />
         The internet is packed. Astronomical amounts of contents, YouTubers, InstaGramers, Twitterers, Facebookers, Influencers, and not least visitors of all the aforementioned. <br />So, WHY?<br />
