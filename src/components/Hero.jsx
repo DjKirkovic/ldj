@@ -5,7 +5,7 @@ import Button from "./ui/Button";
 
 const Hero = () => {
   const words = [
-    "Specialist in IT",
+    "Communications Specialist",
     "Project Manager",
     "Photographer",
     "Life Coach",
