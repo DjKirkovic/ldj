@@ -22,7 +22,6 @@ const Comms = () => {
               <li> Magazines </li>
               <li> Brochures </li>
                </ul>
-        <br />
         
       Next, here's my wisdom:<br />
       Find your scene: What's your message, why, and is the web at all the right place for it?
