@@ -8,7 +8,7 @@ import Footer from "./components/Footer.jsx";
 import About from "./pages/About.jsx";
 import Services from "./pages/Services.jsx";
 //import Photos from "./components/Photos.jsx";
-import IT from "./pages/services/IT.jsx";
+import Comms from "./pages/services/Comms.jsx";
 import Projects from "./pages/services/Projects.jsx";
 import Photography from "./pages/services/Photography.jsx";
 import Life from "./pages/services/Life.jsx";
@@ -43,8 +43,8 @@ const router = createHashRouter([
         element: <Services />,
       },
       { 
-        path: "/services/it",
-        element: <IT />,
+        path: "/services/comms",
+        element: <Comms />,
       },
       { 
         path: "/services/projects",

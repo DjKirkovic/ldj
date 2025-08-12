@@ -13,11 +13,11 @@ export const featuresData = [
   {
     id: 1,
     icon: <AiOutlineMenu />,
-    title: "Specialist IT Services",
+    title: "Communications",
     description:
-      "Support, web and app insights.",
+      "Articles, reviews and insights.",
     //link: onClick={()=>console.log(item)}
-    link: "#/services/it",
+    link: "#/services/comms",
   },
   {
     id: 2,

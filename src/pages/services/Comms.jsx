@@ -3,13 +3,13 @@ import Container from "../../components/Container";
 import Subtitle from "../../components/ui/Subtitle";
 import Title from "../../components/ui/Title";
 
-const IT = () => {
+const Comms = () => {
   return (
     <Container className="border-b border-black">
     <div className="bg-primaryColour text-gray-200">  
         <Subtitle title="" />
         <div className="flex flex-col items-center mb-10">
-            <Title title="Services: IT" />
+            <Title title="Services: Communications" />
         </div>
    </div>
 
@@ -55,4 +55,4 @@ const IT = () => {
   );
 };
 
-export default IT;
+export default Comms;
