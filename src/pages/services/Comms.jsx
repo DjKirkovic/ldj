@@ -15,11 +15,16 @@ const Comms = () => {
 
     <p><b>Web publishing</b><br />
         Writing for the web is impossibly hard. Trust me, I know the feeling!<br /><br />So what insights can <i>I</i> bring you here? First, here's my resume for web writing:<br />
-        Corporate websites <br />
-        Press releases on intl. portals like EurekAlert <br />
-        News articles <br />
+        <ul class="list-disc mb-8 ml-4">  
+              <li> Corporate websites </li>
+              <li> Press releases on intl. portals like EurekAlert </li>
+              <li> News articles </li>
+              <li> Magazines </li>
+              <li> Brochures </li>
+               </ul>
+        <br />
         
-      So here's my wisdom:<br />
+      Next, here's my wisdom:<br />
       Find your scene: What's your message, why, and is the web at all the right place for it?
       <br /><br />
       </p>
