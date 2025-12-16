@@ -5,9 +5,9 @@ import Button from "./ui/Button";
 
 const Hero = () => {
   const words = [
+    "Content Creator",
     "Communications Specialist",
     "Project Manager",
-    "Photographer",
     "Life Coach",
   ];
 
