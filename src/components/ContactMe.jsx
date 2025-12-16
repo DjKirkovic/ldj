@@ -96,7 +96,7 @@ const inputStyle = "flex-1 rounded-md bg-black text-white px-6 py-2  outline-non
               <p className="text-sm uppercase">Your Message</p>
               <textarea
                 type="text"
-                placeholder="Enter your message..."
+                placeholder="Write your message..."
                 className={inputStyle}
                 cols={1}
                 rows={3}
