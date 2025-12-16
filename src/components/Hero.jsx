@@ -29,7 +29,7 @@ const Hero = () => {
             a{" "}
             <Typewriter
               words={words}
-              loop={5}
+              loop={1}
               cursor
               cursorStyle="|"
               typeSpeed={70}
@@ -60,7 +60,7 @@ const Hero = () => {
               Use the top menu items to navigate between contents.
             </p> 
             <p>
-              Explore the site to learn, get advice and start benefitting, now!
+              Explore the site for awe, to learn and start benefitting, now!
             </p>
           </div>
         </div>
