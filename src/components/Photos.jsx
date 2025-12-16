@@ -29,8 +29,7 @@ const Photos = () => {
         {
           Object.values(images).map((image, index) => (
             <img key={index} src={image.default} alt={`Image ${index + 1}`} className="galleryImg" />
-          ));
-        }
+          ))}
 
 
       </div>
