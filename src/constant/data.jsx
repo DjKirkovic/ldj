@@ -1,13 +1,5 @@
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoBookOutline } from "react-icons/io5";
-import {
-  imgFive,
-  imgFour,
-  imgOne,
-  imgSix,
-  imgThree,
-  imgTwo,
-} from "../assets/getImage";
 
 export const featuresData = [
   {
@@ -44,7 +36,7 @@ export const featuresData = [
     link: "#/services/life",
   },
 ];
-
+/*
 export const portfolioData = [
   {
     id: 101,
@@ -93,4 +85,4 @@ export const portfolioData = [
     icon: <AiOutlineMenu />,
     link: "https://lifedj.net",
   },
-];
+];*/

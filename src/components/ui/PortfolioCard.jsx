@@ -1,6 +1,5 @@
 import React from "react";
 import { MdArrowOutward } from "react-icons/md";
-import { imgOne } from "../../assets/getImage";
 import { AiOutlineMenu } from "react-icons/ai";
 
 const PortfolioCard = ({ item }) => {
