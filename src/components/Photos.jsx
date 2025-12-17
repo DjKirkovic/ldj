@@ -8,6 +8,7 @@ import PortfolioCard from "./ui/PortfolioCard";
 //import { portfolioData } from "../constant/data";
 // Dynamically import all images in the portfolioimages folder:
 const images = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}', { eager: true });
+const imgTitles = [1,2,3,4,5,6,7,8,9,10,11,'a'];
 
 const Photos = () => {
 
@@ -28,7 +29,7 @@ const Photos = () => {
 
         {
           Object.values(images).map((image, index) => (
-            <img key={index} src={image.default} alt={`Image ${index + 1}`} title={`Image ${index + 1}`} className="galleryImg" />
+            <img key={index} src={image.default} alt={'Image ${index + 1}'} title={''+imgTitles[index]} className="galleryImg" />
           ))}
 
 
