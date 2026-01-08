@@ -9,18 +9,18 @@ import PortfolioCard from "./ui/PortfolioCard";
 // Dynamically import all images in the portfolioimages folder:
 const images = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}', { eager: true });
 const imgTitles = [
-    'London Thames North Bank',
-    'Tokyo Downtown',
+    'London Thames North Bank, England',
+    'Tokyo Downtown, Japan',
     'Burj Khalifa, Dubai, UAE - World\'s Tallest Building',
-    'Sunset Over Sydney Opera House & Harbour Bridge',
-    'St. Peter\'s Square, Rome / Vatican City',
-    'Petronas Towers, Kuala Lumpur',
+    'Sunset Over Sydney Opera House & Harbour Bridge, Australia',
+    'St. Peter\'s Square, Rome / Vatican City, Italy',
+    'Petronas Towers, Kuala Lumpur, Malaysia',
     'Ayer\'s Rock / Uluru, Northern Territory, Australia',
     'Whitsunday Islands Beach, Queensland Waters, Australia',
     'Rub\' al Khali Desert / The \'Empty Quarter\', Arabia',
     'Eurasian Griffon Vulture, Benalmádena, Spain',
     'Emus, Wilson\'s Promontory, Victoria, Australia',
-    'Red Deer, Wollaton Park, Nottingham, UK'
+    'Red Deer, Wollaton Park, Nottingham, England'
   ];
 
 const Photos = () => {
