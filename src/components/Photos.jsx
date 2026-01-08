@@ -28,13 +28,12 @@ const Photos = () => {
  
 
   return (
-    <Container className="px-1 py-1 border-black">
-      <div>
+    <Container className="border-black">
+      <div className="flex flex-col items-center">
         <Subtitle title="" />
         <Title title="Photos" />
       </div>
       <div className="grid grid-cols-3 gap-2 pt-10">
-        {'flex flex-col items-center'}
 
 
 
