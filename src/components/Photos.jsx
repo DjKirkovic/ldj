@@ -33,7 +33,7 @@ const Photos = () => {
         <Subtitle title="" />
         <Title title="Photos" />
       </div>
-      <div className="grid grid-cols-3 gap-5 pt-10">
+      <div className="grid grid-cols-3 gap-2 pt-10">
         
 
 
