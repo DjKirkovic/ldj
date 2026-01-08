@@ -28,7 +28,7 @@ const Photos = () => {
  
 
   return (
-    <Container className="border-b border-black">
+    <Container className="px-1 py-1 border-black">
       <div className="flex flex-col items-center">
         <Subtitle title="" />
         <Title title="Photos" />
