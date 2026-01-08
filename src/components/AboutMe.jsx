@@ -27,7 +27,7 @@ const AboutMe = () => {
         <div className="w-[61%] flex flex-col gap-7 text-black">
           
           <p><b>Background</b><br />
-            Based in Denmark, I'm not your typical Dane. I am half Egyptian, spent half my life in the UK, 'represent' three further nationalities via marriage, and have travelled across four continents.<br />&#60; That's me in Tokyo by the way... 
+            Based in Denmark, I'm not your typical Dane. I am half Egyptian, spent half my life in the UK, 'represent' three further nationalities via marriage, and have travelled across four continents.<br />&#60; That's me in Tokyo, by the way... 
           </p>
           <p><b>Outlook</b><br />
             So, how does the above shape me?! I suppose it makes me understand diversity and differences...<i>more?</i>
