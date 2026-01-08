@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="bg-primaryColour">
       <Container className="flex items-center text-lightText justify-between py-5">
         <p className="text-sm hover:text-white duration-300 ">
-          All rights reserved (c) 2026
+          All rights reserved (c) {'\u00A9'} 2026
         </p>
       </Container>
     </div>
