@@ -14,7 +14,7 @@ const imgTitles = [
     'Sydney Opera House & Harbour Bridge by sunset, Australia',
     'Biochemist, UK',
     'Egyptian statues, art museum, Denmark',
-    'Spiral plant, Malaysia',
+    'Swiss pocket clock, Zürich, Switzerland',
     'Griffon over coastline, Benalmádena, Spain',//Eurasian Griffon Vulture
     'Emus, Wilson\'s Promontory, Victoria, Australia',
     'Red Deer, Wollaton Park, Nottingham, England',
@@ -24,6 +24,10 @@ const imgTitles = [
     'Burj Khalifa, Dubai, UAE - World\'s Tallest Building',
     'Petronas Towers, Kuala Lumpur, Malaysia',
     'St. Peter\'s Square, Rome / Vatican City, Italy',
+    'Wedding 1',
+    'Wedding 2',
+    'Wedding 3',
+    //'Spiral plant, Malaysia',
   ];
 
 const Photos = () => {
