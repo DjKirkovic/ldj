@@ -12,8 +12,11 @@ const imgTitles = [
     'London Thames North Bank, England',
     'Tokyo Downtown, Japan',
     'Sydney Opera House & Harbour Bridge by sunset, Australia',
+    'Laboratory samples',
     'Biochemist, UK',
-    'Egyptian statues, art museum, Denmark',
+    'Computer chip',
+    'Optical laser assembly',
+    'Spiral plant, Malaysia',
     'Swiss pocket clock, Zürich, Switzerland',
     'Griffon over coastline, Benalmádena, Spain',//Eurasian Griffon Vulture
     'Emus, Wilson\'s Promontory, Victoria, Australia',
@@ -21,13 +24,13 @@ const imgTitles = [
     'Ayers Rock / Uluru, Northern Territory, Australia',
     'Whitsunday Islands Beach, Queensland Waters, Australia',
     'Rub\' al Khali Desert / The \'Empty Quarter\', Arabia',
-    'Burj Khalifa, Dubai, UAE - World\'s Tallest Building',
-    'Petronas Towers, Kuala Lumpur, Malaysia',
-    'St. Peter\'s Square, Rome / Vatican City, Italy',
+    //'Burj Khalifa, Dubai, UAE - World\'s Tallest Building',
+    //'Petronas Towers, Kuala Lumpur, Malaysia',
+    //'St. Peter\'s Square, Rome / Vatican City, Italy',
     'Wedding 1',
     'Wedding 2',
     'Wedding 3',
-    //'Spiral plant, Malaysia',
+    //'Egyptian statues, art museum, Denmark',
   ];
 
 const Photos = () => {
