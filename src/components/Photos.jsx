@@ -18,7 +18,7 @@ const imgTitles = [
     'Eurasian Griffon Vulture, Benalmádena, Spain',
     'Emus, Wilson\'s Promontory, Victoria, Australia',
     'Red Deer, Wollaton Park, Nottingham, England',
-    'Ayer\'s Rock / Uluru, Northern Territory, Australia',
+    'Ayers Rock / Uluru, Northern Territory, Australia',
     'Whitsunday Islands Beach, Queensland Waters, Australia',
     'Rub\' al Khali Desert / The \'Empty Quarter\', Arabia',
     'Burj Khalifa, Dubai, UAE - World\'s Tallest Building',
