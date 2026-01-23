@@ -15,7 +15,7 @@ const imgTitles = [
     'Biochemist, UK',
     'Egyptian statues, art museum, Denmark',
     'Spiral plant, Malaysia',
-    'Eurasian Griffon Vulture, Benalmádena, Spain',
+    'Griffon over coastline, Benalmádena, Spain',//Eurasian Griffon Vulture
     'Emus, Wilson\'s Promontory, Victoria, Australia',
     'Red Deer, Wollaton Park, Nottingham, England',
     'Ayers Rock / Uluru, Northern Territory, Australia',
