@@ -19,7 +19,7 @@ const imgTitles = [
     'Spiral plant, Malaysia',
     'Swiss pocket clock, Zürich, Switzerland',
     'Griffon over coastline, Benalmádena, Spain',//Eurasian Griffon Vulture
-    'Emus, Wilson\'s Promontory, Victoria, Australia',
+    'Emus, Wilsons Promontory, Victoria, Australia',
     'Red Deer, Wollaton Park, Nottingham, England',
     'Ayers Rock / Uluru, Northern Territory, Australia',
     'Whitsunday Islands Beach, Queensland Waters, Australia',
