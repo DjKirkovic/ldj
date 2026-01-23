@@ -11,16 +11,19 @@ const images = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}'
 const imgTitles = [
     'London Thames North Bank, England',
     'Tokyo Downtown, Japan',
-    'Burj Khalifa, Dubai, UAE - World\'s Tallest Building',
-    'Sunset Over Sydney Opera House & Harbour Bridge, Australia',
-    'St. Peter\'s Square, Rome / Vatican City, Italy',
-    'Petronas Towers, Kuala Lumpur, Malaysia',
+    'Sydney Opera House & Harbour Bridge by sunset, Australia',
+    'Biochemist, UK',
+    'Egyptian statues, art museum, Denmark',
+    'Spiral plant, Malaysia',
+    'Eurasian Griffon Vulture, Benalmádena, Spain',
+    'Emus, Wilson\'s Promontory, Victoria, Australia',
+    'Red Deer, Wollaton Park, Nottingham, England',
     'Ayer\'s Rock / Uluru, Northern Territory, Australia',
     'Whitsunday Islands Beach, Queensland Waters, Australia',
     'Rub\' al Khali Desert / The \'Empty Quarter\', Arabia',
-    'Eurasian Griffon Vulture, Benalmádena, Spain',
-    'Emus, Wilson\'s Promontory, Victoria, Australia',
-    'Red Deer, Wollaton Park, Nottingham, England'
+    'Burj Khalifa, Dubai, UAE - World\'s Tallest Building',
+    'Petronas Towers, Kuala Lumpur, Malaysia',
+    'St. Peter\'s Square, Rome / Vatican City, Italy',
   ];
 
 const Photos = () => {
