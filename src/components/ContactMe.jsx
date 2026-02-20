@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Subtitle from "./ui/Subtitle";
 import Title from "./ui/Title";
 import Container from "./Container";
-import contact1 from "../assets/contact1.png";
+import { contact1 } from "../assets/contact1.png";
 
 import SocialIcon from "./ui/SocialIcon";
 
@@ -43,7 +43,11 @@ const inputStyle = "flex-1 rounded-md bg-black text-white px-6 py-2  outline-non
       <div className="flex gap-10 pt-10">
         <div className="w-1/3 bg-stone-950/50 p-10 rounded-lg group">
           <div className="overflow-hidden rounded-lg">
-            { contact1 }
+            <img
+              src={contact1}
+              alt="contact image"
+              className="rounded-md group-hover:scale-110 duration-500"
+            />
           </div>
           <div className="py-5 flex flex-col gap-2">
             <p className="text-lg text-white font-bold">Martin</p>
