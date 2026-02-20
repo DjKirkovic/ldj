@@ -26,8 +26,8 @@ const AboutMe = () => {
         {/* Right part */}
         <div className="w-[61%] flex flex-col gap-7 text-black">
           
-          <p><b>Foundation</b><br />
-            LifeDJ was officially founded in 2025, but has roots dating back to 2016. It is based on philosophies of health, well-being and knowledge sharing. <br />&#60;In the form of a growing online repository, it helps people gain inspiration and advice.
+          <p><b>Origins</b><br />
+            LifeDJ was officially founded in 2025, but has roots dating back to 2016. It is based on philosophies of health, well-being and knowledge sharing. <br />In the form of a growing online repository, it helps people gain inspiration and advice.
           </p>
 
           <p><b>The Founder</b><br />
