@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Subtitle from "./ui/Subtitle";
 import Title from "./ui/Title";
 import Container from "./Container";
-import { contact1 } from "../assets/contact1.png";
+import contact1 from "../assets/contact1.png";
 
 import SocialIcon from "./ui/SocialIcon";
 
