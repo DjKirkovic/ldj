@@ -54,7 +54,7 @@ const Hero = () => {
               </li>
               </ul>
             <p class="mb-8">
-              ...then THIS site is for YOU!
+              ...then LifeDJ is for YOU!
             </p> 
             <p class="mb-8">
               Use the top menu items to navigate between contents.
