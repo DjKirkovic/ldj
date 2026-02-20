@@ -5,10 +5,14 @@ import Button from "./ui/Button";
 
 const Hero = () => {
   const words = [
-    "Communications Specialist",
+    "Read",
+    "Study",
+    "Gaze",
+    "Discover",
+    /*    "Communications Specialist",
     "Project Manager",
     "Life Coach",
-    "Content Creator",
+    "Content Creator",*/
   ];
 
   const BG = '../banner.jpg';
@@ -23,7 +27,7 @@ const Hero = () => {
       <Container className="absolute py-20 pl-160 z-5">
         <div className="w-full flex flex-col gap-y-5">
           <h2 className="text-7xl font-bold text-black">
-            Hey, I’m <span className="text-black">Martin</span>
+            Welcome to<span className="text-deep-sea-green-50">LifeDJ!</span>
           </h2>
           <h2 className="text-4xl font-bold text-blue-500">
             a{" "}
