@@ -27,10 +27,10 @@ const Hero = () => {
       <Container className="absolute py-20 pl-160 z-5">
         <div className="w-full flex flex-col gap-y-5">
           <h2 className="text-7xl font-bold text-black">
-            Welcome to<span className="text-deep-sea-green-50">LifeDJ!</span>
+            Welcome to <span className="color-deep-sea-green-50">LifeDJ!</span>
           </h2>
           <h2 className="text-4xl font-bold text-blue-500">
-            a{" "}
+            
             <Typewriter
               words={words}
               loop={1}
