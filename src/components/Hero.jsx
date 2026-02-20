@@ -62,9 +62,6 @@ const Hero = () => {
             </p> 
             <p class="mb-8">
               Use the top menu items to navigate between contents.
-            </p> 
-            <p>
-              Explore the site for awe, to learn and start benefitting, now!
             </p>
           </div>
         </div>
