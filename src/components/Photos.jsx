@@ -24,7 +24,7 @@ const imgTitles = [
     'Griffon over coastline, Benalmádena, Spain',//Eurasian Griffon Vulture
     'Emus, Wilsons Promontory, Victoria, Australia',
     'Red Deer, Wollaton Park, Nottingham, England',
-    'Ayers Rock / Uluru, Northern Territory, Australia',
+    'Aerial view from El Teide volcano, Tenerife, Canary Islands',
     'Whitsunday Islands Beach, Queensland Waters, Australia',
     'Rub\' al Khali Desert / The \'Empty Quarter\', Arabia',
     'Street food, China',
