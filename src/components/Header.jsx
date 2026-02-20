@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/logonew.png";
 import Button from "./ui/Button";
 import { useLocation } from "react-router-dom";
 
