@@ -31,10 +31,10 @@ const AboutMe = () => {
           </p>
 
           <p><b>The Founder</b><br />
-            Meet Martin. Based in Denmark, he's not your typical Dane. He is half Egyptian, spent half his life in the UK, 'represents' three further nationalities via marriage, and has travelled across four continents. 
+            Meet Martin. Based in Denmark, he's not your typical Dane. He is half Egyptian, spent a decade in the UK, 'represents' three further nationalities via marriage, and has travelled across four continents. 
           </p>
           <p><b>Why/Why Not...?</b><br />
-            Feedback, good as bad, is always welcome! Drop us a line via the Contact page to help us help you <i>better</i>! 
+            Feedback, positive as negative, is always welcome! Head for the Contact page to help us help you <i>better</i>! 
           </p>
         </div>
       </div>
