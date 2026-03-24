@@ -14,7 +14,7 @@ const imgTitles = [
     'Sydney Opera House & Harbour Bridge by sunset, Australia',
     'Sheikh Zayed Road, Dubai, United Arab Emirates',
     //'St. Peter\'s Square, Vatican City, Rome, Italy',
-    'Congress Hall, EU Parliament, Strasbourg, France',
+    'The Hemicycle, EU Parliament, Strasbourg, France',
     //'Legoland Resort, Billund, Denmark',
     'Der Reichstag, Platz der Republik, Berlin, Germany',
     'Optical laser assembly',
