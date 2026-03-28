@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../../components/Container";
 import Subtitle from "../../components/ui/Subtitle";
 import Title from "../../components/ui/Title";
+import toplife from "../../assets/toplife.jpg";
 
 const Life = () => {
   return (
@@ -13,7 +14,15 @@ const Life = () => {
         </div>
    </div>
 
-    <p><b>Any idea what to improve?</b><br />
+<div className="overflow-hidden rounded-lg">
+               <img
+                 src={toplife}
+                 alt="Lifestyle"
+                 className="rounded-md group-hover:scale-110 duration-500"
+               />
+     </div>
+
+<p><br /><b>Any idea what to improve?</b><br />
         This question is always a good place to start! What are you looking to do? Here are some suggestions/inspiration:<br />
         <ul class="list-disc mb-8 ml-4">  
               <li> Gain: money, time, job, connections, excitement,... </li>
