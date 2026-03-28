@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../../components/Container";
 import Subtitle from "../../components/ui/Subtitle";
 import Title from "../../components/ui/Title";
+import 2cams from "../assets/2cams.jpg";
 
 const Photography = () => {
   return (
@@ -12,7 +13,13 @@ const Photography = () => {
             <Title title="Services: Photography" />
         </div>
    </div>
-
+  <div className="overflow-hidden rounded-lg">
+            <img
+              src={2cams}
+              alt="Two camera systems"
+              className="rounded-md group-hover:scale-110 duration-500"
+            />
+  </div>
      <p><b>Mirrorless vs. DSLR</b><br />
         Probably the single biggest photography decision of the 2010s and 2020s: {""}To Mirrorless or to DSLR?{""}, THAT is the question!
         <br /><br />Here are some arguments either way:<br />
