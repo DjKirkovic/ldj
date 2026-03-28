@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../../components/Container";
 import Subtitle from "../../components/ui/Subtitle";
 import Title from "../../components/ui/Title";
+import topcomms from "../../assets/topcomms.jpg";
 
 const Comms = () => {
   return (
@@ -12,6 +13,13 @@ const Comms = () => {
             <Title title="Services: Communications" />
         </div>
    </div>
+   <div className="overflow-hidden rounded-lg">
+               <img
+                 src={topcomms}
+                 alt="Two camera systems"
+                 className="rounded-md group-hover:scale-110 duration-500"
+               />
+     </div>
 
 <p><b>App / Mobile</b><br />
         Are you on Android or IOS, into on-the-go working or using your phone as a pocket-sized entertainment system, or maybe your mobile is just for calls/texting?<br /><br />This section is the future home of many things interesting, great or plain ingenius. 
