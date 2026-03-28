@@ -10,7 +10,7 @@ const Life = () => {
     <div className="bg-primaryColour text-gray-200">  
         <Subtitle title="" />
         <div className="flex flex-col items-center mb-10">
-            <Title title="Services: Life" />
+            <Title title="Services: Life Coaching" />
         </div>
    </div>
 
