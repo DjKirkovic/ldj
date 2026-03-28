@@ -28,7 +28,7 @@ const Life = () => {
         One word of advice, though: make sure you dedicate time to truly 'try on' those clothes you bought - not to mention celebrate when the fit is just right!<br />
       </p>
 
-<p><b>Any idea what {'('}to improve{')'}?</b><br />
+<p><br /><b>Any idea what {'('}to improve{')'}?</b><br />
         This question is always a good place to start! What are you looking to do? Here are some suggestions/inspiration:<br />
         <ul class="list-disc mb-8 ml-4">  
               <li> Gain: money, time, job, connections, excitement,... </li>
