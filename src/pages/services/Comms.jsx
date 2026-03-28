@@ -15,8 +15,8 @@ const Comms = () => {
 
 <p><b>App / Mobile</b><br />
         Are you on Android or IOS, into on-the-go working or using your phone as a pocket-sized entertainment system, or maybe your mobile is just for calls/texting?<br /><br />This section is the future home of many things interesting, great or plain ingenius. 
-    </p>
-<br />
+<br /><br />
+ </p>
     <p><b>Web publishing</b><br />
         Writing for the web is impossibly hard. Trust me, I know the feeling!<br /><br />So what insights can <i>I</i> bring you here? First, here's my resume for web writing:<br />
         <ul class="list-disc mb-8 ml-4">  
