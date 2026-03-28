@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../../components/Container";
 import Subtitle from "../../components/ui/Subtitle";
 import Title from "../../components/ui/Title";
+import topmatrix from "../../assets/topmatrix.jpg";
 
 const Projects = () => {
   return (
@@ -13,7 +14,15 @@ const Projects = () => {
         </div>
    </div>
 
-    <p><b>EBDM</b><br />
+<div className="overflow-hidden rounded-lg">
+               <img
+                 src={topmatrix}
+                 alt="Stakeholders"
+                 className="rounded-md group-hover:scale-110 duration-500"
+               />
+     </div>
+
+<p><br /><b>EBDM</b><br />
         EBDM {'('}= Evidence Based Decision Making{')'} occurs by everyone, all around us, every second.
         <br /><br />Here are some examples:<br />
         <ul class="list-disc mb-8 ml-4">  
