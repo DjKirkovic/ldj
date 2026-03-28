@@ -23,7 +23,7 @@ const Projects = () => {
                </ul>
         
       The key is not to think about this when it does not matter, but rather when it absolutely does.<br />
-      So when is this? For a start, when risks are high!
+      So when is this? For a start, when stakes and/or risks are high!
       <br /><br />
       </p>
       
