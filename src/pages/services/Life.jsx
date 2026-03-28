@@ -24,7 +24,7 @@ const Life = () => {
 
 <p><br /><b>1 world, 1 life - find it, do it!</b><br />
         With 8 billion people on this planet, why not look around you for some window shopping inspiration? The human race is literally one giant showcase of behaviour, appearance and 
-        almost anything else imaginable. The famous song by R. Kelly {'("'}I Believe I Can Fly{'")'} widely broadcast this ideology back in 1996.<br />
+        almost anything else imaginable. The famous song by R. Kelly {'("'}I Believe I Can Fly{'")'} widely broadcast back in 1996 the ideology to spread your wings and take flight.<br />
         One word of advice, though: make sure you dedicate time to truly 'try on' those clothes you bought - not to mention celebrate when the fit is just right!<br />
       </p>
 
