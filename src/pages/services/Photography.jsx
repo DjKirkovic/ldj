@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../../components/Container";
 import Subtitle from "../../components/ui/Subtitle";
 import Title from "../../components/ui/Title";
-import cams from "../assets/cams.jpg";
+import cams from "../../assets/cams.jpg";
 
 const Photography = () => {
   return (
