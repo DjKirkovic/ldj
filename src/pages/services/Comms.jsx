@@ -24,7 +24,7 @@ const Comms = () => {
 <p>
 <br />  
   <b>App / Mobile</b><br />
-        Are you on Android or IOS, into on-the-go working or using your phone as a pocket-sized entertainment system, or maybe your mobile is just for calls/texting?<br /><br />This section is the future home of many things interesting, great or plain ingenius. 
+        Are you on Android or IOS, into on-the-go working or using your phone as a pocket-sized entertainment system? Maybe you just call/text?<br /><br />This section is the future home of many things interesting, great or plain ingenius. 
 <br /><br />
  </p>
     <p><b>Web publishing</b><br />
