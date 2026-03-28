@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../../components/Container";
 import Subtitle from "../../components/ui/Subtitle";
 import Title from "../../components/ui/Title";
-import 2cams from "../assets/2cams.jpg";
+import cams from "../assets/2cams.jpg";
 
 const Photography = () => {
   return (
@@ -15,7 +15,7 @@ const Photography = () => {
    </div>
   <div className="overflow-hidden rounded-lg">
             <img
-              src={2cams}
+              src={cams}
               alt="Two camera systems"
               className="rounded-md group-hover:scale-110 duration-500"
             />
