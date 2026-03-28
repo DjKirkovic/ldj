@@ -13,28 +13,25 @@ const Projects = () => {
         </div>
    </div>
 
-    <p><b>KISS</b><br />
-        KISS {'('}= Keep It Simple, Stupid{')'} <br /><br />This section is the future home of many things interesting, great or plain ingenius. 
-<br /><br />
- </p>
-    <p><b>Web publishing</b><br />
-        Writing for the web is impossibly hard. Trust me, I know the feeling!<br /><br />So what insights can <i>I</i> bring you here? First, here's my resume for web writing:<br />
+    <p><b>EBDM</b><br />
+        EBDM {'('}= Evidence Based Decision Making{')'} occurs by everyone, all around us, every second.
+        <br /><br />Here are some examples:<br />
         <ul class="list-disc mb-8 ml-4">  
-              <li> Corporate websites </li>
-              <li> Press releases on intl. portals like EurekAlert </li>
-              <li> News articles </li>
-              <li> Magazines </li>
-              <li> Brochures </li>
+              <li> Breakfast and clothing picks </li>
+              <li> Job and industry choices </li>
+              <li> Everyday communication and interaction </li>
                </ul>
         
-      Next, here's my wisdom:<br />
-      Find your scene: What's your message, why, and is the web at all the right place for it?
+      The key is not to think about this when it does not matter, but rather when it absolutely does.<br />
+      So when is this? For a start, when risks are high!
       <br /><br />
       </p>
-    <p><b>Web research</b><br />
-        The internet is packed 
-    </p>
-   
+      
+      <p><b>KISS</b><br />
+        KISS {'('}= Keep It Simple, Stupid{')'} is a concept that can literally be applied to anything in life.
+        <br /><br />It typically deals with trying not to over-complicate decisions and actions. 
+        <br /><br />
+      </p>
     </Container>
   );
 };
