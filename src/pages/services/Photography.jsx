@@ -33,7 +33,7 @@ const Photography = () => {
         <ul class="list-disc mb-8 ml-4">  
               <li> Sensor size determines light pickup ability; the bigger the sensor, the more light can be captured </li>
               <li> Sensor characteristics limit factors like capture speed and dynamic range sensitivity</li>
-              <li> The higher the megapixel count of your camera, the more detail captured </li>
+              <li> The higher the megapixel count of your camera, the more detail can be captured </li>
                </ul>  
       Accordingly, when choosing your next camera start thinking about sensor and MP long before most other specs.
       </p>
