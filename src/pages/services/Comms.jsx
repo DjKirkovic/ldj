@@ -16,7 +16,7 @@ const Comms = () => {
    <div className="overflow-hidden rounded-lg">
                <img
                  src={topcomms}
-                 alt="Two camera systems"
+                 alt="Communications"
                  className="rounded-md group-hover:scale-110 duration-500"
                />
      </div>
