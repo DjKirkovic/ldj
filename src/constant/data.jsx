@@ -9,7 +9,7 @@ export const featuresData = [
     description:
       "Articles, reviews and insights.",
     //link: onClick={()=>console.log(item)}
-    link: "#/services/comms",
+    link: "#/comms",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const featuresData = [
     title: "Project Management",
     description:
       "Certified guidance on various projects.",
-    link: "#/services/projects",
+    link: "#/projects",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ export const featuresData = [
     title: "Photography",
     description:
       "Coverage of wide use cases.",
-    link: "#/services/photography",
+    link: "#/photography",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const featuresData = [
     title: "Life Coaching",
     description:
       "Serving of useful advice.",
-    link: "#/services/life",
+    link: "#/life",
   },
 ];
 /*

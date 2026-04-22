@@ -43,19 +43,19 @@ const router = createHashRouter([
         element: <Services />,
       },
       { 
-        path: "/info/comms",
+        path: "/comms",
         element: <Comms />,
       },
       { 
-        path: "/info/projects",
+        path: "/projects",
         element: <Projects />,
       },
       { 
-        path: "/info/photography",
+        path: "/photography",
         element: <Photography />,
       },
       { 
-        path: "/info/life",
+        path: "/life",
         element: <Life />,
       },
       {
