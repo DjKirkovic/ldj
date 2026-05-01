@@ -17,7 +17,7 @@ const imgTitles = [
     'DJ John Digweed at The Warehouse Project Nightclub, Manchester, England', 
     //'Big Ben, London, England',
     //'St. Peter\'s Square, Vatican City, Rome, Italy',
-    'The Hemicycle, EU Parliament, Strasbourg, France',
+    //'The Hemicycle, EU Parliament, Strasbourg, France',
     //'Legoland Resort, Billund, Denmark',
     'Der Reichstag, Platz der Republik, Berlin, Germany',
     '1972 Lotus Europa Twin Cam',
