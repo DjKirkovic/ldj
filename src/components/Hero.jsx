@@ -88,6 +88,10 @@ const Hero = () => {
             <p class="mb-8">
               Brug topmenuen for at navigere rundt på websiden.
             </p>
+
+            <p class="mb-8">
+              For akut assistance, kontakt os via 'Om' siden.
+            </p>
           </div>
         </div>
       </Container>
