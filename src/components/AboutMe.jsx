@@ -10,7 +10,7 @@ const AboutMe = () => {
     <Container className="border-b border-black">
       <div className="flex flex-col items-center">
         <Subtitle title="" />
-        <Title title="About LifeDJ" />
+        <Title title="About foto247" />
       </div>
       <div className="flex justify-between pt-10">
         {/* Left part */}
@@ -27,7 +27,7 @@ const AboutMe = () => {
         <div className="w-[61%] flex flex-col gap-7 text-black">
           
           <p><b>Origins</b><br />
-            LifeDJ was officially founded in 2025, but has roots dating back to 2016. It is based on philosophies of health, well-being and knowledge sharing. Unrelated to music, it is rather about 'DJing' life itself. <br />In the form of a growing online repository, it helps people gain inspiration and advice.
+            foto247 was officially founded in 2025, but has roots dating back to 2016. It is based on philosophies of health, well-being and knowledge sharing. Unrelated to music, it is rather about 'DJing' life itself. <br />In the form of a growing online repository, it helps people gain inspiration and advice.
           </p>
 
           <p><b>The Founder</b><br />

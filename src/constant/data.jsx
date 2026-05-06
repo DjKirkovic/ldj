@@ -44,14 +44,14 @@ export const portfolioData = [
     subtitle: "Gallery",
     img: imgOne,
     icon: <AiOutlineMenu />,
-    link: "https://lifedj.net",
+    link: "https://foto247.dk",
   },
   {
     id: 102,
     title: "B",
     subtitle: "Video",
     img: imgTwo,
-    link: "https://lifedj.net",
+    link: "https://foto247.dk",
   },
   {
     id: 103,
@@ -59,7 +59,7 @@ export const portfolioData = [
     subtitle: "External Link",
     img: imgThree,
     icon: <AiOutlineMenu />,
-    link: "https://lifedj.net",
+    link: "https://foto247.dk",
   },
   {
     id: 104,
@@ -67,7 +67,7 @@ export const portfolioData = [
     subtitle: "Gallery",
     img: imgFour,
     icon: <AiOutlineMenu />,
-    link: "https://lifedj.net",
+    link: "https://foto247.dk",
   },
   {
     id: 105,
@@ -75,7 +75,7 @@ export const portfolioData = [
     subtitle: "Gallery",
     img: imgFive,
     icon: <AiOutlineMenu />,
-    link: "https://lifedj.net",
+    link: "https://foto247.dk",
   },
   {
     id: 106,
@@ -83,6 +83,6 @@ export const portfolioData = [
     subtitle: "Gallery",
     img: imgSix,
     icon: <AiOutlineMenu />,
-    link: "https://lifedj.net",
+    link: "https://foto247.dk",
   },
 ];*/

@@ -27,7 +27,7 @@ const Hero = () => {
       <Container className="absolute py-20 pl-160 z-5">
         <div className="w-full flex flex-col gap-y-5">
           <h2 className="text-7xl font-bold text-black">
-            Welcome to <span className="text-deep-sea-green-50">LifeDJ!</span>
+            Welcome to <span className="text-deep-sea-green-50">foto247!</span>
           </h2>
           <h2 className="text-4xl font-bold text-blue-500">
             
@@ -58,7 +58,7 @@ const Hero = () => {
               </li>
               </ul>
             <p class="mb-8">
-              ...then LifeDJ is for YOU!
+              ...then foto247 is for YOU!
             </p> 
             <p class="mb-8">
               Use the top menu items to navigate between contents.

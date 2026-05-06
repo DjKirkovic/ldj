@@ -51,7 +51,7 @@ const inputStyle = "flex-1 rounded-md bg-black text-white px-6 py-2  outline-non
           </div>
           <div className="py-5 flex flex-col gap-2">
             <p className="text-lg text-white font-bold">Martin</p>
-            <p className="text-lg font-medium">Founder, LifeDJ</p>
+            <p className="text-lg font-medium">Founder, foto247</p>
             <p className="uppercase">Find me on:</p>
           </div>
           <SocialIcon />
