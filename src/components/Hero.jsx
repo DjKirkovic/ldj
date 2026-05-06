@@ -19,14 +19,14 @@ const Hero = () => {
 
   return (
     <Container className="border-b border-black">
-      <div className="flex justify-between pt-10">
+      <div className="">
         {/* Left part */}
          <div>
          <h2 className="text-7xl font-bold text-black">
             Velkommen til <span className="text-deep-sea-green-50">foto247!</span>
           <br /></h2>
           </div>
-          <div className="flex justify-left">
+          <div className="">
             <p><b><br /><br />
           <h2 className="text-4xl font-bold text-blue-500">
             
