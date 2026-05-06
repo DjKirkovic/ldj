@@ -5,7 +5,7 @@ import Button from "./ui/Button";
 import Subtitle from "./ui/Subtitle";
 import Title from "./ui/Title";
 
-const AboutUs = () => {
+const Om = () => {
   return (
     <Container className="border-b border-black">
       <div className="flex flex-col items-center">
@@ -43,4 +43,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default Om;

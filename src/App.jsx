@@ -1,4 +1,4 @@
-import AboutUs from "./components/AboutUs";
+import OmOs from "./components/OmOs";
 import ContactMe from "./components/ContactMe";
 import Features from "./components/Features";
 import Hero from "./components/Hero";

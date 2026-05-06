@@ -1,12 +1,12 @@
 import React from "react";
-import AboutUs from "../components/AboutUs";
+import OmOs from "../components/OmOs";
 
-const About = () => {
+const Om = () => {
   return (
     <div className="bg-primaryColour text-gray-200">
-      <AboutUs />
+      <OmOs />
     </div>
   );
 };
 
-export default About;
+export default Om;
