@@ -39,7 +39,7 @@ const Hero = () => {
             />
           </h2>    
               </b><br />
-          
+          </p>
           </div>
           <div className="text-base text-lightText pt-15 pr-32 font-medium">
             <p class="mb-8">Her tilbydes fotos inden for:</p>
