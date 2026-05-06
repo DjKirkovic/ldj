@@ -5,10 +5,9 @@ import Button from "./ui/Button";
 
 const Hero = () => {
   const words = [
-    "Read",
-    "Study",
-    "Gaze",
-    "Discover",
+    "Udforsk",
+    "Opdag",
+    "Gør fremskridt",
     /*    "Communications Specialist",
     "Project Manager",
     "Life Coach",
@@ -27,13 +26,13 @@ const Hero = () => {
       <Container className="absolute py-20 pl-160 z-5">
         <div className="w-full flex flex-col gap-y-5">
           <h2 className="text-7xl font-bold text-black">
-            Welcome to <span className="text-deep-sea-green-50">foto247!</span>
+            Velkommen til <span className="text-deep-sea-green-50">Foto247!</span>
           </h2>
           <h2 className="text-4xl font-bold text-blue-500">
             
             <Typewriter
               words={words}
-              loop={1}
+              loop={3}
               cursor
               cursorStyle="|"
               typeSpeed={70}
@@ -42,26 +41,52 @@ const Hero = () => {
             />
           </h2>
           <div className="text-base text-lightText pt-15 pr-32 font-medium">
-          <p class="mb-8">If you're after:</p>
+          <p class="mb-8">Her tilbydes fotos inden for...:</p>
             <ul class="list-disc mb-8 ml-4">  
               <li> 
-                COMMUNICATIONS / written MAGIC
+                Portræt
               </li>
               <li> 
-                GRAPHS, data and analytical WONDERS 
+                Arkitektur
               </li>
               <li> 
-                PHOTOS that'll land you in visual HEAVEN
+                Natur
               </li>
               <li> 
-                TIPS that will work for improving your LIFE
+                Ting
+              </li>
+              <li> 
+                Events
+              </li>
+              <li> 
+                Mere
               </li>
               </ul>
+          <p class="mb-8">...og råd/hjælp med...:</p>
+            <ul class="list-disc mb-8 ml-4">  
+              <li> 
+                Foredrag
+              </li>
+              <li> 
+                Indsigt / Undervisning
+              </li>
+              <li> 
+                Rejser / Ture
+              </li>
+              <li> 
+                Samarbejde
+              </li>
+              <li> 
+                Teknisk
+              </li>
+              <li>
+                SOS / krisehjælp
+              </li>
+              </ul>
+
+            
             <p class="mb-8">
-              ...then foto247 is for YOU!
-            </p> 
-            <p class="mb-8">
-              Use the top menu items to navigate between contents.
+              Brug topmenuen for at navigere rundt på webside.
             </p>
           </div>
         </div>
