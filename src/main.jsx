@@ -66,6 +66,54 @@ const router = createHashRouter([
         path: "/kontakt",
         element: <ContactPage />,
       },
+      { 
+        path: "/studie",
+        element: <Studio />,
+      },
+      { 
+        path: "/byg",
+        element: <Built />,
+      },
+      { 
+        path: "/natur",
+        element: <Nature />,
+      },
+      { 
+        path: "/ting",
+        element: <Stuff />,
+      },
+      { 
+        path: "/event",
+        element: <Events />,
+      },
+      { 
+        path: "/divfoto",
+        element: <Misc />,
+      },
+      { 
+        path: "/taler",
+        element: <Speak />,
+      },
+      { 
+        path: "/raad",
+        element: <Advice />,
+      },
+      { 
+        path: "/ture",
+        element: <Trips />,
+      },
+      { 
+        path: "/sammen",
+        element: <Coop />,
+      },
+      { 
+        path: "/teknik",
+        element: <Tech />,
+      },
+      { 
+        path: "/sos",
+        element: <SOS />,
+      },
     ],
   },
 ]);
