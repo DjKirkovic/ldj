@@ -23,7 +23,7 @@ const Hero = () => {
         {/* Left part */}
         <div className="w-[61%]">
          <h2 className="text-7xl font-bold text-black">
-            Velkommen til <span className="text-deep-sea-green-50">foto247!</span>
+            Velkommen til <span className="text-deep-sea-green-50">foto</span><span className="text-blue-50">247!</span>
             <br />
           </h2>
 
