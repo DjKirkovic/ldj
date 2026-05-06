@@ -22,7 +22,7 @@ const Hero = () => {
       <div className="flex justify-between pt-10">
         {/* Left part */}
          <div>
-         <h2 className="w-[35%] text-7xl font-bold text-black">
+         <h2 className="w-[61%] text-7xl font-bold text-black">
             Velkommen til <span className="text-deep-sea-green-50">foto247!</span>
           <br /></h2>
           </div>
@@ -88,7 +88,7 @@ const Hero = () => {
 
 
         {/* Right part */}
-        <div className="w-[61%] bg-[#212428] p-10 rounded-lg shadow-md shadow-black overflow-hidden group">
+        <div className="w-[35%] bg-[#212428] p-10 rounded-lg shadow-md shadow-black overflow-hidden group">
           <div className="overflow-hidden rounded-md">
             <img
               src={AboutUsImg}
