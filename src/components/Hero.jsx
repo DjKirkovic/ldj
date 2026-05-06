@@ -28,7 +28,7 @@ const Hero = () => {
           </h2>
 
           <div className="text-base text-lightText pt-15 pr-32 font-medium">
-            <p class="mb-8">Her tilbydes fotos inden for:</p>
+            <p class="mb-8">Vi tilbyder professionelle fotos inden for:</p>
               <ul class="list-disc mb-8 ml-4">  
                 <li> 
                   Portræt
