@@ -26,7 +26,7 @@ const Hero = () => {
             Velkommen til <span className="text-deep-sea-green-50">foto247!</span>
           <br /></h2>
           </div>
-          <div>
+          <div className="flex justify-left">
             <p><b><br /><br />
           <h2 className="text-4xl font-bold text-blue-500">
             
