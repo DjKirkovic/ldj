@@ -59,11 +59,11 @@ const router = createHashRouter([
         element: <Life />,
       },
       {
-        path: "/photos",
+        path: "/fotos",
         element: <PortfolioPage />,
       },
       {
-        path: "/contact",
+        path: "/kontakt",
         element: <ContactPage />,
       },
     ],
