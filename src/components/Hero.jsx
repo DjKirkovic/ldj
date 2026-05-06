@@ -32,7 +32,7 @@ const Hero = () => {
             
             <Typewriter
               words={words}
-              loop={3}
+              loop={0}
               cursor
               cursorStyle="|"
               typeSpeed={70}
