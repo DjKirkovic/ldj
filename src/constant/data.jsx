@@ -11,7 +11,7 @@ export const featuresData = [
     description:
       "Portrætfotos af mennesker, kæledyr, biler,...",
     //link: onClick={()=>console.log(item)}
-    link: "#/studio",
+    link: "#/studie",
   },
   {
     id: 2,
