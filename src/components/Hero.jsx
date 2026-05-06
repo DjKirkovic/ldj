@@ -21,17 +21,12 @@ const Hero = () => {
     <Container className="border-b border-black">
       <div className="flex justify-between pt-10">
         {/* Left part */}
-         <div>
-         <h2 className="w-[61%] text-7xl font-bold text-black">
+        <div className="w-[61%]">
+         <h2 className="text-7xl font-bold text-black">
             Velkommen til <span className="text-deep-sea-green-50">foto247!</span>
-          <br /></h2>
-          </div>
-          <div className="">
-            <p><b><br /><br />
-         
-              </b><br />
-          </p>
-          </div>
+            <br />
+          </h2>
+
           <div className="text-base text-lightText pt-15 pr-32 font-medium">
             <p class="mb-8">Her tilbydes fotos inden for:</p>
               <ul class="list-disc mb-8 ml-4">  
@@ -84,8 +79,8 @@ const Hero = () => {
               <p class="mb-8">
                 For akut fotoassistance, kontakt os via 'Om' siden.
               </p>
-            </div>
-
+          </div>
+        </div>
 
         {/* Right part */}
         <div className="w-[35%] bg-[#212428] p-10 rounded-lg shadow-md shadow-black overflow-hidden group">
