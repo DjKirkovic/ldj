@@ -111,7 +111,7 @@ const inputStyle = "flex-1 rounded-md bg-black text-white px-6 py-2  outline-non
               type="submit"
               className="border-[1px] border-gray-500 py-2 rounded-md hover:border-designColour duration-300 uppercase hover:text-white"
             >
-              Send besked
+              Send beskeden
             </button>
           
           </div>
