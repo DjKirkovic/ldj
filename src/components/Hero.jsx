@@ -7,7 +7,7 @@ const Hero = () => {
   const words = [
     "Udforsk",
     "Opdag",
-    "Gør fremskridt",
+    "Nå dine fotomål!",
     /*    "Communications Specialist",
     "Project Manager",
     "Life Coach",
