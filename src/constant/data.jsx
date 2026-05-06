@@ -2,6 +2,111 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { IoBookOutline } from "react-icons/io5";
 
 export const featuresData = [
+  
+
+   {
+    id: 1,
+    icon: <AiOutlineMenu />,
+    title: "Portræt",
+    description:
+      "Portrætfotos af mennesker, kæledyr, biler,...",
+    //link: onClick={()=>console.log(item)}
+    link: "#/studio",
+  },
+  {
+    id: 2,
+    icon: <AiOutlineMenu />,
+    title: "Arkitektur",
+    description:
+      "Bygninger, boliger, strukturer,...",
+    link: "#/byg",
+  },
+  {
+    id: 3,
+    icon: <IoBookOutline />,
+    title: "Natur",
+    description:
+      "Landskab, dyreliv, planter,...",
+    link: "#/natur",
+  },
+  {
+    id: 4,
+    icon: <AiOutlineMenu />,
+    title: "Ting",
+    description:
+      "Produkter, reklame, makro/småting,...",
+    link: "#/ting",
+  },
+  {
+    id: 5,
+    icon: <AiOutlineMenu />,
+    title: "Events",
+    description:
+      "Arrangementer, firmaevents, konferencer, udstillinger,...",
+    //link: onClick={()=>console.log(item)}
+    link: "#/event",
+  },
+  {
+    id: 6,
+    icon: <AiOutlineMenu />,
+    title: "Andet / diverse foto",
+    description:
+      "Andre genrer ikke (specifikt) nævnt ovenfor fx bryllup, konfirmation, koncert, mode, PR / mediedækning,...",
+    link: "#/divfoto",
+  },
+  {
+    id: 7,
+    icon: <AiOutlineMenu />,
+    title: "Foredrag",
+    description:
+      "Foredrag, taler, seminar, gæsteoptræden,...",
+    //link: onClick={()=>console.log(item)}
+    link: "#/taler",
+  },
+  {
+    id: 8,
+    icon: <AiOutlineMenu />,
+    title: "Indsigt / Undervisning",
+    description:
+      "Rådgivning, undervisning, skriftligt materiale,...",
+    link: "#/raad",
+  },
+  {
+    id: 9,
+    icon: <IoBookOutline />,
+    title: "Rejser / Ture",
+    description:
+      "Gruppeture, studieture, on location seminarer, fotorejser,...",
+    link: "#/ture",
+  },
+  {
+    id: 10,
+    icon: <AiOutlineMenu />,
+    title: "Samarbejde",
+    description:
+      "Samarbejde med dit firma, delt servicelevering,...",
+    link: "#/sammen",
+  },
+  {
+    id: 11,
+    icon: <AiOutlineMenu />,
+    title: "Teknik / Udstyr",
+    description:
+      "Rådgivning om fotoudstyr, systemer/funktioner, metoder, køb/salg råd,...",
+    //link: onClick={()=>console.log(item)}
+    link: "#/teknik",
+  },
+  {
+    id: 12,
+    icon: <AiOutlineMenu />,
+    title: "SOS / Krisefotohjælp",
+    description:
+      "Haste/last-minute hjælp (fotograf, råd, udstyr),...",
+    link: "#/sos",
+  },
+  
+  
+  /*
   {
     id: 1,
     icon: <AiOutlineMenu />,
@@ -11,6 +116,7 @@ export const featuresData = [
     //link: onClick={()=>console.log(item)}
     link: "#/comms",
   },
+  
   {
     id: 2,
     icon: <AiOutlineMenu />,
@@ -35,8 +141,9 @@ export const featuresData = [
       "Serving of useful advice.",
     link: "#/life",
   },
+  */
 ];
-/*
+
 export const portfolioData = [
   {
     id: 101,
