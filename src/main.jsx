@@ -115,7 +115,6 @@ const router = createHashRouter([
         path: "/life",
         element: <Life />,
       },*/
-      */
     ],
   },
 ]);
