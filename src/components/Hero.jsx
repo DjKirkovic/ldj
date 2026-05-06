@@ -46,7 +46,7 @@ const Hero = () => {
                   Events
                 </li>
                 <li> 
-                  Mere
+                  Med mere...
                 </li>
                 </ul>
             <p class="mb-8">...og råd/hjælp med:</p>
@@ -64,7 +64,7 @@ const Hero = () => {
                   Samarbejde
                 </li>
                 <li> 
-                  Teknisk
+                  Teknisk / Udstyr
                 </li>
                 <li>
                   SOS / Krisefotohjælp
