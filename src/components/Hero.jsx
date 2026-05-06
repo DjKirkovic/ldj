@@ -19,7 +19,7 @@ const Hero = () => {
 
   return (
     <Container className="border-b border-black">
-      <div className="">
+      <div className="flex justify-between pt-10">
         {/* Left part */}
          <div>
          <h2 className="w-[35%] text-7xl font-bold text-black">
