@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "./Container";
 import { Typewriter } from "react-simple-typewriter";
-import AboutUsImg from "../assets/AboutUs.jpg";
+import AboutUsImg from "../assets/topcams.jpg";
 import Button from "./ui/Button";
 
 const Hero = () => {
