@@ -28,18 +28,7 @@ const Hero = () => {
           </div>
           <div className="">
             <p><b><br /><br />
-          <h2 className="text-4xl font-bold text-blue-500">
-            
-            <Typewriter
-              words={words}
-              loop={0}
-              cursor
-              cursorStyle="|"
-              typeSpeed={70}
-              deleteSpeed={50}
-              delaySpeed={1000}
-            />
-          </h2>    
+         
               </b><br />
           </p>
           </div>
