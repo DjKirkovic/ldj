@@ -7,7 +7,7 @@ const Hero = () => {
   const words = [
     "Udforsk",
     "Opdag",
-    "Nå dine fotomål!",
+    "Nå dine fotomål",
     /*    "Communications Specialist",
     "Project Manager",
     "Life Coach",
@@ -26,7 +26,7 @@ const Hero = () => {
       <Container className="absolute py-20 pl-160 z-5">
         <div className="w-full flex flex-col gap-y-5">
           <h2 className="text-7xl font-bold text-black">
-            Velkommen til <span className="text-deep-sea-green-50">Foto247!</span>
+            Velkommen til <span className="text-deep-sea-green-50">foto247!</span>
           </h2>
           <h2 className="text-4xl font-bold text-blue-500">
             
