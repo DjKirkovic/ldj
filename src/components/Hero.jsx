@@ -90,7 +90,7 @@ const Hero = () => {
             </p>
 
             <p class="mb-8">
-              For akut assistance, kontakt os via 'Om' siden.
+              For akut fotoassistance, kontakt os via 'Om' siden.
             </p>
           </div>
         </div>
