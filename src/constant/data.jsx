@@ -143,7 +143,7 @@ export const featuresData = [
   },
   */
 ];
-
+/*
 export const portfolioData = [
   {
     id: 101,
