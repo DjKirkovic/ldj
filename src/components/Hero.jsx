@@ -21,11 +21,11 @@ const Hero = () => {
     <Container className="border-b border-black">
       <div className="flex justify-between pt-10">
         {/* Left part */}
-         <h2 className="text-7xl font-bold text-black">
+         <h2 className="w-[35%] text-7xl font-bold text-black">
             Velkommen til <span className="text-deep-sea-green-50">foto247!</span>
           </h2>
           <div>
-          <h2 className="text-4xl font-bold text-blue-500">
+          <h2 className="w-[35%] text-4xl font-bold text-blue-500">
             
             <Typewriter
               words={words}
