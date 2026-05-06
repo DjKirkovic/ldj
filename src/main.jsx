@@ -42,22 +42,6 @@ const router = createHashRouter([
         path: "/services",
         element: <Services />,
       },
-      { 
-        path: "/comms",
-        element: <Comms />,
-      },
-      { 
-        path: "/projects",
-        element: <Projects />,
-      },
-      { 
-        path: "/photography",
-        element: <Photography />,
-      },
-      { 
-        path: "/life",
-        element: <Life />,
-      },
       {
         path: "/fotos",
         element: <PortfolioPage />,
@@ -114,6 +98,24 @@ const router = createHashRouter([
         path: "/sos",
         element: <SOS />,
       },
+      /*
+            { 
+        path: "/comms",
+        element: <Comms />,
+      },
+      { 
+        path: "/projects",
+        element: <Projects />,
+      },
+      { 
+        path: "/photography",
+        element: <Photography />,
+      },
+      { 
+        path: "/life",
+        element: <Life />,
+      },*/
+      */
     ],
   },
 ]);
