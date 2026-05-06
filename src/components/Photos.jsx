@@ -56,7 +56,7 @@ const Photos = () => {
     <Container className="border-black">
       <div className="flex flex-col items-center">
         <Subtitle title="" />
-        <Title title="Photos" />
+        <Title title="Fotos" />
       </div>
       <div className="grid grid-cols-3 gap-2 pt-10">
 
