@@ -41,7 +41,7 @@ const Hero = () => {
             />
           </h2>
           <div className="text-base text-lightText pt-15 pr-32 font-medium">
-          <p class="mb-8">Her tilbydes fotos inden for...:</p>
+          <p class="mb-8">Her tilbydes fotos inden for:</p>
             <ul class="list-disc mb-8 ml-4">  
               <li> 
                 Portræt
@@ -62,7 +62,7 @@ const Hero = () => {
                 Mere
               </li>
               </ul>
-          <p class="mb-8">...og råd/hjælp med...:</p>
+          <p class="mb-8">...og råd/hjælp med:</p>
             <ul class="list-disc mb-8 ml-4">  
               <li> 
                 Foredrag
@@ -86,7 +86,7 @@ const Hero = () => {
 
             
             <p class="mb-8">
-              Brug topmenuen for at navigere rundt på webside.
+              Brug topmenuen for at navigere rundt på websiden.
             </p>
           </div>
         </div>
