@@ -1,24 +1,24 @@
 import React from "react";
 import Container from "./Container";
-import AboutMeImg from "../assets/aboutMe.jpg";
+import AboutUsImg from "../assets/AboutUs.jpg";
 import Button from "./ui/Button";
 import Subtitle from "./ui/Subtitle";
 import Title from "./ui/Title";
 
-const AboutMe = () => {
+const AboutUs = () => {
   return (
     <Container className="border-b border-black">
       <div className="flex flex-col items-center">
         <Subtitle title="" />
-        <Title title="About foto247" />
+        <Title title="Om foto247" />
       </div>
       <div className="flex justify-between pt-10">
         {/* Left part */}
         <div className="w-[35%] bg-[#212428] p-10 rounded-lg shadow-md shadow-black overflow-hidden group">
           <div className="overflow-hidden rounded-md">
             <img
-              src={AboutMeImg}
-              alt="aboutMeImage"
+              src={AboutUsImg}
+              alt="AboutUsImage"
               className="group-hover:scale-110 duration-500 rounded-md"
             />
           </div>
@@ -26,15 +26,16 @@ const AboutMe = () => {
         {/* Right part */}
         <div className="w-[61%] flex flex-col gap-7 text-black">
           
-          <p><b>Origins</b><br />
-            foto247 was officially founded in 2025, but has roots dating back to 2016. It is based on philosophies of health, well-being and knowledge sharing. Unrelated to music, it is rather about 'DJing' life itself. <br />In the form of a growing online repository, it helps people gain inspiration and advice.
+          <p><b>Historie</b><br />
+            Foto247 blev officielt stiftet i 2026, men har rødder tilbage til 2003. Da startede dets stifter nemlig en medieproduktionsuddannelse.
           </p>
 
-          <p><b>The Founder</b><br />
-            Meet Martin. Based in Denmark, he's not your typical Dane. He is half Egyptian, spent a decade in England, 'represents' two further nationalities via marriage, and has travelled across four continents. 
+          <p><b>Stifter</b><br />
+            Mød Martin. Han er baseret i Danmark, men er langtfra stereotypisk dansk. Med 50% egyptisk blod, var han endvidere bosat 11 år i England.<br />
+            Han repræsenterer yderligere to nationaliteter via ægteskab, og har rejst over fire kontinenter. 
           </p>
-          <p><b>Why/Why Not...?</b><br />
-            Feedback, positive as negative, is always welcome! Head for the Contact page to help us help you <i>better</i>! 
+          <p><b>Feedback</b><br />
+            Feedback, positiv som negativ, er altid velkommen. Navigér til Kontakt siden, og hjælp os til at hjælpe dig <i>bedre</i>! 
           </p>
         </div>
       </div>
@@ -42,4 +43,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default AboutUs;

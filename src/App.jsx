@@ -1,4 +1,4 @@
-import AboutMe from "./components/AboutMe";
+import AboutUs from "./components/AboutUs";
 import ContactMe from "./components/ContactMe";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
