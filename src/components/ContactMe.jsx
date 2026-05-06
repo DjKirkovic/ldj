@@ -29,7 +29,7 @@ const ContactMe = () => {
     }).then((res) => res.json());
     if (res.success) {
       document.getElementById("contact-form").reset();
-      alert("Thank you for your message!"); 
+      alert("Tak for din besked / Thank you for your message!"); 
     }   
   };
 //console.log("Success", res);
@@ -38,7 +38,7 @@ const inputStyle = "flex-1 rounded-md bg-black text-white px-6 py-2  outline-non
   return (
     <Container className="border-b border-black">  
       <div className="flex flex-col items-center">
-        <Title title="Contact Me" />
+        <Title title="Kontakt" />
       </div>
       <div className="flex gap-10 pt-10">
         <div className="w-1/3 bg-stone-950/50 p-10 rounded-lg group">
@@ -51,8 +51,8 @@ const inputStyle = "flex-1 rounded-md bg-black text-white px-6 py-2  outline-non
           </div>
           <div className="py-5 flex flex-col gap-2">
             <p className="text-lg text-white font-bold">Martin</p>
-            <p className="text-lg font-medium">Founder, foto247</p>
-            <p className="uppercase">Find me on:</p>
+            <p className="text-lg font-medium">Stifter / CEO, foto247</p>
+            <p className="uppercase">Find mig på:</p>
           </div>
           <SocialIcon />
         </div>
@@ -60,47 +60,47 @@ const inputStyle = "flex-1 rounded-md bg-black text-white px-6 py-2  outline-non
           <div className=" bg-stone-950/50 p-10 rounded-lg flex flex-col gap-10">
             <div className="flex justify-between gap-7">
               <div className="flex flex-1 flex-col gap-3">
-                <p className="text-sm uppercase">Your name</p>
+                <p className="text-sm uppercase">Dit navn</p>
                 <input
                   type="text"
-                  placeholder="Enter your name"
+                  placeholder="fx John Hansen"
                   className={inputStyle}
                   name="name"
                 />
               </div>
               <div className="flex flex-1 flex-col gap-3">
-                <p className="text-sm uppercase">Phone Number</p>
+                <p className="text-sm uppercase">Telefonnummer</p>
                 <input
                   type="text"
-                  placeholder="Enter your phone number"
+                  placeholder="fx 12345678"
                   className={inputStyle}
                   name="phone"
                 />
               </div>
             </div>
             <div className="flex flex-col gap-3">
-              <p className="text-sm uppercase">Email</p>
+              <p className="text-sm uppercase">Din email</p>
               <input
                 type="email"
-                placeholder="Enter your email"
+                placeholder="fx ditnavn@webmaster.dk"
                 className={inputStyle}
                 name="email"
               />
             </div>
             <div className="flex flex-col gap-3">
-              <p className="text-sm uppercase">Subject</p>
+              <p className="text-sm uppercase">Emne</p>
               <input
                 type="text"
-                placeholder="Define a subject"
+                placeholder="fx bookinganmodning"
                 className={inputStyle}
                 name="subject"
               />
             </div>
             <div className="flex flex-col gap-3">
-              <p className="text-sm uppercase">Your Message</p>
+              <p className="text-sm uppercase">Din besked</p>
               <textarea
                 type="text"
-                placeholder="Write your message..."
+                placeholder="Skriv din besked..."
                 className={inputStyle}
                 cols={1}
                 rows={3}
