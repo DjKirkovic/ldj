@@ -12,6 +12,22 @@ import Comms from "./pages/services/Comms.jsx";
 import Projects from "./pages/services/Projects.jsx";
 import Photography from "./pages/services/Photography.jsx";
 import Life from "./pages/services/Life.jsx";
+
+
+import Advice from "./pages/services/Advice.jsx";
+import Built from "./pages/services/Built.jsx";
+import Coop from "./pages/services/Coop.jsx";
+import Events from "./pages/services/Events.jsx";
+import Misc from "./pages/services/Misc.jsx";
+import Nature from "./pages/services/Nature.jsx";
+import SOS from "./pages/services/SOS.jsx";
+import Speak from "./pages/services/Speak.jsx";
+import Studio from "./pages/services/Studio.jsx";
+import Stuff from "./pages/services/Stuff.jsx";
+import Tech from "./pages/services/Tech.jsx";
+import Trips from "./pages/services/Trips.jsx";
+
+
 import ContactPage from "./pages/ContactPage.jsx";
 import PortfolioPage from "./pages/PortfolioPage.jsx";
 
