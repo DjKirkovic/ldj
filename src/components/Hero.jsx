@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "./Container";
 import { Typewriter } from "react-simple-typewriter";
+import AboutUsImg from "../assets/AboutUs.jpg";
 import Button from "./ui/Button";
 
 const Hero = () => {
@@ -17,10 +18,14 @@ const Hero = () => {
   const BG = '../banner.jpg';
 
   return (
-    <div className="w-full h-200 bg-hero-image bg-cover">
-      <Container>
-        <div className="w-full flex flex-col gap-y-5">
-          <h2 className="text-7xl font-bold text-black">
+    <Container className="border-b border-black">
+    <div className="flex flex-col items-center">
+        <Subtitle title="" />
+        <Title title="Om foto247" />
+      </div>
+      <div className="flex justify-between pt-10">
+        {/* Left part */}
+         <h2 className="text-7xl font-bold text-black">
             Velkommen til <span className="text-deep-sea-green-50">foto247!</span>
           </h2>
           <h2 className="text-4xl font-bold text-blue-500">
@@ -36,61 +41,76 @@ const Hero = () => {
             />
           </h2>
           <div className="text-base text-lightText pt-15 pr-32 font-medium">
-          <p class="mb-8">Her tilbydes fotos inden for:</p>
-            <ul class="list-disc mb-8 ml-4">  
-              <li> 
-                Portræt
-              </li>
-              <li> 
-                Arkitektur
-              </li>
-              <li> 
-                Natur
-              </li>
-              <li> 
-                Ting
-              </li>
-              <li> 
-                Events
-              </li>
-              <li> 
-                Mere
-              </li>
-              </ul>
-          <p class="mb-8">...og råd/hjælp med:</p>
-            <ul class="list-disc mb-8 ml-4">  
-              <li> 
-                Foredrag
-              </li>
-              <li> 
-                Indsigt / Undervisning
-              </li>
-              <li> 
-                Rejser / Ture
-              </li>
-              <li> 
-                Samarbejde
-              </li>
-              <li> 
-                Teknisk
-              </li>
-              <li>
-                SOS / Krisefotohjælp
-              </li>
-              </ul>
+            <p class="mb-8">Her tilbydes fotos inden for:</p>
+              <ul class="list-disc mb-8 ml-4">  
+                <li> 
+                  Portræt
+                </li>
+                <li> 
+                  Arkitektur
+                </li>
+                <li> 
+                  Natur
+                </li>
+                <li> 
+                  Ting
+                </li>
+                <li> 
+                  Events
+                </li>
+                <li> 
+                  Mere
+                </li>
+                </ul>
+            <p class="mb-8">...og råd/hjælp med:</p>
+              <ul class="list-disc mb-8 ml-4">  
+                <li> 
+                  Foredrag
+                </li>
+                <li> 
+                  Indsigt / Undervisning
+                </li>
+                <li> 
+                  Rejser / Ture
+                </li>
+                <li> 
+                  Samarbejde
+                </li>
+                <li> 
+                  Teknisk
+                </li>
+                <li>
+                  SOS / Krisefotohjælp
+                </li>
+                </ul>
 
-            
-            <p class="mb-8">
-              Brug topmenuen for at navigere rundt på websiden.
-            </p>
+              
+              <p class="mb-8">
+                Brug topmenuen for at navigere rundt på websiden.
+              </p>
 
-            <p class="mb-8">
-              For akut fotoassistance, kontakt os via 'Om' siden.
-            </p>
+              <p class="mb-8">
+                For akut fotoassistance, kontakt os via 'Om' siden.
+              </p>
+            </div>
+
+
+        {/* Right part */}
+        <div className="w-[35%] bg-[#212428] p-10 rounded-lg shadow-md shadow-black overflow-hidden group">
+          <div className="overflow-hidden rounded-md">
+            <img
+              src={AboutUsImg}
+              alt="AboutUsImage"
+              className="group-hover:scale-110 duration-500 rounded-md"
+            />
           </div>
         </div>
+        
+       
+    
+    
+    
       </Container>
-    </div>
   );
 };
 
