@@ -5,7 +5,7 @@ import "./index.css";
 import Header from "./components/Header.jsx";
 import { Outlet, RouterProvider, createHashRouter } from "react-router-dom";
 import Footer from "./components/Footer.jsx";
-import Om from "./pages/Om.jsx";
+import About from "./pages/About.jsx";
 import Services from "./pages/Services.jsx";
 //import Photos from "./components/Photos.jsx";
 import Comms from "./pages/services/Comms.jsx";
@@ -36,7 +36,7 @@ const router = createHashRouter([
       },
       {
         path: "/om",
-        element: <Om />,
+        element: <About />,
       },
       {
         path: "/services",
