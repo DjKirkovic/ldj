@@ -25,6 +25,7 @@ const Hero = () => {
             Velkommen til <span className="text-deep-sea-green-50">foto247!</span>
           </h2>
           <div>
+            <p><b>
           <h2 className="w-[35%] text-4xl font-bold text-blue-500">
             
             <Typewriter
@@ -36,7 +37,9 @@ const Hero = () => {
               deleteSpeed={50}
               delaySpeed={1000}
             />
-          </h2>
+          </h2>    
+              </b><br />
+          
           </div>
           <div className="text-base text-lightText pt-15 pr-32 font-medium">
             <p class="mb-8">Her tilbydes fotos inden for:</p>
