@@ -27,7 +27,7 @@ const Hero = () => {
           <br /></h2>
           </div>
           <div>
-            <p><b>
+            <p><b><br /><br />
           <h2 className="text-4xl font-bold text-blue-500">
             
             <Typewriter
