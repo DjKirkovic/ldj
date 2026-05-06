@@ -24,6 +24,7 @@ const Hero = () => {
          <h2 className="text-7xl font-bold text-black">
             Velkommen til <span className="text-deep-sea-green-50">foto247!</span>
           </h2>
+          <div>
           <h2 className="text-4xl font-bold text-blue-500">
             
             <Typewriter
@@ -36,6 +37,7 @@ const Hero = () => {
               delaySpeed={1000}
             />
           </h2>
+          </div>
           <div className="text-base text-lightText pt-15 pr-32 font-medium">
             <p class="mb-8">Her tilbydes fotos inden for:</p>
               <ul class="list-disc mb-8 ml-4">  
