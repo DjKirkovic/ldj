@@ -18,11 +18,6 @@ const Hero = () => {
 
   return (
     <div className="w-full h-200 bg-hero-image bg-cover">
-      {/* Background image */}
-        <div
-          className="absolute inset-0 bg-no-repeat bg-cover bg-center z-0"
-          style={{ backgroundImage: `url(${BG})` }}
-        ></div>
       <Container className="absolute py-20 pl-160 z-5">
         <div className="w-full flex flex-col gap-y-5">
           <h2 className="text-7xl font-bold text-black">
