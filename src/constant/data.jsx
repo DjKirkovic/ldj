@@ -23,7 +23,7 @@ export const featuresData = [
   },
   {
     id: 3,
-    icon: <IoBookOutline />,
+    icon: <AiOutlineMenu />,
     title: "Natur",
     description:
       "Landskab, dyreliv, planter,...",
@@ -56,7 +56,7 @@ export const featuresData = [
   },
   {
     id: 7,
-    icon: <AiOutlineMenu />,
+    icon: <IoBookOutline />,
     title: "Foredrag",
     description:
       "Foredrag, taler, seminar, gæsteoptræden,...",
@@ -65,7 +65,7 @@ export const featuresData = [
   },
   {
     id: 8,
-    icon: <AiOutlineMenu />,
+    icon: <IoBookOutline />,
     title: "Indsigt / Undervisning",
     description:
       "Rådgivning, undervisning, skriftligt materiale,...",
@@ -81,7 +81,7 @@ export const featuresData = [
   },
   {
     id: 10,
-    icon: <AiOutlineMenu />,
+    icon: <IoBookOutline />,
     title: "Samarbejde",
     description:
       "Samarbejde med dit firma, delt servicelevering,...",
@@ -89,7 +89,7 @@ export const featuresData = [
   },
   {
     id: 11,
-    icon: <AiOutlineMenu />,
+    icon: <IoBookOutline />,
     title: "Teknik / Udstyr",
     description:
       "Rådgivning om fotoudstyr, systemer/funktioner, metoder, køb/salg råd,...",
@@ -98,7 +98,7 @@ export const featuresData = [
   },
   {
     id: 12,
-    icon: <AiOutlineMenu />,
+    icon: <IoBookOutline />,
     title: "SOS / Krisefotohjælp",
     description:
       "Haste/last-minute hjælp (fotograf, råd, udstyr),...",
