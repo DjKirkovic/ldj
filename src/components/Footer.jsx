@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "./Container";
-import logo from "../assets/logonew.png";
+import logo from "../assets/logonew.jpg";
 import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
 import SocialIcon from "./ui/SocialIcon";
 
