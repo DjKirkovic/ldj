@@ -2,6 +2,7 @@ import React from "react";
 import Container from "./Container";
 import { Typewriter } from "react-simple-typewriter";
 import AboutUsImg from "../assets/topcams.jpg";
+import CityImg from "../assets/city.jpg";
 import Button from "./ui/Button";
 
 const Hero = () => {
@@ -87,7 +88,12 @@ const Hero = () => {
           <div className="overflow-hidden rounded-md">
             <img
               src={AboutUsImg}
-              alt="AboutUsImage"
+              alt="Kameraer"
+              className="group-hover:scale-110 duration-500 rounded-md"
+            />
+            <img
+              src={CityImg}
+              alt="Bybillede"
               className="group-hover:scale-110 duration-500 rounded-md"
             />
           </div>
