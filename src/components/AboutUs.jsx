@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "./Container";
-import AboutUsImg from "../assets/AboutUs.jpg";
+import AboutUsImg from "../assets/400400.png";
 import Button from "./ui/Button";
 import Subtitle from "./ui/Subtitle";
 import Title from "./ui/Title";
