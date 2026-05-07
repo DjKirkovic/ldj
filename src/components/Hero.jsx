@@ -4,6 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 import AboutUsImg from "../assets/topcams.jpg";
 import CityImg from "../assets/city.jpg";
 import Button from "./ui/Button";
+import Title from "./ui/Title";
 
 const Hero = () => {
   const words = [
