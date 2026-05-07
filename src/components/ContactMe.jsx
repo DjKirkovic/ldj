@@ -3,6 +3,7 @@ import Subtitle from "./ui/Subtitle";
 import Title from "./ui/Title";
 import Container from "./Container";
 import contact1 from "../assets/contact1.png";
+import tel1 from "../assets/tel1.jpg";
 
 import SocialIcon from "./ui/SocialIcon";
 
@@ -45,13 +46,18 @@ const inputStyle = "flex-1 rounded-md bg-black text-white px-6 py-2  outline-non
           <div className="overflow-hidden rounded-lg">
             <img
               src={contact1}
-              alt="contact image"
+              alt="kontakt"
               className="rounded-md group-hover:scale-110 duration-500"
             />
           </div>
           <div className="py-5 flex flex-col gap-2">
             <p className="text-lg text-white font-bold">Martin</p>
             <p className="text-lg font-medium">Stifter / CEO, foto247</p>
+            <img
+              src={tel1}
+              alt="tlf."
+              className="rounded-md group-hover:scale-110 duration-500"
+            />
             <p className="uppercase">Find mig på:</p>
           </div>
           <SocialIcon />
