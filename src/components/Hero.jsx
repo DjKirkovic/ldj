@@ -20,13 +20,18 @@ const Hero = () => {
 
   return (
     <Container className="border-b border-black">
-      <div className="flex justify-between pt-10">
-        {/* Left part */}
-        <div className="w-[61%]">
-         <h2 className="text-7xl font-bold text-black">
+      <div className="flex flex-col items-center">
+    
+        <h2 className="text-7xl font-bold text-black">
             <span className="text-yellow-400">foto</span><span className="text-blue-500">24</span><span className="text-red-500">7</span>
             <br />
           </h2>
+      </div>
+
+      <div className="flex justify-between pt-10">
+        {/* Left part */}
+        <div className="w-[61%]">
+         
 <h4>Velkommen!</h4>
 
           <div className="text-base text-lightText pt-15 pr-32 font-medium">
