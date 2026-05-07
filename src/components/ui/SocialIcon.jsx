@@ -5,6 +5,9 @@ const portfolioIconStyle = "bg-stone-800 w-10 h-10 inline-flex text-white text-b
 const SocialIcon = () => {
   return (
     <div className="flex items-center gap-5">
+      <a title="LinkedIn" href="https://www.linkedin.com/in/martinkirk/" target="_blank" rel="noopener noreferrer" className={portfolioIconStyle}>
+        <FaLinkedin />
+      </a>
       <a title="Github" href="https://github.com/DjKirkovic" target="_blank" rel="noopener noreferrer" className={portfolioIconStyle}>
         <FaGithub />
       </a>
