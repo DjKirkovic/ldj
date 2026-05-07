@@ -27,9 +27,9 @@ const AboutUs = () => {
         <div className="w-[61%] flex flex-col gap-7 text-black">
           
           <p><b>Historie</b><br />
-            Foto247 blev stiftet i 2026, men har rødder tilbage til 2003. Da startede stifteren en medieproduktionsuddannelse.<br />
-            Firmaets filosofi er at tilbyde fantastiske foto-services til gode priser - og fleksibelt at tage hånd om kundeønsker.<br />
-            Hvadend du er firmarepræsentant eller privatperson, er det vores fornøjelse at hjælpe med at realisere dit foto-projekt. 
+            Foto247 blev stiftet i 2026, men har rødder tilbage til 2003. Da startede stifteren en medieproduktionsuddannelse.
+            Firmaets filosofi er at tilbyde fantastiske foto-services til gode priser - og fleksibelt at tage hånd om kundeønsker.<br /><br />
+            Hvadend du er firmarepræsentant eller privatperson, er det vores fornøjelse at realisere dit næste foto-projekt. 
           </p>
 
           <p><b>Stifter</b><br />
