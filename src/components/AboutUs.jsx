@@ -38,7 +38,7 @@ const AboutUs = () => {
             Martin har en BSc Multimedieproduktion & har arbejdet som prof. fotograf i 7+ år. Hans erfaring tæller en bred vifte af fotogenrer, han har arbejdet over fire kontinenter, og kunder inkluderer både private og VIPs, medieorganisationer og kendte firmaer som BBC og NASA.    
           </p>
           <p><b>Feedback</b><br />
-            Feedback, positiv som negativ, er altid velkommen. Navigér til Kontakt siden, og hjælp os til at hjælpe dig <i>bedre</i>! 
+            Feedback, positiv som negativ, er altid velkommen. Gå til Kontakt siden, og hjælp os til at hjælpe dig <i>bedre</i>! 
           </p>
         </div>
       </div>
