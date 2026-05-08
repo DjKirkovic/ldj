@@ -1,6 +1,5 @@
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoBookOutline } from "react-icons/io5";
-import catepic from "../assets/testimg.png";
 
 export const featuresData = [
   
