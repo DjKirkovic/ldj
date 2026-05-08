@@ -42,7 +42,7 @@ Kontakt os på bedst mulige måde i forhold til din forespørgsels prioritet:<br
 
 De 3 beredskabsniveauer &#40;1=højeste og 3=laveste&#41; kræver alle typisk telefonisk henvendelse.<br />
 Alternativt kan webformularen på 'Kontakt' siden bruges - skriv da prioritetsnummeret i emnefeltet.<br />
-Sendes en besked, gives ingen garanti for hurtigt svar/assistance, især udenfor normal arbejdstid.<br /><br />
+OBS: Sendes en besked, gives ingen garanti for hurtigt svar/assistance, især udenfor normal arbejdstid.<br /><br />
 
 Eksempler på SOS assistance/opgaver er, at du:
 
