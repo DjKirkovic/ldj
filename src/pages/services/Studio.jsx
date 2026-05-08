@@ -46,10 +46,28 @@ Eksempler på portrætter, der kan give dig eller dine kære stor værdi, er:
                   Bilen, motorcyklen, full-size outfittet, yndlingsmusikinstrumentet...eller noget helt femte!
                 </li>
                 </ol>
+
+Vi tilbyder:
+<ol class="list-disc mb-8 ml-4">
+                <li> 
+                  Studie-portrætter - Base i Billund, pladsbegrænset til 6 personer  
+                </li>
+                <li> 
+                  On-site hos dig/din virksomhed - Fleksible løsninger
+                </li>
+                <li> 
+                  On-location - Hele Danmark, tilpasset dine behov
+                </li>
+                <li> 
+                  Verden+ - Studiefotos med "Green Screen" baggrundsløsninger
+                </li>
+                </ol>
+
 Når først drømmebilledet er taget, hjælper vi dig selvfølgelig hellere end gerne videre derfra.<br />
 Det kan være mht. redigering/retouching, udgivelse på web/i print eller hvad der nu skal til.<br />
-Først når du siger vi er i mål, er vi tilfredse og lader dig nyde resultatet! 
+Først når du siger vi er i mål, er vi tilfredse og lader dig nyde resultatet.<br /><br />
 
+Vel mødt!
 </p>
 
     </Container>
