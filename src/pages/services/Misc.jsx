@@ -2,7 +2,8 @@ import React from "react";
 import Container from "../../components/Container";
 import Subtitle from "../../components/ui/Subtitle";
 import Title from "../../components/ui/Title";
-import toplife from "../../assets/toplife.jpg";
+import mi from "../../assets/pages/mi.jpg";
+//const pics = [st, ar, na, pr, ev, mi, ta, ed, tr, co, te, so];
 
 const Misc = () => {
   return (
@@ -16,13 +17,13 @@ const Misc = () => {
 
 <div className="overflow-hidden rounded-lg">
                <img
-                 src={toplife}
+                 src={mi}
                  alt="div. foto"
                  className="rounded-md group-hover:scale-110 duration-500"
                />
      </div>
 
-<p><br /><b>abc<br /></b></p>
+<p><br /><b>Info på vej...<br /></b></p>
 
     </Container>
   );

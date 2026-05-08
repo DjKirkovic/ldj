@@ -2,7 +2,8 @@ import React from "react";
 import Container from "../../components/Container";
 import Subtitle from "../../components/ui/Subtitle";
 import Title from "../../components/ui/Title";
-import toplife from "../../assets/toplife.jpg";
+import ar from "../../assets/pages/ar.jpg";
+//const pics = [st, ar, na, pr, ev, mi, ta, ed, tr, co, te, so];
 
 const Built = () => {
   return (
@@ -16,13 +17,13 @@ const Built = () => {
 
 <div className="overflow-hidden rounded-lg">
                <img
-                 src={toplife}
+                 src={ar}
                  alt="Studie"
                  className="rounded-md group-hover:scale-110 duration-500"
                />
      </div>
 
-<p><br /><b>abc<br /></b></p>
+<p><br /><b>Info på vej...<br /></b></p>
 
     </Container>
   );

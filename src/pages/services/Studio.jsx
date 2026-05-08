@@ -23,7 +23,7 @@ const Studio = () => {
                />
      </div>
 
-<p><br /><b>abc<br /></b></p>
+<p><br /><b>Info på vej...<br /></b></p>
 
     </Container>
   );
