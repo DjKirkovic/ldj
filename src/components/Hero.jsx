@@ -42,7 +42,7 @@ const Hero = () => {
                   Portræt
                 </li>
                 <li> 
-                  Arkitektur
+                  Events
                 </li>
                 <li> 
                   Natur
@@ -51,7 +51,7 @@ const Hero = () => {
                   Produkt
                 </li>
                 <li> 
-                  Events
+                  Arkitektur
                 </li>
                 <li> 
                   Med mere...
