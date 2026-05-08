@@ -1,9 +1,9 @@
 import React from "react";
 import { IoMdArrowRoundForward } from "react-icons/io";
-import catepic from "../assets/cats/testimg.png";
-import b from "../assets/cats/studio.jpg";
+import st from "../assets/cats/studio.jpg";
+import ar from "../assets/cats/archi.jpg";
 
-const pics = [b, catepic, b, "d"];
+const pics = [st, ar, "d"];
 
 const FeatureCard = ({ item }) => {
 //const iconstyle = "text-2xl text-green-500";//designColor
