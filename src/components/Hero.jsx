@@ -72,7 +72,7 @@ const Hero = () => {
                   Samarbejde
                 </li>
                 <li> 
-                  Teknisk / Udstyr
+                  Teknik / Udstyr
                 </li>
                 <li>
                   SOS / Krisefotohjælp

@@ -2,7 +2,8 @@ import React from "react";
 import Container from "../../components/Container";
 import Subtitle from "../../components/ui/Subtitle";
 import Title from "../../components/ui/Title";
-import toplife from "../../assets/toplife.jpg";
+import toplife from "../../assets/pages/st.jpg";
+//const pics = [st, ar, na, pr, ev, mi, ta, ed, tr, co, te, so];
 
 const Studio = () => {
   return (
@@ -16,7 +17,7 @@ const Studio = () => {
 
 <div className="overflow-hidden rounded-lg">
                <img
-                 src={toplife}
+                 src={st}
                  alt="Studie"
                  className="rounded-md group-hover:scale-110 duration-500"
                />
