@@ -13,11 +13,11 @@ const Features = () => {
   return (
     <Container className="border-b border-black flex flex-col">
       <Subtitle title="" />
-       <div className="flex flex-col items-center mb-10">
+       <div className="flex flex-col items-center mb-8">
         <Title title="Services" />
       </div>
       
-      <div className="grid grid-cols-3 gap-x-5 gap-y-7">
+      <div className="grid grid-cols-3 gap-x-5 gap-y-2">
         {featuresData.map((item) => (
             <FeatureCard key={item.id} item={item} />
         ))}
