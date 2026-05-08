@@ -5,15 +5,15 @@ import ar from "../assets/cats/archi.jpg";
 import na from "../assets/cats/natur.jpg";
 import pr from "../assets/cats/produ.jpg";
 import ev from "../assets/cats/event.jpg";
-import ar from "../assets/cats/archi.jpg";
-import ar from "../assets/cats/archi.jpg";
-import ar from "../assets/cats/archi.jpg";
-import ar from "../assets/cats/archi.jpg";
-import ar from "../assets/cats/archi.jpg";
-import ar from "../assets/cats/archi.jpg";
-import ar from "../assets/cats/archi.jpg";
+import mi from "../assets/cats/archi.jpg";
+import ta from "../assets/cats/archi.jpg";
+import ed from "../assets/cats/archi.jpg";
+import tr from "../assets/cats/archi.jpg";
+import co from "../assets/cats/archi.jpg";
+import te from "../assets/cats/archi.jpg";
+import so from "../assets/cats/archi.jpg";
 
-const pics = [st, ar, na, pr, ev, ar, ar, ar, ar, ar, ar, ar];
+const pics = [st, ar, na, pr, ev, mi, ta, ed, tr, co, te, so];
 
 const FeatureCard = ({ item }) => {
 //const iconstyle = "text-2xl text-green-500";//designColor
