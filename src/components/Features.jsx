@@ -13,7 +13,7 @@ const Features = () => {
   return (
     <Container className="border-b border-black flex flex-col">
       <Subtitle title="" />
-       <div className="flex flex-col items-center mb-1">
+       <div className="flex flex-col items-center mb-10">
         <Title title="Services" />
       </div>
       
