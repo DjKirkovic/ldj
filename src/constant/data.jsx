@@ -93,7 +93,7 @@ export const featuresData = [
     //icon: <IoBookOutline />,
     title: "Teknik / Udstyr",
     description:
-      "Hjælp med fotoudstyr, system/funktion, metode, køb/salg,...",
+      "Hjælp med udstyr, system/funktion/proces, køb/salg,...",
     //link: onClick={()=>console.log(item)}
     link: "#/teknik",
   },
