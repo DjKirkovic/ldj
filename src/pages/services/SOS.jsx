@@ -28,7 +28,7 @@ const SOS = () => {
 Hvis du står med et SOS-behov, så læs videre!<br />
 Bemærk at assistance/opgaver som ikke er af SOS kaliber &#40;hverken tidspressende eller tilstrækkeligt vigtige/alvorlige&#41; behandles særskilt.<br /><br />
 Kontakt os på bedst mulige måde i forhold til din forespørgsels prioritet:<br />
-              <ol class="list-disc mb-8 ml-4">  
+              <ol class="list-decimal mb-8 ml-4">  
                 <li> 
                   Akut behov - du behøver assistance NU!
                 </li>
