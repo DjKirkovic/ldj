@@ -48,7 +48,7 @@ const Hero = () => {
                   Natur
                 </li>
                 <li> 
-                  Ting
+                  Produkt
                 </li>
                 <li> 
                   Events
