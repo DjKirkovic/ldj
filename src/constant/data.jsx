@@ -67,7 +67,7 @@ export const featuresData = [
   {
     id: 8,
     //icon: <IoBookOutline />,
-    title: "Indsigt / Undervisning",
+    title: "Indsigt / Rådgivning",
     description:
       "Rådgivning, undervisning, skriftligt materiale,...",
     link: "#/raad",
