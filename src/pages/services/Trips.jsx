@@ -11,7 +11,7 @@ const Trips = () => {
     <div className="bg-primaryColour text-gray-200">  
         <Subtitle title="" />
         <div className="flex flex-col items-center mb-10">
-            <Title title="Services: Ture" />
+            <Title title="Services: Rejser / Ture" />
         </div>
    </div>
 
