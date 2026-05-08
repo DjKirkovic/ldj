@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../../components/Container";
 import Subtitle from "../../components/ui/Subtitle";
 import Title from "../../components/ui/Title";
-import toplife from "../../assets/pages/st.jpg";
+import st from "../../assets/pages/st.jpg";
 //const pics = [st, ar, na, pr, ev, mi, ta, ed, tr, co, te, so];
 
 const Studio = () => {
