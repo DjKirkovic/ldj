@@ -11,7 +11,7 @@ const SOS = () => {
     <div className="bg-primaryColour text-gray-200">  
         <Subtitle title="" />
         <div className="flex flex-col items-center mb-10">
-            <Title title="Services: SOS" />
+            <Title title="Services: SOS / Krisefotohjælp" />
         </div>
    </div>
 
