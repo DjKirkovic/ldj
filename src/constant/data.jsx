@@ -34,7 +34,7 @@ export const featuresData = [
     icon: <AiOutlineMenu />,
     title: "Produkt",
     description:
-      "Produkter, reklame, makro/småting,...",
+      "Produkter, reklame, småting, makro (close-up),...",
     link: "#/produkt",
   },
   {
@@ -42,7 +42,7 @@ export const featuresData = [
     icon: <AiOutlineMenu />,
     title: "Events",
     description:
-      "Arrangementer, firmaevents, konferencer, udstillinger,...",
+      "Arrangementer (fx bryllup, konfirmation), firmaevents, konferencer, udstillinger, messer,...",
     //link: onClick={()=>console.log(item)}
     link: "#/event",
   },
@@ -51,7 +51,7 @@ export const featuresData = [
     icon: <AiOutlineMenu />,
     title: "Andet / diverse foto",
     description:
-      "Andre genrer ikke (specifikt) nævnt ovenfor fx bryllup, konfirmation, koncert, mode, PR / mediedækning,...",
+      "Andre genrer ikke (specifikt) nævnt ovenfor fx PR / mediedækning, mode, stock fotos,...",
     link: "#/divfoto",
   },
   {
