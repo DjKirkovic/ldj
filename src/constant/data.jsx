@@ -28,7 +28,7 @@ export const featuresData = [
     //icon: <AiOutlineMenu />,
     title: "Natur",
     description:
-      "Landskab, dyreliv, planter, geografi, destinationer,...",
+      "Landskab, dyreliv, planter, miljøer, geografi, destinationer,...",
     link: "#/natur",
   },
   {
@@ -36,7 +36,7 @@ export const featuresData = [
     //icon: <AiOutlineMenu />,
     title: "Produkt",
     description:
-      "Produkter, reklame, småting, makro (close-up),...",
+      "Produkter, reklame, packshots, småting, makro (close-up),...",
     link: "#/produkt",
   },
   {
@@ -93,7 +93,7 @@ export const featuresData = [
     //icon: <IoBookOutline />,
     title: "Teknik / Udstyr",
     description:
-      "Rådgivning om fotoudstyr, systemer/funktioner, metoder, køb/salg råd,...",
+      "Hjælp med fotoudstyr, system/funktion, metode, køb/salg,...",
     //link: onClick={()=>console.log(item)}
     link: "#/teknik",
   },
