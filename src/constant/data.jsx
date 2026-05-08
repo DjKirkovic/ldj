@@ -17,6 +17,7 @@ export const featuresData = [
   {
     id: 2,
     icon: <AiOutlineMenu />,
+    image: "catepic",
     title: "Arkitektur",
     description:
       "Bygninger, boliger, strukturer,...",
@@ -25,6 +26,7 @@ export const featuresData = [
   {
     id: 3,
     icon: <AiOutlineMenu />,
+    image: "catepic",
     title: "Natur",
     description:
       "Landskab, dyreliv, planter,...",
@@ -33,6 +35,7 @@ export const featuresData = [
   {
     id: 4,
     icon: <AiOutlineMenu />,
+    image: "catepic",
     title: "Produkt",
     description:
       "Produkter, reklame, småting, makro (close-up),...",
@@ -41,6 +44,7 @@ export const featuresData = [
   {
     id: 5,
     icon: <AiOutlineMenu />,
+    image: "catepic",
     title: "Events",
     description:
       "Arrangementer (fx bryllup, konfirmation), firmaevents, konferencer, udstillinger, messer,...",
@@ -50,6 +54,7 @@ export const featuresData = [
   {
     id: 6,
     icon: <AiOutlineMenu />,
+    image: "catepic",
     title: "Andet / diverse foto",
     description:
       "Andre genrer ikke (specifikt) nævnt ovenfor fx PR / mediedækning, mode, stock fotos,...",
@@ -58,6 +63,7 @@ export const featuresData = [
   {
     id: 7,
     icon: <IoBookOutline />,
+    image: "catepic",
     title: "Foredrag",
     description:
       "Foredrag, taler, seminar, gæsteoptræden,...",
@@ -67,6 +73,7 @@ export const featuresData = [
   {
     id: 8,
     icon: <IoBookOutline />,
+    image: "catepic",
     title: "Indsigt / Undervisning",
     description:
       "Rådgivning, undervisning, skriftligt materiale,...",
@@ -75,6 +82,7 @@ export const featuresData = [
   {
     id: 9,
     icon: <IoBookOutline />,
+    image: "catepic",
     title: "Rejser / Ture",
     description:
       "Gruppeture, studieture, on-location rejser,...",
@@ -83,6 +91,7 @@ export const featuresData = [
   {
     id: 10,
     icon: <IoBookOutline />,
+    image: "catepic",
     title: "Samarbejde",
     description:
       "Samarbejde med dit firma, delt servicelevering,...",
@@ -91,6 +100,7 @@ export const featuresData = [
   {
     id: 11,
     icon: <IoBookOutline />,
+    image: "catepic",
     title: "Teknik / Udstyr",
     description:
       "Rådgivning om fotoudstyr, systemer/funktioner, metoder, køb/salg råd,...",
@@ -100,6 +110,7 @@ export const featuresData = [
   {
     id: 12,
     icon: <IoBookOutline />,
+    image: "catepic",
     title: "SOS / Krisefotohjælp",
     description:
       "Haste/last-minute hjælp (fotograf, råd, udstyr),...",
