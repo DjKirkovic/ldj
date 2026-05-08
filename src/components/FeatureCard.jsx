@@ -7,10 +7,10 @@ import pr from "../assets/cats/produ.jpg";
 import ev from "../assets/cats/event.jpg";
 import mi from "../assets/cats/misc.jpg";
 import ta from "../assets/cats/talks.jpg";
-import ed from "../assets/cats/archi.jpg";
+import ed from "../assets/cats/teach.jpg";
 import tr from "../assets/cats/archi.jpg";
 import co from "../assets/cats/archi.jpg";
-import te from "../assets/cats/archi.jpg";
+import te from "../assets/cats/tech.jpg";
 import so from "../assets/cats/archi.jpg";
 
 const pics = [st, ar, na, pr, ev, mi, ta, ed, tr, co, te, so];
