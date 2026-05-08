@@ -2,8 +2,18 @@ import React from "react";
 import { IoMdArrowRoundForward } from "react-icons/io";
 import st from "../assets/cats/studio.jpg";
 import ar from "../assets/cats/archi.jpg";
+import na from "../assets/cats/natur.jpg";
+import pr from "../assets/cats/produ.jpg";
+import ev from "../assets/cats/event.jpg";
+import ar from "../assets/cats/archi.jpg";
+import ar from "../assets/cats/archi.jpg";
+import ar from "../assets/cats/archi.jpg";
+import ar from "../assets/cats/archi.jpg";
+import ar from "../assets/cats/archi.jpg";
+import ar from "../assets/cats/archi.jpg";
+import ar from "../assets/cats/archi.jpg";
 
-const pics = [st, ar, "d"];
+const pics = [st, ar, na, pr, ev, ar, ar, ar, ar, ar, ar, ar];
 
 const FeatureCard = ({ item }) => {
 //const iconstyle = "text-2xl text-green-500";//designColor
