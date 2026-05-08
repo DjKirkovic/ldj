@@ -1,5 +1,6 @@
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoBookOutline } from "react-icons/io5";
+import catepic from "../assets/testimg.png";
 
 export const featuresData = [
   
@@ -7,7 +8,7 @@ export const featuresData = [
    {
     id: 1,
     icon: <AiOutlineMenu />,
-    image: "catepic",
+    image: {catepic},
     title: "Portræt",
     description:
       "Portrætfotos af mennesker, kæledyr, biler,...",
