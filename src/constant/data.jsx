@@ -32,10 +32,10 @@ export const featuresData = [
   {
     id: 4,
     icon: <AiOutlineMenu />,
-    title: "Ting",
+    title: "Produkt",
     description:
       "Produkter, reklame, makro/småting,...",
-    link: "#/ting",
+    link: "#/produkt",
   },
   {
     id: 5,

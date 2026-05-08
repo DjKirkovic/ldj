@@ -79,7 +79,7 @@ const router = createHashRouter([
         element: <Nature />,
       },
       { 
-        path: "/ting",
+        path: "/produkt",
         element: <Stuff />,
       },
       { 
