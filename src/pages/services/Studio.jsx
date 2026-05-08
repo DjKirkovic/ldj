@@ -23,7 +23,34 @@ const Studio = () => {
                />
      </div>
 
-<p><br /><b>Info på vej...<br /></b></p>
+<p><br /><b>Vis dig selv - eller dit kæreste eje - på den bedste måde, og skab mærkbare resultater...<br /></b>
+Portrætbilleder handler ikke bare om smil, tøj og flygtige øjeblikke.<br />
+Grib nogle af de uendelige muligheder for at skabe noget større!<br /><br />
+
+Eksempler på portrætter, der kan give dig eller dine kære stor værdi, er:
+
+<ol class="list-disc mb-8 ml-4">  
+                <li> 
+                  Headshots&#40;hoved- og skulderindramning&#41;, som er gode til mange formål fx dine onlineprofiler, hilsner eller gavekort til venner/familie
+                </li>
+                <li> 
+                  Parfotos - tag kæresten, vennen/veninden eller manden/konen med! 
+                </li>
+                <li> 
+                  Gruppebilleder - familie, børn, sportsholdet eller de endnu større selskaber
+                </li>
+                <li> 
+                  Kæledyret
+                </li>
+                <li> 
+                  Bilen, motorcyklen, full-size outfittet, yndlingsmusikinstrumentet...eller noget helt femte!
+                </li>
+                </ol>
+Når først drømmebilledet er taget, hjælper vi dig selvfølgelig hellere end gerne videre derfra.<br />
+Det kan være mht. redigering/retouching, udgivelse på web/i print eller hvad der nu skal til.<br />
+Først når du siger vi er i mål, er vi tilfredse og lader dig nyde resultatet! 
+
+</p>
 
     </Container>
   );
