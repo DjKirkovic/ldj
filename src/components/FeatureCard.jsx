@@ -1,7 +1,7 @@
 import React from "react";
 import { IoMdArrowRoundForward } from "react-icons/io";
-import catepic from "../assets/testimg.png";
-import b from "../assets/testimg.png";
+import catepic from "../assets/cats/testimg.png";
+import b from "../assets/cats/studio.jpg";
 
 const pics = [b, catepic, b, "d"];
 
