@@ -3,6 +3,7 @@ import Container from "./Container";
 import { Typewriter } from "react-simple-typewriter";
 import AboutUsImg from "../assets/topcams.jpg";
 import CityImg from "../assets/city.jpg";
+import ballroom from "../assets/ballroom.jpg";
 import Button from "./ui/Button";
 import TitleHome from "./ui/TitleHome";
 
@@ -101,6 +102,11 @@ const Hero = () => {
             <img
               src={CityImg}
               alt="Bybillede"
+              className="group-hover:scale-110 duration-500 rounded-md"
+            />
+            <img
+              src={ballroom}
+              alt="Ballroom"
               className="group-hover:scale-110 duration-500 rounded-md"
             />
           </div>
