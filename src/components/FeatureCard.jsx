@@ -1,10 +1,10 @@
 import React from "react";
 import { IoMdArrowRoundForward } from "react-icons/io";
 import st from "../assets/cats/studio.jpg";
-import ar from "../assets/cats/archi.jpg";
+import ev from "../assets/cats/event.jpg";
 import na from "../assets/cats/natur.jpg";
 import pr from "../assets/cats/produ.jpg";
-import ev from "../assets/cats/event.jpg";
+import ar from "../assets/cats/archi.jpg";
 import mi from "../assets/cats/misc.jpg";
 import ta from "../assets/cats/talks.jpg";
 import ed from "../assets/cats/teach.jpg";

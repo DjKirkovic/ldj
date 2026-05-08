@@ -10,7 +10,7 @@ export const featuresData = [
     //image: <Img src={catepic} url=""/>,
     title: "Portræt",
     description:
-      "Portrætfotos af mennesker, kæledyr, biler,...",
+      "Portrætfotos af mennesker, kæledyr, biler, favorit-outfittet, yndlingsejet,...",
     //link: onClick={()=>console.log(item)}
     link: "#/studie",
   },
@@ -28,7 +28,7 @@ export const featuresData = [
     icon: <AiOutlineMenu />,
     title: "Natur",
     description:
-      "Landskab, dyreliv, planter,...",
+      "Landskab, dyreliv, planter, geografi, destinationer,...",
     link: "#/natur",
   },
   {
@@ -44,7 +44,7 @@ export const featuresData = [
     icon: <AiOutlineMenu />,
     title: "Arkitektur",
     description:
-      "Bygninger, boliger, strukturer,...",
+      "Bygninger, boliger, strukturer, landemærker, monumenter, cityscapes,...",
     link: "#/byg",
   },
   {
