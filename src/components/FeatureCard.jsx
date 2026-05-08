@@ -13,7 +13,7 @@ import co from "../assets/cats/coope.jpg";
 import te from "../assets/cats/tech.jpg";
 import so from "../assets/cats/sos.jpg";
 
-const pics = [st, ar, na, pr, ev, mi, ta, ed, tr, co, te, so];
+const pics = [st, ev, na, pr, ar, mi, ta, ed, tr, co, te, so];
 
 const FeatureCard = ({ item }) => {
 //const iconstyle = "text-2xl text-green-500";//designColor

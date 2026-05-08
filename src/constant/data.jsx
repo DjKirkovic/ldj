@@ -16,11 +16,12 @@ export const featuresData = [
   },
   {
     id: 2,
-    icon: <AiOutlineMenu />,
-    title: "Arkitektur",
+        icon: <AiOutlineMenu />,
+    title: "Events",
     description:
-      "Bygninger, boliger, strukturer,...",
-    link: "#/byg",
+      "Arrangementer (fx bryllup, konfirmation), firmaevents, konferencer, udstillinger, messer,...",
+    //link: onClick={()=>console.log(item)}
+    link: "#/event",
   },
   {
     id: 3,
@@ -41,11 +42,10 @@ export const featuresData = [
   {
     id: 5,
     icon: <AiOutlineMenu />,
-    title: "Events",
+    title: "Arkitektur",
     description:
-      "Arrangementer (fx bryllup, konfirmation), firmaevents, konferencer, udstillinger, messer,...",
-    //link: onClick={()=>console.log(item)}
-    link: "#/event",
+      "Bygninger, boliger, strukturer,...",
+    link: "#/byg",
   },
   {
     id: 6,
