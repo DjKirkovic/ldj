@@ -31,7 +31,7 @@ Eksempler på portrætter, der kan give dig eller dine kære stor værdi, er:
 
 <ol class="list-disc mb-8 ml-4">  
                 <li> 
-                  Headshots&#40;hoved- og skulderindramning&#41;, som er gode til mange formål fx dine onlineprofiler, hilsner eller gavekort til venner/familie
+                  Headshots &#40;hoved- og skulderindramning&#41;, som er gode til mange formål fx dine onlineprofiler, hilsner eller gavekort til venner/familie
                 </li>
                 <li> 
                   Parfotos - tag kæresten, vennen/veninden eller manden/konen med! 
@@ -40,7 +40,7 @@ Eksempler på portrætter, der kan give dig eller dine kære stor værdi, er:
                   Gruppebilleder - familie, børn, sportsholdet eller de endnu større selskaber
                 </li>
                 <li> 
-                  Kæledyret
+                  Kæledyret - hunden, katten, hamsteren eller hesten, du bare må have top billeder af!
                 </li>
                 <li> 
                   Bilen, motorcyklen, full-size outfittet, yndlingsmusikinstrumentet...eller noget helt femte!
