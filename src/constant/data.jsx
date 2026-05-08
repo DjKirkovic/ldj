@@ -8,7 +8,7 @@ export const featuresData = [
    {
     id: 1,
     icon: <AiOutlineMenu />,
-    image: <Img src={catepic}/>,
+    image: <Img src={catepic} url=""/>,
     title: "Portræt",
     description:
       "Portrætfotos af mennesker, kæledyr, biler,...",
