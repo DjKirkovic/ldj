@@ -7,7 +7,7 @@ const FeatureCard = ({ item }) => {
   return (
     <a href={item.link}>
     <div className="w-full p-10 bg-black flex flex-col gap-5 rounded-lg shadow-lg shadow-gray-500/10">
-      <img src={item.image} />
+      <img src={catepic} />
       <p className="text-lg font-bold">{item.title}</p>
       <p className="text-base font-medium">{item.description}</p>
     </div>
