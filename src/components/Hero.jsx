@@ -36,7 +36,7 @@ const Hero = () => {
          
 <h4>Velkommen!</h4>
 
-          <div className="text-base text-lightText font-medium">
+          <div className="text-base text-lightText pt-8 font-medium">
             <p class="mb-8">Vi tilbyder professionelle fotos inden for:</p>
               <ul class="list-disc mb-8 ml-4">  
                 <li> 
