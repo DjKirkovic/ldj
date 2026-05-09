@@ -58,7 +58,7 @@ const Hero = () => {
                   Med mere...
                 </li>
                 </ul>
-            <p>...og råd/hjælp med:</p>
+            <p>...og råd/hjælp via:</p>
               <ul class="list-disc mb-8 ml-4">  
                 <li> 
                   Foredrag
