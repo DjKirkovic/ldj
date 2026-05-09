@@ -29,7 +29,7 @@ const AboutUs = () => {
           <p><b>Historie</b><br />
             Foto247 blev etableret i Danmark i 2014, med rødder tilbage til 2003. Da startede stifteren sin uddannelse.
             Firmaets filosofi er at tilbyde fantastiske foto-services til gode priser - og fleksibelt at tage hånd om dine kundeønsker.
-            Heraf kommer navnet foto247, som viser at vi er tilgængelige døgnet/ugen rundt for bedre at kunne hjælpe dig!<br /><br />
+            Heraf navnet foto247: vi er tilgængelige døgnet/ugen rundt for bedre at kunne hjælpe dig!<br /><br />
             Hvadend du er firmarepræsentant eller privatperson, er det vores fornøjelse at realisere dit næste foto-projekt. 
           </p>
 
