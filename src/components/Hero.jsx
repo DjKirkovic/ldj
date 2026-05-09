@@ -32,7 +32,7 @@ const Hero = () => {
 
       <div className="flex justify-between pt-2">
         {/* Left part */}
-        <div className="w-[41%]">
+        <div className="w-[21%]">
          
 <h4>Velkommen!</h4>
 
@@ -92,7 +92,7 @@ const Hero = () => {
         </div>
 
         {/* Right part */}
-        <div className="w-[55%] bg-[#212428] p-2 rounded-lg shadow-md shadow-black overflow-hidden group">
+        <div className="w-[75%] bg-[#212428] p-2 rounded-lg shadow-md shadow-black overflow-hidden group">
           <div className="overflow-hidden rounded-md">
             <img
               src={AboutUsImg}
