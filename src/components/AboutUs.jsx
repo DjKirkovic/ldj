@@ -47,7 +47,7 @@ const AboutUs = () => {
 
           <p><b>Bookings</b><br />
             Bookings foretages nemt: Kontakt os, fortæl hvad du vil have / har brug for, og vi skaber sammen din fotovision.<br />
-            Vi håndterer et utal af opgaver, og er du i tvivl om hvorvidt vi kan hjælpe, spørg da bare - så finder vi en løsning!<br />
+            Vi håndterer et utal af opgaver. Er du i tvivl om hvorvidt vi kan hjælpe, spørg da bare, så finder vi en løsning!<br />
           </p>
 
           <p><b>Priser</b><br />
