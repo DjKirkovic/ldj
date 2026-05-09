@@ -71,7 +71,7 @@ const AboutUs = () => {
                   SOS/Krisefotohjælp: Basisrate plus eventuelt tillæg &#40;se Services - SOS&#41; 
                 </li>
                 <li> 
-                  Rejser/Ture: Givet typisk længere varighed, tilbydes disse per tur &#40;se Services - Ture&#41; 
+                  Rejser/Ture: Givet typisk længere varighed, tilbydes rater per tur fremfor tidsbaseret &#40;se Services - Ture&#41; 
                 </li>
               </ol>
             </p>
