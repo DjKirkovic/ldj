@@ -88,7 +88,7 @@ const inputStyle = "flex-1 rounded-md bg-black text-white px-6 py-2  outline-non
               <p className="text-sm uppercase">Din email</p>
               <input
                 type="email"
-                placeholder="fx ditnavn@webmaster.dk"
+                placeholder="fx ditnavn@dinmailhost.dk"
                 className={inputStyle}
                 name="email"
               />
@@ -97,7 +97,7 @@ const inputStyle = "flex-1 rounded-md bg-black text-white px-6 py-2  outline-non
               <p className="text-sm uppercase">Emne</p>
               <input
                 type="text"
-                placeholder="fx bookinganmodning"
+                placeholder="fx booking"
                 className={inputStyle}
                 name="subject"
               />
