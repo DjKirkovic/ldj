@@ -51,9 +51,9 @@ const AboutUs = () => {
           </p>
 
           <p><b>Priser</b><br />
-            Vi har <i>konkurrencedygtige priser</i> til både private og virksomheder. Prisen er en kombination af opgave, tid, sted osv.<br />
-            Ikke to opgaver er ens. Hermed giver det ikke mening nøjagtigt at angive her på siden. I stedet er her nogle guide-priser:<br />
-            OBS: Disse basisrater inkluderer ikke transport, aften/nattillæg, særlig billedleveringsformer eller andre ekstraudgifter.
+            Vi har <i>konkurrencedygtige priser</i> til private og virksomheder. Prisen er en kombination af opgave, tid, sted osv.<br />
+            Ikke to opgaver er ens, hermed giver det ikke mening nøjagtigt at angive. I stedet er her nogle guide-priser:<br />
+            OBS: Disse basisrater inkluderer ikke transport, aften/nattillæg, særlig billedleveringsformer eller andre ekstraudgifter.<br />
               <ol class="list-disc mb-8 ml-4">  
                 <li>
                   Basisrate: 500kr / time &#40;fx Portrætter, Produkter, Foredrag og Rådgivning&#41; 
