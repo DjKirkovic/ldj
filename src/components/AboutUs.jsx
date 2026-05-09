@@ -34,7 +34,7 @@ const AboutUs = () => {
           </p>
 
           <p><b>Stifter</b><br />
-            Mød Martin. Han er baseret i Danmark, men er langtfra stereotypisk dansk. Med 50% egyptisk blod, var han endvidere bosat 11 år i England.
+            Mød Martin. Han er baseret i Danmark, men er langtfra stereotypisk dansk. Med 50% egyptisk blod, var han bosat 11 år i England.
             Han repræsenterer to nationaliteter mere via ægteskab, og har rejst i 40+ lande.<br /><br />
             Martin har en BSc Multimedieproduktion & har arbejdet som prof. fotograf i 7+ år. Hans erfaring tæller en bred vifte af fotogenrer, han har arbejdet over fire kontinenter, og kunder inkluderer både private og VIPs, medieorganisationer og kendte firmaer som BBC og NASA.    
           </p>
