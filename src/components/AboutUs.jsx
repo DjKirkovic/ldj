@@ -44,6 +44,35 @@ const AboutUs = () => {
             Han repræsenterer to nationaliteter mere via ægteskab, og har rejst i 40+ lande.<br /><br />
             Martin har en BSc Multimedieproduktion og har arbejdet som prof. fotograf i 7+ år. Hans erfaring tæller en bred vifte af fotogenrer, han har arbejdet over fire kontinenter, og kunder inkluderer private samt VIPs, medieorganisationer og kendte firmaer som BBC og NASA.    
           </p>
+
+          <p><b>Bookings</b><br />
+            Bookings foretages nemt: Kontakt os, fortæl hvad du vil have / har brug for, og vi skaber sammen din fotovision.<br />
+            Vi håndterer et utal af opgaver, og er du i tvivl om hvorvidt vi kan hjælpe, spørg da bare - så finder vi en løsning!<br />
+          </p>
+
+          <p><b>Priser</b><br />
+            Vi har <i>konkurrencedygtige priser</i> til både private og virksomheder. Prisen er en kombination af opgave, tid, sted osv.<br />
+            Ikke to opgaver er ens. Hermed giver det ikke mening nøjagtigt at angive her på siden. I stedet er her nogle guide-priser:<br />
+            OBS: Disse basisrater inkluderer ikke transport, aften/nattillæg, særlig billedleveringsformer eller andre ekstraudgifter.
+              <ol class="list-disc mb-8 ml-4">  
+                <li>
+                  Basisrate: 500kr / time &#40;fx Portrætter, Produkter, Foredrag og Rådgivning&#41; 
+                </li>
+                <li> 
+                  Events: 700kr / time. 2.000 / 3 timer. 3.000 / 5 timer. 5.000 / 8 timer 
+                </li>
+                <li> 
+                  Natur/Arkitektur/Stock fotos: Pris baseret på billedbehov, fremfor timepris
+                </li>
+                <li> 
+                  Bryllup: Eventsrate plus 200kr / time &#40;for årsager, se Services - Events&#41;
+                </li>
+                <li> 
+                  SOS/Krisefotohjælp: Basisrate plus givent tillæg &#40;se Services - SOS&#41; 
+                </li>
+              </ol>
+            </p>
+
           <p><b>Feedback</b><br />
             Feedback, positiv som negativ, er altid velkommen. Gå til Kontakt siden, og hjælp os til at hjælpe dig <i>bedre</i>! 
           </p>
