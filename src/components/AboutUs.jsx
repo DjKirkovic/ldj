@@ -72,7 +72,6 @@ const AboutUs = () => {
                 </li>
               </ol>
             </p>
-
           <p><b>Feedback</b><br />
             Feedback, positiv som negativ, er altid velkommen. Gå til Kontakt siden, og hjælp os til at hjælpe dig <i>bedre</i>! 
           </p>
