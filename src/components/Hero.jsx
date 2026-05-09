@@ -37,7 +37,7 @@ const Hero = () => {
 <h4>Velkommen!</h4>
 
           <div className="text-base text-lightText pt-8 font-medium">
-            <p class="mb-8">Vi tilbyder professionelle fotos inden for:</p>
+            <p>Vi tilbyder professionelle fotos inden for:</p>
               <ul class="list-disc mb-8 ml-4">  
                 <li> 
                   Portræt
@@ -58,7 +58,7 @@ const Hero = () => {
                   Med mere...
                 </li>
                 </ul>
-            <p class="mb-8">...og råd/hjælp med:</p>
+            <p>...og råd/hjælp med:</p>
               <ul class="list-disc mb-8 ml-4">  
                 <li> 
                   Foredrag
