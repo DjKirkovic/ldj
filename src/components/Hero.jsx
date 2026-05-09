@@ -97,17 +97,17 @@ const Hero = () => {
             <img
               src={AboutUsImg}
               alt="Kameraer"
-              className="group-hover:scale-110 duration-500 rounded-md"
+              className="group-hover:scale-200 duration-500 rounded-md"
             />
             <img
               src={CityImg}
               alt="Bybillede"
-              className="group-hover:scale-110 duration-500 rounded-md"
+              className="group-hover:scale-200 duration-500 rounded-md"
             />
             <img
               src={ballroom}
               alt="Ballroom"
-              className="group-hover:scale-110 duration-500 rounded-md"
+              className="group-hover:scale-200 duration-500 rounded-md"
             />
           </div>
         </div>
