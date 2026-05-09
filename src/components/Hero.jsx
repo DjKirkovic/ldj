@@ -30,7 +30,7 @@ const Hero = () => {
           </h2>
       </div>
 
-      <div className="flex justify-between pt-10">
+      <div className="flex justify-between pt-2">
         {/* Left part */}
         <div className="w-[41%]">
          
