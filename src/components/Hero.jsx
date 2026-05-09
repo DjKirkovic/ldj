@@ -92,7 +92,7 @@ const Hero = () => {
         </div>
 
         {/* Right part */}
-        <div className="w-[30%] bg-[#212428] p-2 rounded-lg shadow-md shadow-black overflow-hidden group">
+        <div className="w-[30%] bg-[#212428] rounded-lg shadow-md shadow-black overflow-hidden group">
           <div className="overflow-hidden rounded-md">
             <img
               src={AboutUsImg}
