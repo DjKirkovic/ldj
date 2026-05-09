@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "./Container";
 import AboutUsImg from "../assets/400400.png";
+import FounderImg from "../assets/founder.jpg";
 import Button from "./ui/Button";
 import Subtitle from "./ui/Subtitle";
 import Title from "./ui/Title";
@@ -19,6 +20,11 @@ const AboutUs = () => {
             <img
               src={AboutUsImg}
               alt="AboutUsImage"
+              className="group-hover:scale-110 duration-500 rounded-md"
+            />
+            <img
+              src={FounderImg}
+              alt="FounderImage"
               className="group-hover:scale-110 duration-500 rounded-md"
             />
           </div>
