@@ -58,7 +58,7 @@ const inputStyle = "flex-1 rounded-md bg-black text-white px-6 py-2  outline-non
               alt="tlf."
               className="rounded-md group-hover:scale-110 duration-500"
             />
-            <p className="uppercase">Find mig på:</p>
+            <p className="uppercase">Find os på:</p>
           </div>
           <SocialIcon />
         </div>
