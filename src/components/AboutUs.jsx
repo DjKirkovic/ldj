@@ -70,6 +70,9 @@ const AboutUs = () => {
                 <li> 
                   SOS/Krisefotohjælp: Basisrate plus givent tillæg &#40;se Services - SOS&#41; 
                 </li>
+                <li> 
+                  Rejser/Ture: Givet typisk længere varighed, tilbydes disse per tur &#40;se Services - Ture&#41; 
+                </li>
               </ol>
             </p>
           <p><b>Feedback</b><br />
