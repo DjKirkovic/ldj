@@ -68,7 +68,7 @@ const AboutUs = () => {
                   Bryllup: Eventsrate plus 200kr / time &#40;for årsager, se Services - Events&#41;
                 </li>
                 <li> 
-                  SOS/Krisefotohjælp: Basisrate plus givent tillæg &#40;se Services - SOS&#41; 
+                  SOS/Krisefotohjælp: Basisrate plus eventuelt tillæg &#40;se Services - SOS&#41; 
                 </li>
                 <li> 
                   Rejser/Ture: Givet typisk længere varighed, tilbydes disse per tur &#40;se Services - Ture&#41; 
