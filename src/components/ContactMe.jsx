@@ -47,7 +47,7 @@ const inputStyle = "flex-1 rounded-md bg-black text-white px-6 py-2  outline-non
             <img
               src={contact1}
               alt="kontakt"
-              className="rounded-md group-hover:scale-110 duration-500"
+              className="w-[50%] rounded-md group-hover:scale-110 duration-500"
             />
           </div>
           <div className="py-5 flex flex-col gap-2">
