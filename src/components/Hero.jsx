@@ -40,7 +40,7 @@ const Hero = () => {
             <p>Vi tilbyder professionelle fotos inden for:</p>
               <ul class="list-disc mb-8 ml-4">  
                 <li> 
-                  Portræt
+                  <Link to={"#/studie"}>Portræt</Link>
                 </li>
                 <li> 
                   Events
