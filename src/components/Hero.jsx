@@ -44,7 +44,7 @@ const Hero = () => {
                   <Link to={"studie"} className="text-blue-500" hover="text-violet-600">Portræt</Link>
                 </li>
                 <li> 
-                  <Link to={"event"} className="text-blue-500" hover="text-violet-600">Portræt</Link>
+                  <Link to={"event"} className="text-blue-500" hover="text-green-600">Events</Link>
                 </li>
                 <li> 
                   Natur
