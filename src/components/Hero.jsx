@@ -41,10 +41,10 @@ const Hero = () => {
             <p>Vi tilbyder professionelle fotos inden for:</p>
               <ul class="list-disc mb-8 ml-4">  
                 <li> 
-                  <Link to={"studie"} className="text-blue-500" hover="text-violet-600">Portræt</Link>
+                  <Link to={"studie"} className="text-blue-500" hover="text-red-500">Portræt</Link>
                 </li>
                 <li> 
-                  <Link to={"event"} className="text-blue-500" hover="text-green-600">Events</Link>
+                  <Link to={"event"} className="text-blue-500" hover="text-red-500">Events</Link>
                 </li>
                 <li> 
                   Natur
