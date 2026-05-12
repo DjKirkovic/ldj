@@ -46,7 +46,7 @@ const Hero = () => {
                   </span>
                 </li>
                 <li> 
-                  <button class="bg-sky-500 hover=bg-red-500">
+                  <button class="text-sky-500 hover=text-red-500">
                   <Link to={"event"}>Events</Link>
                   </button>
                 </li>
