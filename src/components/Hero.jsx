@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React from "react";
 import Container from "./Container";
 import { Typewriter } from "react-simple-typewriter";
@@ -8,15 +9,6 @@ import Button from "./ui/Button";
 import TitleHome from "./ui/TitleHome";
 
 const Hero = () => {
-  const words = [
-    "Udforsk",
-    "Opdag",
-    "Nå dine fotomål",
-    /*    "Communications Specialist",
-    "Project Manager",
-    "Life Coach",
-    "Content Creator",*/
-  ];
 
   const BG = '../banner.jpg';
 
