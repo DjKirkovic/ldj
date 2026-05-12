@@ -53,7 +53,7 @@ const Hero = () => {
               </p>
 
               <p class="mb-8">
-                For akut fotoassistance, klik på 'kontakt' og ring/skriv!
+                For akut fotoassistance, klik på <Link to={"kontakt"} class="text-blue-500 hover:text-green-500">kontakt</Link> og ring/skriv!
               </p>
           </div>
         </div>
