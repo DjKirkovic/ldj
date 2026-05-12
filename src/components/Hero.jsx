@@ -9,16 +9,7 @@ import Button from "./ui/Button";
 import TitleHome from "./ui/TitleHome";
 
 const Hero = () => {
-/*  const words = [
-    "Udforsk",
-    "Opdag",
-    "Nå dine fotomål",
-    /*    "Communications Specialist",
-    "Project Manager",
-    "Life Coach",
-    "Content Creator",
-  ];
-  */
+/*const words = ["Udforsk","Opdag","Nå dine fotomål","Communications Specialist","Project Manager","Life Coach","Content Creator",];*/
   const BG = '../banner.jpg';
 
   return (
@@ -46,29 +37,16 @@ const Hero = () => {
                 <li><Link to={"produkt"} class="text-blue-500 hover:text-green-500">Produkt</Link></li>
                 <li><Link to={"byg"} class="text-blue-500 hover:text-green-500">Arkitektur</Link></li>
                 <li><Link to={"divfoto"} class="text-blue-500 hover:text-green-500">Mere / Div. Foto</Link></li>
-                </ul>
+              </ul>
             <p>...og råd/hjælp via:</p>
-              <ul class="list-disc mb-8 ml-4">  
-                <li> 
-                  Foredrag
-                </li>
-                <li> 
-                  Indsigt / Undervisning
-                </li>
-                <li> 
-                  Rejser / Ture
-                </li>
-                <li> 
-                  Samarbejde
-                </li>
-                <li> 
-                  Teknik / Udstyr
-                </li>
-                <li>
-                  SOS / Krisefotohjælp
-                </li>
-                </ul>
-
+              <ul class="list-disc mb-8 ml-4">
+                <li><Link to={"taler"} class="text-blue-500 hover:text-green-500">Foredrag</Link></li>
+                <li><Link to={"raad"} class="text-blue-500 hover:text-green-500">Indsigt / Undervisning</Link></li>
+                <li><Link to={"ture"} class="text-blue-500 hover:text-green-500">Rejser / Ture</Link></li>
+                <li><Link to={"sammen"} class="text-blue-500 hover:text-green-500">Samarbejde</Link></li>
+                <li><Link to={"teknik"} class="text-blue-500 hover:text-green-500">Teknik / Udstyr</Link></li>
+                <li><Link to={"sos"} class="text-blue-500 hover:text-green-500">SOS / Krisefotohjælp</Link></li>
+              </ul>
               
               <p class="mb-8">
                 Brug topmenuen for at navigere rundt på websiden.
