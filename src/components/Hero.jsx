@@ -40,20 +40,12 @@ const Hero = () => {
           <div className="text-base text-lightText pt-8 font-medium">
             <p>Vi tilbyder professionelle fotos inden for:</p>
               <ul class="list-disc mb-8 ml-4">  
-                <li><Link to={"studie"} class="text-blue-500 hover:text-red-500">Portræt</Link></li>
+                <li><Link to={"studie"} class="text-blue-500 hover:text-green-500">Portræt</Link></li>
                 <li><Link to={"event"} class="text-blue-500 hover:text-green-500">Events</Link></li>
-                <li> 
-                  <Link to={"natur"}>Natur</Link>
-                </li>
-                <li> 
-                  Produkt
-                </li>
-                <li> 
-                  Arkitektur
-                </li>
-                <li> 
-                  Med mere...
-                </li>
+                <li><Link to={"natur"} class="text-blue-500 hover:text-green-500">Natur</Link></li>
+                <li><Link to={"produkt"} class="text-blue-500 hover:text-green-500">Produkt</Link></li>
+                <li><Link to={"byg"} class="text-blue-500 hover:text-green-500">Arkitektur</Link></li>
+                <li><Link to={"divfoto"} class="text-blue-500 hover:text-green-500">Mere / Div. Foto</Link></li>
                 </ul>
             <p>...og råd/hjælp via:</p>
               <ul class="list-disc mb-8 ml-4">  
