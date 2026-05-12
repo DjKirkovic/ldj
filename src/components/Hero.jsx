@@ -46,7 +46,9 @@ const Hero = () => {
                   </span>
                 </li>
                 <li> 
-                  <Link to={"event"} className="text-blue-500" hover="text-red-500">Events</Link>
+                  <button class="bg-sky-500 hover=bg-red-500">
+                  <Link to={"event"}>Events</Link>
+                  </button>
                 </li>
                 <li> 
                   Natur
