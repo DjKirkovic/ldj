@@ -9,7 +9,16 @@ import Button from "./ui/Button";
 import TitleHome from "./ui/TitleHome";
 
 const Hero = () => {
-
+/*  const words = [
+    "Udforsk",
+    "Opdag",
+    "Nå dine fotomål",
+    /*    "Communications Specialist",
+    "Project Manager",
+    "Life Coach",
+    "Content Creator",
+  ];
+  */
   const BG = '../banner.jpg';
 
   return (
@@ -32,7 +41,7 @@ const Hero = () => {
             <p>Vi tilbyder professionelle fotos inden for:</p>
               <ul class="list-disc mb-8 ml-4">  
                 <li> 
-                  <Link to={"#/studie"}>Portræt</Link>
+                  <Link to={"studie"}>Portræt</Link>
                 </li>
                 <li> 
                   Events
