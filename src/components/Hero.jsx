@@ -24,9 +24,9 @@ const Hero = () => {
 
       <div className="flex justify-between pt-2">
         {/* Left part */}
-        <div className="w-[65%]">
+        <div className="w-[65%] pl-2">
          
-<h4>Velkommen!</h4>
+          <h4>Velkommen!</h4>
 
           <div className="text-base text-lightText pt-4 font-medium">
             <p>Vi tilbyder professionelle fotos:</p>
