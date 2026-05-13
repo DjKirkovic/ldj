@@ -85,7 +85,7 @@ export const featuresData = [
     //icon: <IoBookOutline />,
     title: "Samarbejde",
     description:
-      "Samarbejde med dit firma, delt servicelevering,...",
+      "Samarbejde med firmaer, delt levering, råd, sparring,...",
     link: "#/sammen",
   },
   {
@@ -100,7 +100,7 @@ export const featuresData = [
   {
     id: 12,
     //icon: <IoBookOutline />,
-    title: "SOS / Krisefotohjælp",
+    title: "SOS / Krisehjælp",
     description:
       "Haste/last-minute hjælp (fotograf, råd, udstyr),...",
     link: "#/sos",
