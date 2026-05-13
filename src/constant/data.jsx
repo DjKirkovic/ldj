@@ -28,7 +28,7 @@ export const featuresData = [
     //icon: <AiOutlineMenu />,
     title: "Natur",
     description:
-      "Landskab, dyreliv, planter, miljøer, geografi, destinationer,...",
+      "Landskab, dyreliv, planter, miljøer, habitater, geografi, destinationer,...",
     link: "#/natur",
   },
   {
