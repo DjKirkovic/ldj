@@ -19,7 +19,7 @@ export const featuresData = [
     //icon: <AiOutlineMenu />,
     title: "Events",
     description:
-      "Arrangementer (fx bryllup, konfirmation), firmaevents, konferencer, udstillinger, messer,...",
+      "Arrangementer (fx bryllup, konfirmation), firmaevents, konferencer, udstillinger, shows,...",
     //link: onClick={()=>console.log(item)}
     link: "#/event",
   },
@@ -60,7 +60,7 @@ export const featuresData = [
     //icon: <IoBookOutline />,
     title: "Foredrag",
     description:
-      "Foredrag, tale/seminar, pop-up shop, optræden...",
+      "Foredrag, tale/seminar, pop-up shop, optræden, messer...",
     //link: onClick={()=>console.log(item)}
     link: "#/taler",
   },
