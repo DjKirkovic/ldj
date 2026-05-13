@@ -15,7 +15,7 @@ const AboutUs = () => {
       </div>
       <div className="flex justify-between pt-10">
         {/* Left part */}
-        <div className="w-[35%] bg-[#212428] p-10 rounded-lg shadow-md shadow-black overflow-hidden group">
+        <div className="w-[35%] bg-[#212428] p-2 rounded-lg shadow-md shadow-black overflow-hidden group">
           <div className="overflow-hidden rounded-md">
             <img
               src={AboutUsImg}
