@@ -60,7 +60,7 @@ export const featuresData = [
     //icon: <IoBookOutline />,
     title: "Foredrag",
     description:
-      "Foredrag, taler, seminarer, optrædener, pop-up shop,...",
+      "Foredrag, tale/seminar, pop-up shop, optræden...",
     //link: onClick={()=>console.log(item)}
     link: "#/taler",
   },
