@@ -85,7 +85,7 @@ export const featuresData = [
     //icon: <IoBookOutline />,
     title: "Samarbejde",
     description:
-      "Firmaordning, delt levering, sparring, råd/ideer,...",
+      "Firmaordning, delt levering, sparring, råd/ideer, tiltag,...",
     link: "#/sammen",
   },
   {
