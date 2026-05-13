@@ -29,7 +29,7 @@ const Hero = () => {
 <h4>Velkommen!</h4>
 
           <div className="text-base text-lightText pt-8 font-medium">
-            <p>Vi tilbyder professionelle fotos inden for:</p>
+            <p>Vi tilbyder professionelle fotos via:</p>
               <ul class="list-disc mb-8 ml-4">  
                 <li><Link to={"studie"} class="text-blue-500 hover:text-green-500">Portræt</Link></li>
                 <li><Link to={"event"} class="text-blue-500 hover:text-green-500">Events</Link></li>
