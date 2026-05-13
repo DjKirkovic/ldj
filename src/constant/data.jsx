@@ -50,9 +50,9 @@ export const featuresData = [
   {
     id: 6,
     //icon: <AiOutlineMenu />,
-    title: "Mere / diverse foto",
+    title: "Mere / Diverse Foto",
     description:
-      "Andre genrer ikke (specifikt) nævnt ovenfor fx PR / mediedækning, mode, stock fotos,...",
+      "Andre genrer såsom PR / mediedækning, mode, stock fotos, research, mad, dokumentar,...",
     link: "#/divfoto",
   },
   {
