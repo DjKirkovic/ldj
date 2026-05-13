@@ -20,7 +20,7 @@ const AboutUs = () => {
             <img
               src={AboutUsImg}
               alt="AboutUsImage"
-              className="rounded-md items-center"
+              className="rounded-md self-center"
             />
             <img
               src={FounderImg}
