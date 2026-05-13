@@ -16,7 +16,9 @@ const AboutUs = () => {
       <div className="flex justify-between pt-10">
         {/* Left part */}
         <div className="w-[35%] bg-[#212428] p-2 rounded-lg shadow-md shadow-black overflow-hidden group">
-          <div className="overflow-hidden rounded-md">
+          <div className="overflow-hidden flex h-screen rounded-md">
+            
+  <div class="m-auto">
             <img
               src={AboutUsImg}
               alt="AboutUsImage"
@@ -27,6 +29,7 @@ const AboutUs = () => {
               alt="FounderImage"
               className="rounded-md"
             />
+            </div>
           </div>
         </div>
         {/* Right part */}
