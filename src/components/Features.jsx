@@ -17,7 +17,7 @@ const Features = () => {
         <Title title="Services" />
       </div>
       
-      <div className="grid grid-cols-3 gap-x-3 gap-y-2">
+      <div className="grid grid-cols-3 gap-x-2 gap-y-2">
         {featuresData.map((item) => (
             <FeatureCard key={item.id} item={item} />
         ))}
