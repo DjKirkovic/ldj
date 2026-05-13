@@ -36,7 +36,7 @@ export const featuresData = [
     //icon: <AiOutlineMenu />,
     title: "Produkt",
     description:
-      "Produkter, reklame, packshots, småting, makro (close-up),...",
+      "Produkter, reklame, packshots, småting, makro / close-up,...",
     link: "#/produkt",
   },
   {
@@ -60,7 +60,7 @@ export const featuresData = [
     //icon: <IoBookOutline />,
     title: "Foredrag",
     description:
-      "Foredrag, tale/seminar, pop-up shop, optræden, messer...",
+      "Foredrag, tale/seminar, pop-up shop, optræden, messer,...",
     //link: onClick={()=>console.log(item)}
     link: "#/taler",
   },
