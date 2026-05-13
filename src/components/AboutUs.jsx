@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "./Container";
 import AboutUsImg from "../assets/400400.png";
-import FounderImg from "../assets/founder.jpg";
+import FounderImg from "../assets/founder4x4.jpg";
 import Button from "./ui/Button";
 import Subtitle from "./ui/Subtitle";
 import Title from "./ui/Title";
@@ -20,7 +20,7 @@ const AboutUs = () => {
             <img
               src={AboutUsImg}
               alt="AboutUsImage"
-              className="rounded-md self-center"
+              className="rounded-md"
             />
             <img
               src={FounderImg}
