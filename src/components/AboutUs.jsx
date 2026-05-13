@@ -20,12 +20,12 @@ const AboutUs = () => {
             <img
               src={AboutUsImg}
               alt="AboutUsImage"
-              className="group-hover:scale-110 duration-500 rounded-md"
+              className="rounded-md"
             />
             <img
               src={FounderImg}
               alt="FounderImage"
-              className="group-hover:scale-110 duration-500 rounded-md"
+              className="rounded-md"
             />
           </div>
         </div>
