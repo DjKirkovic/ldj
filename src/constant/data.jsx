@@ -52,7 +52,7 @@ export const featuresData = [
     //icon: <AiOutlineMenu />,
     title: "Mere / Diverse Foto",
     description:
-      "Andre genrer: PR, mode, stock, research, mad,...",
+      "Andre genrer: PR, mode, stock fotos, research, mad,...",
     link: "#/divfoto",
   },
   {
