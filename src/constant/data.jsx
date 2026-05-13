@@ -50,9 +50,9 @@ export const featuresData = [
   {
     id: 6,
     //icon: <AiOutlineMenu />,
-    title: "Mere / Andet",
+    title: "Mere/Andet",
     description:
-      "Andre genrer: PR, mode, stock fotos, research, mad,...",
+      "Andre genrer: PR, mode, stock fotos, research, mad, dokumentar...",
     link: "#/divfoto",
   },
   {
