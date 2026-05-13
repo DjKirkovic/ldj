@@ -77,7 +77,7 @@ export const featuresData = [
     //icon: <IoBookOutline />,
     title: "Rejser / Ture",
     description:
-      "Gruppeture, studieture, on-location rejser, test/research,...",
+      "On-location, studie/test, gruppeture, rejser, research,...",
     link: "#/ture",
   },
   {
