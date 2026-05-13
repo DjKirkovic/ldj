@@ -52,7 +52,7 @@ export const featuresData = [
     //icon: <AiOutlineMenu />,
     title: "Mere/Andet",
     description:
-      "Andre genrer: PR, mode, stock fotos, research, mad, kultur...",
+      "Andre genrer: PR, mode, stock fotos, research, kultur, mad, dokumentar...",
     link: "#/divfoto",
   },
   {
