@@ -38,7 +38,7 @@ const Hero = () => {
                 <li><Link to={"byg"} class="text-blue-500 hover:text-green-500">Arkitektur</Link></li>
                 <li><Link to={"divfoto"} class="text-blue-500 hover:text-green-500">Mere / Div. Foto</Link></li>
               </ul>
-            <p>...og råd/hjælp via:</p>
+            <p>...og råd/hjælp inden for:</p>
               <ul class="list-disc mb-8 ml-4">
                 <li><Link to={"taler"} class="text-blue-500 hover:text-green-500">Foredrag</Link></li>
                 <li><Link to={"raad"} class="text-blue-500 hover:text-green-500">Indsigt / Undervisning</Link></li>
