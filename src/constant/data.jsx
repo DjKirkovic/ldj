@@ -19,7 +19,7 @@ export const featuresData = [
     //icon: <AiOutlineMenu />,
     title: "Events",
     description:
-      "Arrangementer (fx bryllup, konfirmation), firmaevents, konferencer, udstillinger, shows,...",
+      "Arrangementer (fx bryllup, konfirmation), firmaevents, konferencer, udstilling/show,...",
     //link: onClick={()=>console.log(item)}
     link: "#/event",
   },
