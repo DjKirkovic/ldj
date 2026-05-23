@@ -23,7 +23,7 @@ const Misc = () => {
                />
      </div>
 
-<p><br /><b>Andre billedgenrer<br /></b></b>
+<p><br /><b>Andre billedgenrer<br /></b></p>
 
 Vi tilbyder fotografering af mange andre genrer end hidtil nævnte, fx:
 
