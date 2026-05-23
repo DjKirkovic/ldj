@@ -23,7 +23,38 @@ const Misc = () => {
                />
      </div>
 
-<p><br /><b>Info på vej...<br /></b></p>
+<p><br /><b>Andre billedgenrer<br /></b></b>
+
+Vi tilbyder fotografering af mange andre genrer end hidtil nævnte, fx:
+
+<ol class="list-disc mb-8 ml-4">  
+                <li> 
+                  Luftfotos &#40;med drone&#41;
+                </li>
+                <li> 
+                  PR / pressedækning
+                </li>
+                <li> 
+                  Mode, inkl. tøj og livsstil
+                </li>
+                <li> 
+                  Stock - billeder af lige netop det motiv du søger til projektet, udgivelsen eller at hænge på væggen 
+                </li>
+                <li> 
+                  Research - fx. til supplement af skrevne værker
+                </li>
+                <li> 
+                  Kultur - fx. religion, skikke eller ritualer
+                </li>
+                <li> 
+                  Mad - anretninger, restaurantmenuer m.m.
+                </li>
+                <li> 
+                  Dokumentar - alle former for seriebilleder over tema
+                </li>
+  </ol>
+
+Endvidere tilbydes videofilmning efter dine behov. Kontakt os og hør nærmere om vores mange muligheder til dig.
 
     </Container>
   );
