@@ -51,9 +51,9 @@ const AboutUs = () => {
           </p>
 
           <p><b>Stifter</b><br />
-            Mød Martin. Han er dansker, men langtfra stereotypisk. Han taler 4 sprog og er i en 5-nationalitetsfamilie.<br /><br /> 
-            Bosat 11 år i Storbritannien, har han læst 3 videregående uddannelser, og har rejst i 40+ lande.<br /><br />
-            Martin har bl.a. en BSc Multimedieproduktion, været prof. fotograf i 7+ år og elsker top kundeservice.<br /><br />
+            Mød Martin. Han er dansker, men langtfra stereotypisk. Han taler 4 sprog og er i en 5-nationalitetsfamilie.<br /> 
+            Bosat 11 år i Storbritannien, har han læst 3 videregående uddannelser, og har rejst i 40+ lande.<br />
+            Martin har bl.a. en BSc Multimedieproduktion, været prof. fotograf i 7+ år og elsker top kundeservice.<br />
             Hans erfaring tæller mange fotogenrer, arbejde over 4 kontinenter, og kunder som VIPs, BBC, MIT og NASA.    
           </p>
 
