@@ -42,7 +42,7 @@ const AboutUs = () => {
           
           <p><b>Hvem er vi? &#40;kort fortalt&#41;</b><br />
             Foto247 tilbyder professionelle fotos og foto-services.<br />
-            Vi er 'on call' hele døgnet/ugen for bedre at kunne hjælpe dig / dit firma!<br /><br /> 
+            Vi er 'on call' hele døgnet/ugen for bedre at kunne hjælpe dig / dit firma!
           </p>
 
           <p><b>Historie</b><br />
