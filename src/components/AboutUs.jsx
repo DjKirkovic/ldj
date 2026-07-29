@@ -40,17 +40,21 @@ const AboutUs = () => {
         {/* Right part */}
         <div className="w-[61%] flex flex-col gap-7 text-black">
           
+          <p><b>Hvem er vi? &#40;kort fortalt&#41;</b><br />
+            Foto247 tilbyder professionelle fotos og foto-services.<br /><br />
+            Vi er 'on call' hele døgnet/ugen for bedre at kunne hjælpe dig / dit firma!<br /><br /> 
+          </p>
+
           <p><b>Historie</b><br />
-            Foto247 blev etableret i Danmark i 2014, med rødder tilbage til 2003. Da startede stifteren sin uddannelse.
-            Firmaets filosofi er at tilbyde fantastiske foto-services til gode priser - og fleksibelt at tage hånd om dine kundeønsker.
-            Heraf navnet foto247: vi er tilgængelige døgnet/ugen rundt for bedre at kunne hjælpe dig!<br /><br />
-            Hvadend du er firmarepræsentant eller privatperson, er det vores fornøjelse at realisere dit næste foto-projekt. 
+            Foto247 blev etableret i Danmark i 2014, med rødder tilbage til 2003. Da startede stifteren sin uddannelse.<br /><br />
+            Siden har alt fra privatpersoner til lokalsamfund - og endda NASA - fået skabt resultater med vores hjælp. 
           </p>
 
           <p><b>Stifter</b><br />
-            Mød Martin. Han er baseret i Danmark, men er langtfra stereotypisk dansk. Med 50% egyptisk blod, var han bosat 11 år i England.
-            Han repræsenterer to nationaliteter mere via ægteskab, og har rejst i 40+ lande.<br /><br />
-            Martin har en BSc Multimedieproduktion og har arbejdet som prof. fotograf i 7+ år. Hans erfaring tæller en bred vifte af fotogenrer, han har arbejdet over fire kontinenter, og kunder inkluderer private samt VIPs, medieorganisationer og kendte firmaer som BBC og NASA.    
+            Mød Martin. Han er dansker, men langtfra stereotypisk. Han taler 4 sprog og er i en 5-nationalitetsfamilie.<br /><br /> 
+            Bosat 11 år i Storbritannien, har han læst 3 videregående uddannelser, og har rejst i 40+ lande.<br /><br />
+            Martin har bl.a. en BSc Multimedieproduktion, været prof. fotograf i 7+ år og elsker top kundeservice.<br /><br />
+            Hans erfaring tæller mange fotogenrer, arbejde over 4 kontinenter, og kunder som VIPs, BBC, MIT og NASA.    
           </p>
 
           <p><b>Bookings</b><br />
@@ -60,7 +64,7 @@ const AboutUs = () => {
 
           <p><b>Priser</b><br />
             Vi har <i>konkurrencedygtige priser</i> til private og virksomheder. Prisen er en kombination af opgave, tid, sted osv.<br />
-            Ikke to opgaver er ens, hermed giver det ikke mening nøjagtigt at angive. I stedet er her nogle guide-priser:<br />
+            Ikke to opgaver er ens, hermed er det umuligt nøjagtigt at angive. I stedet er her nogle guide-priser:<br />
             &#40;<i>OBS: Disse inkluderer ikke transport, aften-/weekendtillæg, særlige leveringsformer eller andre ekstraudgifter</i>&#41;<br /><br />
               <ol class="list-disc mb-8 ml-4">  
                 <li>
