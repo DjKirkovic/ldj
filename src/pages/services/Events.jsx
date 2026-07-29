@@ -23,7 +23,50 @@ const Events = () => {
                />
      </div>
 
-<p><br /><b>Info på vej...<br /></b></p>
+<p><br /><b>Fang øjeblikkene - og del/gense dem!<br /></b>
+Inden for eventgenren er der oceaner af muligheder ifm. foto/video.<br />
+Hvorfor ikke få fotos og videoer af dit/jeres event, og lade lykken vare ved?!
+
+Eksempler på events:
+
+<ol class="list-disc mb-8 ml-4">  
+                <li> 
+                  Bryllup
+                </li>
+                <li> 
+                  Firmaarrangement 
+                </li>
+                <li> 
+                  Konfirmation
+                </li>
+                <li> 
+                  Udstilling / show
+                </li>
+                <li> 
+                  Konference
+                </li>
+                <li> 
+                  Koncert / optræden
+                </li>
+                </ol>
+
+Vi tilbyder:
+<ol class="list-disc mb-8 ml-4">
+                <li> 
+                  Enkeltarrangement
+                </li>
+                <li> 
+                  Flerarrangementløsninger &#40;fx tour eller serieevents&#41;
+                </li>
+                <li> 
+                  Verden - dit event dækket udenlands
+                </li>
+                </ol>
+
+Med bred eventerfaring fra store arrangementer på tværs af Europa, styrer vi dig/jer sikkert i mål med dine/jeres ønsker.<br />
+
+Haster dit event? Så klik på <Link to={"kontakt"} class="text-blue-500 hover:text-green-500">kontakt</Link> og ring/skriv!
+</p>
 
     </Container>
   );
