@@ -46,7 +46,7 @@ const AboutUs = () => {
           </p>
 
           <p><b>Historie</b><br />
-            Foto247 blev etableret i Danmark i 2014, med rødder tilbage til 2003. Da startede stifteren sin uddannelse.<br />
+            Etableret i Danmark i 2014, har Foto247 rødder tilbage til 2003. Da startede stifteren sin uddannelse.<br />
             Siden har alt fra privatpersoner til lokalsamfund - og endda NASA - fået skabt resultater med vores hjælp. 
           </p>
 
