@@ -26,7 +26,7 @@ const Nature = () => {
 
 <p><br /><b>Åbn øjnene for helt andre verdener!<br /></b>
 Landskaber og dyr kan bare nogle ting som ikke findes andre steder.<br />
-Måske trænger din firmavæg eller stue til nogle uimodståelige motiver og farver?!
+Måske trænger din firmavæg eller stue til nogle uimodståelige motiver og farver?!<br /><br />
 
 Eksempler på natur:
 

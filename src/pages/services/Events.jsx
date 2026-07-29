@@ -26,7 +26,7 @@ const Events = () => {
 
 <p><br /><b>Fang øjeblikkene - og del/gense dem!<br /></b>
 Inden for eventgenren er der oceaner af muligheder ifm. foto/video.<br />
-Hvorfor ikke få fotos og videoer af dit/jeres event, og lade lykken vare ved?!
+Hvorfor ikke få fotos og videoer af dit/jeres event, og lade lykken vare ved?!<br /><br />
 
 Eksempler på events:
 
