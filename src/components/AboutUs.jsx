@@ -41,12 +41,12 @@ const AboutUs = () => {
         <div className="w-[61%] flex flex-col gap-7 text-black">
           
           <p><b>Hvem er vi? &#40;kort fortalt&#41;</b><br />
-            Foto247 tilbyder professionelle fotos og foto-services.<br /><br />
+            Foto247 tilbyder professionelle fotos og foto-services.<br />
             Vi er 'on call' hele døgnet/ugen for bedre at kunne hjælpe dig / dit firma!<br /><br /> 
           </p>
 
           <p><b>Historie</b><br />
-            Foto247 blev etableret i Danmark i 2014, med rødder tilbage til 2003. Da startede stifteren sin uddannelse.<br /><br />
+            Foto247 blev etableret i Danmark i 2014, med rødder tilbage til 2003. Da startede stifteren sin uddannelse.<br />
             Siden har alt fra privatpersoner til lokalsamfund - og endda NASA - fået skabt resultater med vores hjælp. 
           </p>
 
