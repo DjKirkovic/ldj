@@ -26,7 +26,7 @@ const Hero = () => {
         {/* Left part */}
         <div className="w-[65%] pl-2">
          
-          <h4>Velkommen til top pro fotoservices, 24/7!</h4>
+          <h4>Velkommen til hjemmet for top pro fotoservices, 24/7!</h4>
 
           <div className="text-base text-lightText pt-4 font-medium">
             <p>Vi tilbyder:</p>
