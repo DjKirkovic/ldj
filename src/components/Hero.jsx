@@ -26,10 +26,10 @@ const Hero = () => {
         {/* Left part */}
         <div className="w-[65%] pl-2">
          
-          <h4>Velkommen!</h4>
+          <h4>Velkommen til hjemmet for topprofessionelle fotos!</h4>
 
           <div className="text-base text-lightText pt-4 font-medium">
-            <p>Vi tilbyder professionelle fotos:</p>
+            <p>Vi tilbyder:</p>
               <ul class="list-disc mb-4 ml-4">  
                 <li><Link to={"studie"} class="text-blue-500 hover:text-green-500">Portræt</Link></li>
                 <li><Link to={"event"} class="text-blue-500 hover:text-green-500">Events</Link></li>
@@ -49,7 +49,7 @@ const Hero = () => {
               </ul>
               
               <p class="mb-8">
-                Brug topmenuen for at navigere rundt på websiden.
+                Websiden er under ombygning &#40;august 2026&#41;, så hold øje med nyt på servicesider, om/kontakt og billedgalleri!
               </p>
 
               <p class="mb-8">
