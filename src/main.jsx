@@ -71,47 +71,47 @@ const router = createHashRouter([
         element: <Studio />,
       },
       { 
-        path: "/byg",
+        path: "/services/byg",
         element: <Built />,
       },
       { 
-        path: "/natur",
+        path: "/services/natur",
         element: <Nature />,
       },
       { 
-        path: "/produkt",
+        path: "/services/produkt",
         element: <Stuff />,
       },
       { 
-        path: "/event",
+        path: "/services/event",
         element: <Events />,
       },
       { 
-        path: "/divfoto",
+        path: "/services/divfoto",
         element: <Misc />,
       },
       { 
-        path: "/taler",
+        path: "/services/taler",
         element: <Speak />,
       },
       { 
-        path: "/raad",
+        path: "/services/raad",
         element: <Advice />,
       },
       { 
-        path: "/ture",
+        path: "/services/ture",
         element: <Trips />,
       },
       { 
-        path: "/sammen",
+        path: "/services/sammen",
         element: <Coop />,
       },
       { 
-        path: "/teknik",
+        path: "/services/teknik",
         element: <Tech />,
       },
       { 
-        path: "/sos",
+        path: "/services/sos",
         element: <SOS />,
       },
       /*
