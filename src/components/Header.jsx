@@ -9,7 +9,7 @@ const Header = () => {
 
   const navigationArray = [
     { title: "Home", link: "/" },
-    { title: pathname.split('/')[2] ? pathname.split('/')[2] : "Services", link: "/services" },
+    { title: pathname.split('/')[2] ? pathname.split('/')[2] : "Services", link: ""+pathname },
     { title: "Fotos", link: "/fotos" },
     { title: "Om", link: "/om" },
     { title: "Kontakt", link: "/kontakt" },
@@ -28,7 +28,7 @@ const Header = () => {
             <Link key={link} to={link}>
               <p
                 className={`${
-                  (pathname === link) || (link === '/services' && pathname.split('/')[1] === link) ? "text-white" : "text-green-500" //"text-designColor" : "text-lightText"
+                  (pathname === link)  ? "text-white" : "text-green-500" //"text-designColor" : "text-lightText"
                 } text-sm uppercase font-semibold hover:text-blue-500 cursor-pointer duration-300 `}
               >
                 {title}
@@ -36,7 +36,10 @@ const Header = () => {
             </Link>
           ))}
 
-          
+          {/*
+          || (link === '/services' && pathname.split('/')[1] === link)
+          */}
+
         </div>
       </div>
     </header>
