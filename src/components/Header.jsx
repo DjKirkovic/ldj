@@ -9,8 +9,7 @@ const Header = () => {
 
   const navigationArray = [
     { title: "Home", link: "/" },
-    { title: "Services", link: "/services" },
-    { title: pathname.split('/')[2] === 'undefined' ? "" : pathname.split('/')[2], link: pathname },
+    { title: pathname.split('/')[2] === 'undefined' ? "Services" : pathname.split('/')[2], link: pathname },
     { title: "Fotos", link: "/fotos" },
     { title: "Om", link: "/om" },
     { title: "Kontakt", link: "/kontakt" },
