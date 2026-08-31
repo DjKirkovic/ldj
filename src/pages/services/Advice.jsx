@@ -43,7 +43,7 @@ Eksempler på fotoområder:
                   Køb/salg
                 </li>
                 <li> 
-                  Undervisning &#40;fx foredrag, tutoring eller 1:1 assistance&#41;
+                  Undervisning &#40;fx foredrag, tutoring, 1:1 assistance&#41;
                 </li>
                 </ol>
 
