@@ -5,12 +5,12 @@ import { useLocation } from "react-router-dom";
 
 const Header = () => {
   const location = useLocation();
-  const pathname = location.pathname.split('/', 2)[1];
+  const pathname = location.pathname;
 
   const navigationArray = [
     { title: "Home", link: "/" },
     { title: "Services", link: "/services" },
-    { title: "a"+pathname.split('/', 2)[1], link: "/services/studie" },
+    { title: "a"+pathname.split('/', 2)[2], link: "/services/studie" },
     { title: "Fotos", link: "/fotos" },
     { title: "Om", link: "/om" },
     { title: "Kontakt", link: "/kontakt" },
