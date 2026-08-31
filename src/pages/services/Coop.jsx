@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React from "react";
 import Container from "../../components/Container";
 import Subtitle from "../../components/ui/Subtitle";
@@ -18,13 +19,58 @@ const Coop = () => {
 <div className="overflow-hidden rounded-lg">
                <img
                  src={co}
-                 alt="Studie"
+                 alt="Samarbejde"
                  className="rounded-md group-hover:scale-110 duration-500"
                />
      </div>
 
-<p><br /><b>Info på vej...<br /></b></p>
+<p><br /><b>Vi er klar til at hjælpe dig, dit firma eller din organisation!<br /></b>
+Mangler du udstyr, ekstra fotograf, sparring eller ekstra hænder til workshop/foredrag?<br />
+Vi kan hjælpe dig med at nå i mål!<br /><br />
 
+Eksempler på vores samarbejdsservices:
+
+<ol class="list-disc mb-8 ml-4">  
+                 <li> 
+                  Udstyrslån
+                </li>
+                <li> 
+                  Fotografudlejning/-koordinering
+                </li>
+                <li> 
+                  Rådgivning/sparring
+                </li>
+                <li> 
+                  Arrangementbistand &#40;direktion, lyssætning, projektkoordinering, foredragstaler&#41;
+                </li>
+                <li> 
+                  Reklamering &#40;mystery shopping, branding/kommunikation, visuelt materiale&#41;
+                </li>
+                </ol>
+
+Vi tilbyder services til bl.a.:
+<ol class="list-disc mb-8 ml-4">
+                <li> 
+                  Enkeltpersons- som større virksomheder
+                </li>
+                <li> 
+                  Fotograf-/visuelle-/reklamevirksomheder
+                </li>
+                <li> 
+                  Arrangementafholdere
+                </li>
+                <li> 
+                  Uddannelsessteder og offentlige virksomheder  
+                </li>
+                <li> 
+                  VIPs - dine specifikke behov dækket
+                </li>
+                </ol>
+
+Med bred erfaring og fleksible løsninger, kan du stole på vores professionelle hjælp.<br />
+
+Haster dit behov? Så klik på <Link to={"kontakt"} class="text-blue-500 hover:text-green-500">kontakt</Link> og ring/skriv!
+</p>
     </Container>
   );
 };
