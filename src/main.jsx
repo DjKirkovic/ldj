@@ -67,7 +67,7 @@ const router = createHashRouter([
         element: <ContactPage />,
       },
       { 
-        path: "/studie",
+        path: "/services/studie",
         element: <Studio />,
       },
       { 
