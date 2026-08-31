@@ -10,7 +10,7 @@ const Header = () => {
   const navigationArray = [
     { title: "Home", link: "/" },
     { title: "Services", link: "/services" },
-    { title: "a"+pathname.split('/', 2)[2], link: "/services/studie" },
+    { title: "a"+pathname.split('/')[2], link: "/services/studie" },
     { title: "Fotos", link: "/fotos" },
     { title: "Om", link: "/om" },
     { title: "Kontakt", link: "/kontakt" },
