@@ -12,7 +12,7 @@ export const featuresData = [
     description:
       "Portrætfotos af mennesker, kæledyr, biler, favorit-outfittet, yndlingsejet,...",
     //link: onClick={()=>console.log(item)}
-    link: "#/studie",
+    link: "#/services/studie",
   },
   {
     id: 2,
