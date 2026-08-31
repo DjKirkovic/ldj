@@ -67,7 +67,7 @@ Vi tilbyder services til bl.a.:
                 </li>
                 </ol>
 
-Med bred erfaring og fleksible løsninger, kan du stole trygt på vores ekspertise.<br />
+Med bred erfaring og fleksible løsninger, kan du stole trygt på vores professionelle hjælp.<br />
 
 Haster dit behov? Så klik på <Link to={"kontakt"} class="text-blue-500 hover:text-green-500">kontakt</Link> og ring/skriv!
 </p>
