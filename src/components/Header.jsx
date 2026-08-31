@@ -5,7 +5,7 @@ import { useLocation } from "react-router-dom";
 
 const Header = () => {
   const location = useLocation();
-  const pathname = location.pathname;
+  const pathname = location.pathname.split('/', 2)[1];
 
   const navigationArray = [
     { title: "Home", link: "/" },
