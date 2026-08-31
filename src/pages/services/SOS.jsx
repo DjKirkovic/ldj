@@ -24,7 +24,7 @@ const SOS = () => {
      </div>
 
 
-<p><br /><b>SOS krisehjælp er guld værd...<br /></b>
+<p><br /><b>SOS krisehjælp - vi er her for dig...NU!<br /></b>
 Hvis du står med et SOS-behov, så læs videre!<br />
 Bemærk at assistance/opgaver som ikke er af SOS kaliber &#40;hverken tidspressende eller tilstrækkeligt vigtige/alvorlige&#41; behandles særskilt.<br /><br />
 Kontakt os på bedst mulige måde i forhold til din forespørgsels prioritet:<br />
