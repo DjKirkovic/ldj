@@ -36,10 +36,6 @@ const Header = () => {
             </Link>
           ))}
 
-          {/*
-          
-          */}
-
         </div>
       </div>
     </header>
