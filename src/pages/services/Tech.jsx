@@ -24,7 +24,7 @@ const Tech = () => {
                />
      </div>
 
-<p><br /><b>Søger du info og råd om fotoudstyr, -teknik og anvendelse?<br /></b>
+<p><br /><b>Søger du info og råd om fotoudstyr/-teknik/-anvendelse?<br /></b>
 Udstyr er et enormt bredt emne, og selvom vi aldrig kan komme 'helt rundt', kan vi hjælpe dig godt på vej.<br /><br />
 
 Eksempler på tilbudt udstyrshjælp:
