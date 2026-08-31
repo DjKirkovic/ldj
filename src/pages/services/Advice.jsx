@@ -62,7 +62,7 @@ Vi tilbyder flere leveringsformer:
 
 Med bred erfaring og fleksible løsninger, styrer vi dig/jer sikkert i mål med dine/jeres ønsker.<br />
 
-Haster dit event? Så klik på <Link to={"kontakt"} class="text-blue-500 hover:text-green-500">kontakt</Link> og ring/skriv!
+Haster dit behov? Så klik på <Link to={"kontakt"} class="text-blue-500 hover:text-green-500">kontakt</Link> og ring/skriv!
 </p>
 
     </Container>
