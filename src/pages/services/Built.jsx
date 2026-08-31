@@ -34,19 +34,19 @@ Eksempler på arkitekturprodukter:
                   Boliger &#40;leje/salg&#41;
                 </li>
                 <li> 
-                  Bygningsværker &#40;projektopførelser, bygningsfaser, vedligehold,... &#41;
+                  Bygningsværker &#40;projektopførelser, bygningsfaser, vedligehold&#41;
                 </li>
                 <li> 
-                  Landemærker &#40;slot, kirke/katedral, tårn, bro,...&#41;
+                  Landemærker &#40;slot, kirke/katedral, tårn, bro&#41;
                 </li>
                 <li> 
-                  Afbilding/Portrættering &#40;arkiv, historik,...&#41;
+                  Afbilding/Portrættering &#40;arkiv, historik&#41;
                 </li>
                 <li> 
                   Serie-/dokumentar &#40;bygningsrapportage&#41;
                 </li>
                 <li> 
-                  Arkitektonisk &#40;aspekter, facetter osv.&#41; 
+                  Arkitektonisk &#40;aspekter, facetter&#41; 
                 </li>
                 </ol>
 
@@ -59,7 +59,7 @@ Vi tilbyder:
                   Serie-/Gentagen dækning &#40;din lokation, udvalgte datoer&#41;
                 </li>
                 <li> 
-                  Særbestillinger - dit foretrukne motiv &#40;fx landemærket London Big Ben eller Eiffeltårnet &#41;
+                  Særbestillinger - dit foretrukne motiv &#40;fx landemærket London Big Ben eller Eiffeltårnet&#41;
                 </li>
                 </ol>
 
