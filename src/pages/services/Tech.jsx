@@ -66,7 +66,7 @@ Vi tilbyder flere leveringsformer:
                 </li>
                 </ol>
 
-Kontakt os og hør nærmere ift. hvad vi kan tilbyde dig eller dit firma!<br />
+Kontakt os og hør nærmere ift. hvad vi kan tilbyde dig eller dit firma.<br />
 
 Haster dit behov? Så klik på <Link to={"kontakt"} class="text-blue-500 hover:text-green-500">kontakt</Link> og ring/skriv!
 </p>
