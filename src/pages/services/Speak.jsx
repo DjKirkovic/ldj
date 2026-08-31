@@ -25,7 +25,7 @@ const Speak = () => {
 
 <p><br /><b>Foredrag om fotografering, fotografopgaver, oplevelser/erfaringer, udstyr og meget mere<br /></b>
 Du mangler en foredragstaler på fotoområdet? Læs nærmere her!<br />
-Vi har 10+ års professionel fotoerfaring på tværs af lande, kulturer, opgaver og kundespænd. Dét betyder gode historier, bred forståelse, stærk formidlingsevne og ikke mindst topkvalitets visuel inspiration.
+Vi har 10+ års professionel fotoerfaring &#40;på tværs af lande, kulturer, opgaver og kundespænd&#41; samt avanceret dansk/engelsk sprogerfaring. Dét betyder gode historier, bred forståelse, stærk formidlingsevne og ikke mindst topkvalitets visuel inspiration.
 Hermed kan du trygt stole på vores hjælp med levering fra en bred foredragsvifte ved dit næste arrangement!<br /><br />
 
 Eksempler på foredragsservices:
