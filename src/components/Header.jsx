@@ -28,7 +28,7 @@ const Header = () => {
             <Link key={link} to={link}>
               <p
                 className={`${
-                  pathname === link || pathname === '/services' ? "text-white" : "text-green-500" //"text-designColor" : "text-lightText"
+                  pathname === link || link === '/services' ? "text-white" : "text-green-500" //"text-designColor" : "text-lightText"
                 } text-sm uppercase font-semibold hover:text-blue-500 cursor-pointer duration-300 `}
               >
                 {title}
