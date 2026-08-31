@@ -32,20 +32,20 @@ const Hero = () => {
             <p>Vi tilbyder:</p>
               <ul class="list-disc mb-4 ml-4">  
                 <li><Link to={"services/studie"} class="text-blue-500 hover:text-green-500">Portræt</Link></li>
-                <li><Link to={"event"} class="text-blue-500 hover:text-green-500">Events</Link></li>
-                <li><Link to={"natur"} class="text-blue-500 hover:text-green-500">Natur</Link></li>
-                <li><Link to={"produkt"} class="text-blue-500 hover:text-green-500">Produkt</Link></li>
-                <li><Link to={"byg"} class="text-blue-500 hover:text-green-500">Arkitektur</Link></li>
-                <li><Link to={"divfoto"} class="text-blue-500 hover:text-green-500">Mere / Div. Foto</Link></li>
+                <li><Link to={"services/event"} class="text-blue-500 hover:text-green-500">Events</Link></li>
+                <li><Link to={"services/natur"} class="text-blue-500 hover:text-green-500">Natur</Link></li>
+                <li><Link to={"services/produkt"} class="text-blue-500 hover:text-green-500">Produkt</Link></li>
+                <li><Link to={"services/byg"} class="text-blue-500 hover:text-green-500">Arkitektur</Link></li>
+                <li><Link to={"services/divfoto"} class="text-blue-500 hover:text-green-500">Mere / Div. Foto</Link></li>
               </ul>
             <p>...og råd/hjælp inden for:</p>
               <ul class="list-disc mb-8 ml-4">
-                <li><Link to={"taler"} class="text-blue-500 hover:text-green-500">Foredrag</Link></li>
-                <li><Link to={"raad"} class="text-blue-500 hover:text-green-500">Indsigt / Undervisning</Link></li>
-                <li><Link to={"ture"} class="text-blue-500 hover:text-green-500">Rejser / Ture</Link></li>
-                <li><Link to={"sammen"} class="text-blue-500 hover:text-green-500">Samarbejde</Link></li>
-                <li><Link to={"teknik"} class="text-blue-500 hover:text-green-500">Teknik / Udstyr</Link></li>
-                <li><Link to={"sos"} class="text-blue-500 hover:text-green-500">SOS / Krisefotohjælp</Link></li>
+                <li><Link to={"services/taler"} class="text-blue-500 hover:text-green-500">Foredrag</Link></li>
+                <li><Link to={"services/raad"} class="text-blue-500 hover:text-green-500">Indsigt / Undervisning</Link></li>
+                <li><Link to={"services/ture"} class="text-blue-500 hover:text-green-500">Rejser / Ture</Link></li>
+                <li><Link to={"services/sammen"} class="text-blue-500 hover:text-green-500">Samarbejde</Link></li>
+                <li><Link to={"services/teknik"} class="text-blue-500 hover:text-green-500">Teknik / Udstyr</Link></li>
+                <li><Link to={"services/sos"} class="text-blue-500 hover:text-green-500">SOS / Krisefotohjælp</Link></li>
               </ul>
               
               <p class="mb-8">

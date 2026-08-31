@@ -21,7 +21,7 @@ export const featuresData = [
     description:
       "Arrangementer (fx bryllup, konfirmation), firmaevents, udstilling/show, konferencer...",
     //link: onClick={()=>console.log(item)}
-    link: "#/event",
+    link: "#/services/event",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ export const featuresData = [
     title: "Natur",
     description:
       "Landskab, dyreliv, planter, miljøer, habitater, geografi, destinationer,...",
-    link: "#/natur",
+    link: "#/services/natur",
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ export const featuresData = [
     title: "Produkt",
     description:
       "Produkter, reklame, packshots, småting, makro / close-up,...",
-    link: "#/produkt",
+    link: "#/services/produkt",
   },
   {
     id: 5,
@@ -45,7 +45,7 @@ export const featuresData = [
     title: "Arkitektur",
     description:
       "Bygninger, boliger, strukturer, landemærker, monumenter, cityscapes,...",
-    link: "#/byg",
+    link: "#/services/byg",
   },
   {
     id: 6,
@@ -53,7 +53,7 @@ export const featuresData = [
     title: "Mere/Andet",
     description:
       "Andre genrer: PR, mode, stock fotos, research, kultur, mad, dokumentar...",
-    link: "#/divfoto",
+    link: "#services/divfoto",
   },
   {
     id: 7,
@@ -62,7 +62,7 @@ export const featuresData = [
     description:
       "Foredrag, tale/seminar, pop-up shop, optræden, messe,...",
     //link: onClick={()=>console.log(item)}
-    link: "#/taler",
+    link: "#/services/taler",
   },
   {
     id: 8,
@@ -70,7 +70,7 @@ export const featuresData = [
     title: "Indsigt / Rådgivning",
     description:
       "Rådgivning, undervisning, skriftligt materiale,...",
-    link: "#/raad",
+    link: "#/services/raad",
   },
   {
     id: 9,
@@ -78,7 +78,7 @@ export const featuresData = [
     title: "Rejser / Ture",
     description:
       "On-location, studie/test, gruppeture, rejser, research,...",
-    link: "#/ture",
+    link: "#/services/ture",
   },
   {
     id: 10,
@@ -86,7 +86,7 @@ export const featuresData = [
     title: "Samarbejde",
     description:
       "Firmaordning, delt levering, sparring, råd/ideer, tiltag,...",
-    link: "#/sammen",
+    link: "#/services/sammen",
   },
   {
     id: 11,
@@ -95,7 +95,7 @@ export const featuresData = [
     description:
       "Udstyrshjælp, system/proces, funktioner, køb/salg,...",
     //link: onClick={()=>console.log(item)}
-    link: "#/teknik",
+    link: "#/services/teknik",
   },
   {
     id: 12,
@@ -103,7 +103,7 @@ export const featuresData = [
     title: "SOS / Krisehjælp",
     description:
       "Haste/last-minute hjælp (fotograf, råd, udstyr),...",
-    link: "#/sos",
+    link: "#/services/sos",
   },
   
   
