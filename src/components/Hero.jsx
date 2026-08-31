@@ -31,7 +31,7 @@ const Hero = () => {
           <div className="text-base text-lightText pt-4 font-medium">
             <p>Vi tilbyder:</p>
               <ul class="list-disc mb-4 ml-4">  
-                <li><Link to={"services/studie"} class="text-blue-500 hover:text-green-500">Portræt</Link></li>
+                <li><Link to={"services/studio"} class="text-blue-500 hover:text-green-500">Portræt</Link></li>
                 <li><Link to={"services/event"} class="text-blue-500 hover:text-green-500">Events</Link></li>
                 <li><Link to={"services/natur"} class="text-blue-500 hover:text-green-500">Natur</Link></li>
                 <li><Link to={"services/produkt"} class="text-blue-500 hover:text-green-500">Produkt</Link></li>
