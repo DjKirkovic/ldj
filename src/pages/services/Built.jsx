@@ -27,7 +27,7 @@ const Built = () => {
 Hvadend du ønsker at annoncere salgs-/lejeboliger, dække bygningsopførelser eller noget helt tredje, har vi en løsning.<br />
 Maksimér din indkomst, bygningshistorik, profil/indtryk eller andet med vores hjælp!<br /><br />
 
-Eksempler på produkter:
+Eksempler på arkitekturprodukter:
 
 <ol class="list-disc mb-8 ml-4">  
                 <li> 
