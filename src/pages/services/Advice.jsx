@@ -12,7 +12,7 @@ const Advice = () => {
     <div className="bg-primaryColour text-gray-200">  
         <Subtitle title="" />
         <div className="flex flex-col items-center mb-10">
-            <Title title="Services: Indsigt & Rådgivning" />
+            <Title title="Services: Indsigt & Råd" />
         </div>
    </div>
 
