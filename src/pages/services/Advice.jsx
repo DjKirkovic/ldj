@@ -25,7 +25,7 @@ const Advice = () => {
      </div>
 
 <p><br /><b>Mangler du indsigt, rådgivning eller har undervisningsbehov?<br /></b>
-Vi hjælper med en bred vifte af services, så du kan få fotorådgivning, -viden eller -undervisning til dit publikum.<br />
+Vi hjælper med en bred vifte af services, så du kan få fotorådgivning, -viden eller -undervisning til dit publikum.<br /><br />
 
 Eksempler på fotoområder:
 
@@ -38,9 +38,6 @@ Eksempler på fotoområder:
                 </li>
                 <li> 
                   Rådgivning
-                </li>
-                <li> 
-                  Køb/salg
                 </li>
                 <li> 
                   Undervisning &#40;fx foredrag, tutoring, 1:1 assistance&#41;
