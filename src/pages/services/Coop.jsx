@@ -24,7 +24,7 @@ const Coop = () => {
                />
      </div>
 
-<p><br /><b>Vi er klar til at hjælpe dig, dit firma eller din organisation!<br /></b>
+<p><br /><b>Tid til at hjælpe dit firma/din organisation!<br /></b>
 Mangler du udstyr, ekstra fotograf, sparring eller ekstra hænder til workshop/foredrag?<br />
 Vi kan hjælpe dig med at nå i mål!<br /><br />
 

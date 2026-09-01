@@ -23,7 +23,7 @@ const Trips = () => {
                />
      </div>
 
-<p><br /><b>Har du fototur- eller rejsebehov? Så læs nærmere...<br /></b>
+<p><br /><b>Har du fototur- eller rejsebehov/-lyst? Så kig her...<br /></b>
 Der er rigtig mange typer behov i denne kategori, og vi har løsninger til de fleste.<br />
 Få hjælp til at opnå netop dine ønsker!<br /><br />
 
