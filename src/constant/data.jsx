@@ -100,7 +100,7 @@ export const featuresData = [
   {
     id: 12,
     //icon: <IoBookOutline />,
-    title: "SOS / Krisehjælp",
+    title: "SOS Fotohjælp",
     description:
       "Haste/last-minute hjælp (fotograf, råd, udstyr),...",
     link: "#/services/sos",
