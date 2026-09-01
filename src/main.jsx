@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import Header from "./components/Header.jsx";
-import ScrollToTop from "./constant/ScrollToTop.jsx";
+import { ScrollToTop } from "./constant/ScrollToTop.jsx";
 import { Outlet, RouterProvider, createHashRouter } from "react-router-dom";
 import Footer from "./components/Footer.jsx";
 import About from "./pages/About.jsx";
