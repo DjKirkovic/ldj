@@ -11,7 +11,7 @@ const SOS = () => {
     <div className="bg-primaryColour text-gray-200">  
         <Subtitle title="" />
         <div className="flex flex-col items-center mb-10">
-            <Title title="Services: SOS / Krisefotohjælp" />
+            <Title title="Services: SOS Fotohjælp" />
         </div>
    </div>
 
@@ -24,7 +24,7 @@ const SOS = () => {
      </div>
 
 
-<p><br /><b>SOS krisehjælp - vi er her for dig...NU!<br /></b>
+<p><br /><b>SOS fotohjælp - vi er her for dig...NU!<br /></b>
 Hvis du står med et SOS-behov, så læs videre!<br />
 Bemærk at assistance/opgaver som ikke er af SOS kaliber &#40;hverken tidspressende eller tilstrækkeligt vigtige/alvorlige&#41; behandles særskilt.<br /><br />
 Kontakt os på bedst mulige måde i forhold til din forespørgsels prioritet:<br />
