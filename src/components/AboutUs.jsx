@@ -40,7 +40,7 @@ const AboutUs = () => {
         {/* Right part */}
         <div className="w-[61%] flex flex-col gap-7 text-black">
           
-          <p><b>Hvem er vi? &#40;kort fortalt&#41;</b><br />
+          <p><b>Hvem er vi? &#40;kort&#41;</b><br />
             Foto247 tilbyder professionelle fotos og foto-services.<br />
             Vi er 'on call' hele døgnet/ugen for bedre at kunne hjælpe dig / dit firma!
           </p>
