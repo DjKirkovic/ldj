@@ -7,8 +7,8 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { MdArrowOutward } from "react-icons/md";
 import PortfolioCard from "./ui/PortfolioCard";
 
-import lightbox-plus-jquery.min.js from "./lightbox/lightbox-plus-jquery.min.js";
-import lightbox.min.css from "./lightbox/lightbox.min.css";
+import {lightbox-plus-jquery.min.js} from "./lightbox/lightbox-plus-jquery.min.js";
+import {lightbox.min.css} from "./lightbox/lightbox.min.css";
 
 //import { portfolioData } from "../constant/data";
 // Dynamically import all images in the portfolioimages folder:
