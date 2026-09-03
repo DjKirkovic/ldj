@@ -4,14 +4,6 @@ import Photos from "../components/Photos";
 const PortfolioPage = () => {
   return (
 
-<div>
-    <div class="md-:container md:mx-auto px-40 bg-gray-200">
-      <div id="gallery" class="grid grid-cols-1 sm:frid-cols-2 md:grid-cols-3 gap-6">
-
-      </div>
-      
-      <div id="lightbox" class="fised inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden">
-      </div>
 
 
     
@@ -19,8 +11,6 @@ const PortfolioPage = () => {
         <Photos />
       </div>
 
-    </div>
-</div>
 
  );
 };
