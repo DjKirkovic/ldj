@@ -7,9 +7,6 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { MdArrowOutward } from "react-icons/md";
 import PortfolioCard from "./ui/PortfolioCard";
 
-import {lightbox-plus-jquery.min.js} from "./lightbox/lightbox-plus-jquery.min.js";
-import {lightbox.min.css} from "./lightbox/lightbox.min.css";
-
 //import { portfolioData } from "../constant/data";
 // Dynamically import all images in the portfolioimages folder:
 const images = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}', { eager: true });
@@ -71,7 +68,7 @@ const Photos = () => {
 
         {
           Object.values(images).map((image, index) => (
-            <img key={index} src={image.default} alt={'Image ${index + 1}'} title={''+imgTitles[index]} className="galleryImg" data-lightbox="mygallery" />
+            <img key={index} src={image.default} alt={'Image ${index + 1}'} title={''+imgTitles[index]} />
           ))}
 
 
