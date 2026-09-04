@@ -57,10 +57,12 @@ const Photos = () => {
 
   const [toggle, setToggle] = useState(true);
   
-  
+  const index = 0; // Initialize index to 0
+
   const handleClick = useCallback((index) => {
     setToggle(!toggle);
     console.log('Image clicked:', index);
+    index = index; // Update the index with the clicked image's index
   }, [toggle]);
    
 
