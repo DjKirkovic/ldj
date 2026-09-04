@@ -57,11 +57,12 @@ const Photos = () => {
 
   const [toggle, setToggle] = useState(true);
   
+  /*
   const handleClick = useCallback((index) => {
     setToggle(!toggle);
     console.log('Image clicked:', index);
   }, [toggle]);
-    
+    */
 
 
 
@@ -75,12 +76,23 @@ const Photos = () => {
       </div>
 
 
-      <div className="grid grid-cols-3 gap-2 pt-10"> 
+      <div className="grid grid-cols-3 gap-2 pt-10" style={{ display: toggle ? 'block' : 'none' }}> 
       {
                 Object.values(images).map((image, index) => (
                   <img key={index} src={image.default} alt={'Image ${index + 1}'} title={''+index+imgTitles[index]} onClick={() => setToggle(!toggle)} />
                 ))
       }
+
+          
+      </div>
+
+       <div className="grid grid-cols-3 gap-2 pt-10" style={{ display: toggle ? 'none' : 'block' }}>
+      {
+               
+                  <img key={index} src={images.default} alt={'Image ${index + 1}'} title={''+index+imgTitles[index]} onClick={() => setToggle(!toggle)} />
+                
+      }
+      
           
       </div>
 
