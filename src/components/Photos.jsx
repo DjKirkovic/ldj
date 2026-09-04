@@ -63,7 +63,7 @@ const Photos = () => {
     setToggle(!toggle);
     console.log('Image clicked:', index);
     index = index; // Update the index with the clicked image's index
-    console.log(index);
+    console.log(index.key);
   }, [toggle]);
    
 
