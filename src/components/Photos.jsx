@@ -63,7 +63,7 @@ const Photos = () => {
     setToggle(!toggle);
     console.log('Image clicked:', index);
     index = index; // Update the index with the clicked image's index
-    console.log(index.target.getAttribute('key'));
+    console.log(index.target.getAttribute('id'));
   }, [toggle]);
    
 
@@ -82,7 +82,7 @@ const Photos = () => {
       <div className="grid grid-cols-3 gap-2 pt-10" style={{ display: toggle ? 'grid' : 'none' }}> 
       {
                 Object.values(images).map((image, index) => (
-                  <img key={index} src={image.default} alt={'Image ${index + 1}'} title={''+index+imgTitles[index]} onClick={(index) => handleClick(index)} />
+                  <img key={index} id={image.key} src={image.default} alt={'Image ${index + 1}'} title={''+index+imgTitles[index]} onClick={(index) => handleClick(index)} />
                 ))
       }
 
