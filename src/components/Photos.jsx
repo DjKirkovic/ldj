@@ -13,6 +13,7 @@ import "yet-another-react-lightbox/styles.css";
 import {Captions, Download, Fullscreen, Zoom, Thumbnails} from "yet-another-react-lightbox/plugins";
 import "yet-another-react-lightbox/plugins/captions.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
+import "yet-another-react-lightbox/plugins/counter.css";
 
 /*
 const portfolioImages = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}', {
@@ -43,11 +44,12 @@ const [index, setIndex] = useState(-1);
       <Pics data={slides} onClick={(currentIndex) => setIndex(currentIndex)} />
 
       <Lightbox
-      plugins={[Captions, Download, Fullscreen, Zoom, Thumbnails]}
+      plugins={[Counter, Captions, Download, Fullscreen, Zoom, Thumbnails]}
       captions={{ 
         "showToggle": true,
         "descriptionTextAlign": "end"
       }}
+      counter={{ container: {style: {position: "absolute", top: "10px", right: "10px"}}}}
         index={index}
         open={index >= 0}
         close={() => setIndex(-1)}
@@ -64,6 +66,13 @@ const [index, setIndex] = useState(-1);
 };
 
 export default Photos;
+
+/*
+MIT License
+
+Copyright (c) 2022 Igor Danchenko
+*/
+
 /*
 
 var index; // Initialize index to 0
