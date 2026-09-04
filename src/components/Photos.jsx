@@ -56,7 +56,7 @@ const Photos = () => {
  
 
   return (
-    <Container className="md-:container md:mx-auto px-40 bg-gray-200 border-black">
+    <Container className="border-black">
       <div className="flex flex-col items-center">
         <Subtitle title="" />
         <Title title="Fotos" />
@@ -80,7 +80,7 @@ const Photos = () => {
 export default Photos;
 
 /*
-
+ <Container className="md-:container md:mx-auto px-40 bg-gray-200 border-black">
 
  <div id="gallery" class="grid grid-cols-1 sm:frid-cols-2 md:grid-cols-3 gap-6">
 
