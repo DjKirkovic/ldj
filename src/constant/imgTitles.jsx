@@ -1,7 +1,7 @@
 export const imgTitles = [
     'London Thames North Bank, UK',
     'Tokyo Downtown, Japan',
-    'Sydney Opera House & Harbour Bridge by sunset, Australia',
+    'Sydney Opera House & Harbour Bridge, Australia',
     //'Sheikh Zayed Road, Dubai, United Arab Emirates',
     'UFC championships, Birmingham, UK',
     'DJ John Digweed at The Warehouse Project nightclub, Manchester, UK', 
