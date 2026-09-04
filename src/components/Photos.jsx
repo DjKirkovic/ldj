@@ -9,7 +9,7 @@ import PortfolioCard from "./ui/PortfolioCard";
 import { slides } from "../constant/slides";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-import {Captions, Download, Fullscreen, Zoom} from "yet-another-react-lightbox/plugins";
+import {Captions, Download, Fullscreen, Zoom, Thumbnails} from "yet-another-react-lightbox/plugins";
 import "yet-another-react-lightbox/plugins/captions.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 
