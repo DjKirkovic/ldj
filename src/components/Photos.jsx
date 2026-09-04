@@ -14,7 +14,7 @@ const portfolioImages = import.meta.glob('../assets/portfolioImages/*.{png,jpg,j
    import: 'default',
 });
 */
-
+/*
 const portfolioImages = [
   '../assets/portfolioImages/01.jpg',
   '../assets/portfolioImages/02.jpg',
@@ -47,8 +47,9 @@ gallery.addEventListener('click', (e) => {
 lightbox.addEventListener('click', () => {
    lightbox.classList.add('hidden');
 });
+*/
 
-//const images = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}', { eager: true }); // Dynamically import all images in the portfolioimages folder:
+const images = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}', { eager: true }); // Dynamically import all images in the portfolioimages folder:
 
 const Photos = () => {
 
@@ -60,20 +61,15 @@ const Photos = () => {
         <Subtitle title="" />
         <Title title="Fotos" />
       </div>
-     
 
 
-
-
-  <div id="gallery" class="grid grid-cols-1 sm:frid-cols-2 md:grid-cols-3 gap-6">
-
-  </div>
-  <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden">
-    <img id="lightbox-img" src="" alt="Lightbox Image" class="max-w-full max-h-full" />
-  </div> 
-
-       
-
+ <div className="grid grid-cols-3 gap-2 pt-10"> 
+ {
+          Object.values(images).map((image, index) => (
+            <img key={index} src={image.default} alt={'Image ${index + 1}'} title={''+imgTitles[index]} />
+          ))}
+    
+</div>
 
 
       
@@ -84,10 +80,13 @@ const Photos = () => {
 export default Photos;
 
 /*
- <div className="grid grid-cols-3 gap-2 pt-10"> </div>
- {
-          Object.values(portfolioImages).map((image, index) => (
-            <img key={index} src={image.default} alt={'Image ${index + 1}'} title={''+imgTitles[index]} />
-          ))}
+
+
+ <div id="gallery" class="grid grid-cols-1 sm:frid-cols-2 md:grid-cols-3 gap-6">
+
+  </div>
+  <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden">
+    <img id="lightbox-img" src="" alt="Lightbox Image" class="max-w-full max-h-full" />
+  </div> 
 
 */
