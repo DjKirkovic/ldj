@@ -24,7 +24,9 @@ const portfolioImages = import.meta.glob('../assets/portfolioImages/*.{png,jpg,j
 //const images = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}', { eager: true }); // Dynamically import all (image) files in the portfolioimages folder:
 
 const Photos = () => {
- const [open, setOpen] = React.useState(false);
+ /* const [open, setOpen] = React.useState(false);
+ */
+const [index, setIndex] = useState<number>(-1);
 
  return (
     <Container className="border-black">
@@ -36,11 +38,9 @@ const Photos = () => {
 
       <div> 
       
-        <button type="button" onClick={() => setOpen(true)}>
-        Open Lightbox
-      </button>
-
-      <Pics data={slides} onClick={() => setOpen(true)} />
+{/*         <button type="button" onClick={() => setOpen(true)}>Open Lightbox</button>
+ */}
+      <Pics data={slides} onClick={(currentIndex) => setIndex(currentIndex)} />
 
       <Lightbox
       plugins={[Captions, Download, Fullscreen, Zoom, Thumbnails]}
@@ -48,8 +48,11 @@ const Photos = () => {
         "showToggle": true,
         "descriptionTextAlign": "end"
       }}
-        open={open}
-        close={() => setOpen(false)}
+        //open={open}
+        //close={() => setOpen(false)}
+        index={index}
+        open={index >= 0}
+        close={() => setIndex(-1)}
         slides={slides}
       />
       
