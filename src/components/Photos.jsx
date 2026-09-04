@@ -57,8 +57,8 @@ const Photos = () => {
 
   const [toggle, setToggle] = useState(true);
   
-  const index = 0; // Initialize index to 0
-  const indexId = 1; // Initialize index to 0
+  var index = 0; // Initialize index to 0
+  var indexId = 1; // Initialize index to 0
 
 
   const handleClick = useCallback((index) => {
