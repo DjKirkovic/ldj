@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useCallback} from "react";
 import Container from "./Container";
 import Subtitle from "./ui/Subtitle";
 import Title from "./ui/Title";
@@ -49,10 +49,20 @@ lightbox.addEventListener('click', () => {
 });
 */
 
+//onClick={() => handleClick(index)
+
 const images = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}', { eager: true }); // Dynamically import all images in the portfolioimages folder:
 
 const Photos = () => {
 
+  const handleClick = (index) => {
+  
+  
+    const [index, setIndex] = useState<number>(-1);
+
+
+
+}
  
 
   return (
@@ -63,13 +73,14 @@ const Photos = () => {
       </div>
 
 
- <div className="grid grid-cols-3 gap-2 pt-10"> 
- {
-          Object.values(images).map((image, index) => (
-            <img key={index} src={image.default} alt={'Image ${index + 1}'} title={''+imgTitles[index]} />
-          ))}
-    
-</div>
+      <div className="grid grid-cols-3 gap-2 pt-10"> 
+      {
+                Object.values(images).map((image, index) => (
+                  <img key={index} src={image.default} alt={'Image ${index + 1}'} title={''+index+imgTitles[index]} onClick={() => handleClick(index)} />
+                ))
+      }
+          
+      </div>
 
 
       
