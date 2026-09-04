@@ -78,7 +78,7 @@ const Photos = () => {
       </div>
 
 
-      <div className="grid grid-cols-3 gap-2 pt-10" style={{ display: toggle ? 'grid grid-cols-3 gap-2 pt-10' : 'none' }}> 
+      <div className="display: toggle ? grid grid-cols-3 gap-2 pt-10 : none"> 
       {
                 Object.values(images).map((image, index) => (
                   <img key={index} src={image.default} alt={'Image ${index + 1}'} title={''+index+imgTitles[index]} onClick={(index) => handleClick(index)} />
@@ -88,7 +88,7 @@ const Photos = () => {
           
       </div>
 
-       <div className="grid grid-cols-3 gap-2 pt-10" style={{ display: toggle ? 'none' : 'block' }}>
+       <div className="display: toggle ? none : grid grid-cols-3 gap-2 pt-10"> 
       {
                
                   <img key={index} src={images.default} alt={'Image ${index + 1}'} title={''+index+imgTitles[index]} onClick={(index) => handleClick(index)} />
@@ -115,5 +115,9 @@ export default Photos;
   <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden">
     <img id="lightbox-img" src="" alt="Lightbox Image" class="max-w-full max-h-full" />
   </div> 
+ 
+ 
+  <div className="grid grid-cols-3 gap-2 pt-10" style={{ display: toggle ? 'grid grid-cols-3 gap-2 pt-10' : 'none' }}> 
+ 
 
 */
