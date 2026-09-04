@@ -6,6 +6,7 @@ import Title from "./ui/Title";
 import { AiOutlineMenu } from "react-icons/ai";
 import { MdArrowOutward } from "react-icons/md";
 import PortfolioCard from "./ui/PortfolioCard";
+import Pics from "./Pics";
 import { slides } from "../constant/slides";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
@@ -38,6 +39,8 @@ const Photos = () => {
         <button type="button" onClick={() => setOpen(true)}>
         Open Lightbox
       </button>
+
+      <Pics data={slides} onClick={() => setOpen(true)} />
 
       <Lightbox
       plugins={[Captions, Download, Fullscreen, Zoom, Thumbnails]}
