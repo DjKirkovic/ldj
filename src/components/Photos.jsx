@@ -58,8 +58,7 @@ const Photos = () => {
   const handleClick = (index) => {
   
   
-    const [index, setIndex] = useState<number>(-1);
-
+    
 
 
 }
