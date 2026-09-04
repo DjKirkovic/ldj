@@ -51,7 +51,7 @@ lightbox.addEventListener('click', () => {
 
 //onClick={() => handleClick(index)
 
-const images = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}', { eager: true }); // Dynamically import all images in the portfolioimages folder:
+const images = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}', { eager: true }); // Dynamically import all (image) files in the portfolioimages folder:
 
 const Photos = () => {
 
@@ -59,11 +59,11 @@ const Photos = () => {
   
   const index = 0; // Initialize index to 0
 
-  const handleClick = useCallback((index, key) => {
+  const handleClick = useCallback((index) => {
     setToggle(!toggle);
     console.log('Image clicked:', index);
     index = index; // Update the index with the clicked image's index
-    console.log(key);
+    //console.log(key);
   }, [toggle]);
    
 
@@ -82,7 +82,7 @@ const Photos = () => {
       <div className="grid grid-cols-3 gap-2 pt-10" style={{ display: toggle ? 'grid' : 'none' }}> 
       {
                 Object.values(images).map((image, index) => (
-                  <img key={index} src={image.default} alt={'Image ${index + 1}'} title={''+index+imgTitles[index]} onClick={(index, key) => handleClick(index, key)} />
+                  <img key={index} src={image.default} alt={'Image ${index + 1}'} title={''+index+imgTitles[index]} onClick={(index) => handleClick(index)} />
                 ))
       }
 
