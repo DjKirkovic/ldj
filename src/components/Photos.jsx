@@ -55,13 +55,16 @@ const images = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}'
 
 const Photos = () => {
 
-  const handleClick = (index) => {
+  const [toggle, setToggle] = useState(true);
   
-  
+  const handleClick = useCallback((index) => {
+    setToggle(!toggle);
+    console.log('Image clicked:', index);
+  }, [toggle]);
     
 
 
-}
+
  
 
   return (
@@ -75,7 +78,7 @@ const Photos = () => {
       <div className="grid grid-cols-3 gap-2 pt-10"> 
       {
                 Object.values(images).map((image, index) => (
-                  <img key={index} src={image.default} alt={'Image ${index + 1}'} title={''+index+imgTitles[index]} onClick={() => handleClick(index)} />
+                  <img key={index} src={image.default} alt={'Image ${index + 1}'} title={''+index+imgTitles[index]} onClick={() => setToggle(!toggle)} />
                 ))
       }
           
