@@ -3,17 +3,17 @@ const images = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}'
 export const slides = [
    
   
-          { src: images['../assets/portfolioImages/'+'0'+3+'.jpg'].default,
+          { src: images['../assets/portfolioImages/'+'0'+1+'.jpg'].default,
             title: 'London Thames North Bank, UK',
-            description: 'London Thames North Bank, UK',
+            description: 'a',
            },
           { src: images['../assets/portfolioImages/'+'0'+2+'.jpg'].default,
-            title: 'London Thames North Bank, UK',
-            description: 'London Thames North Bank, UK',
+            title: 'Tokyo Downtown, Japan',
+            description: 'b',
            },
           { src: images['../assets/portfolioImages/'+'0'+3+'.jpg'].default,
-            title: 'London Thames North Bank, UK',
-            description: 'London Thames North Bank, UK',
+            title: 'Sydney Opera House & Harbour Bridge, Australia',
+            description: 'c',
            },
           
 
