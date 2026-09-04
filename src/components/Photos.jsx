@@ -66,12 +66,12 @@ var index; // Initialize index to 0
 
 
   const handleClick = useCallback((index) => {
-    setToggle(!toggle);
     console.log('Image clicked:', index);
     index = index; // Update the index with the clicked image
     indexId = index.target.getAttribute('accessKey'); // Update the index with the clicked image's index
     console.log('iID '+indexId);
     console.log(index.target.getAttribute('accessKey'));
+    setToggle(!toggle);
   }, [toggle]);
    
 
