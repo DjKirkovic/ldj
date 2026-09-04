@@ -53,10 +53,12 @@ lightbox.addEventListener('click', () => {
 
 const images = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}', { eager: true }); // Dynamically import all (image) files in the portfolioimages folder:
 
+
+const Photos = () => {
+
 var index; // Initialize index to 0
   var indexId = 2; // Initialize index to 0
   index = 0; // Initialize index to 0
-const Photos = () => {
 
   const [toggle, setToggle] = useState(true);
   
