@@ -58,11 +58,14 @@ const Photos = () => {
   const [toggle, setToggle] = useState(true);
   
   const index = 0; // Initialize index to 0
+  const indexId = 0; // Initialize index to 0
+
 
   const handleClick = useCallback((index) => {
     setToggle(!toggle);
     console.log('Image clicked:', index);
-    index = index.target.getAttribute('accessKey'); // Update the index with the clicked image's index
+    index = index; // Update the index with the clicked image
+    indexId = index.target.getAttribute('accessKey'); // Update the index with the clicked image's index
     console.log(index.target.getAttribute('accessKey'));
   }, [toggle]);
    
@@ -92,7 +95,7 @@ const Photos = () => {
        <div className="grid grid-cols-3 gap-2 pt-10" style={{ display: toggle ? 'none' : 'block' }}>
       {
                
-                  <img key={index} src={images['../assets/portfolioImages/'+'0'+index+'.jpg'].default} alt={'Image ${index + 1}'} title={''+index+imgTitles[index]} onClick={(index) => handleClick(index)} />
+                  <img key={index} src={images['../assets/portfolioImages/'+'0'+indexId+'.jpg'].default} alt={'Image ${index + 1}'} title={''+index+imgTitles[index]} onClick={(index) => handleClick(index)} />
                 
 
       }
