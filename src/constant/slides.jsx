@@ -15,6 +15,25 @@ export const slides = [
             title: 'Sydney Opera House & Harbour Bridge, Australia',
             description: 'c',
            },
+           { src: images['../assets/portfolioImages/'+'0'+4+'.jpg'].default,
+            title: 'UFC championships, Birmingham, UK',
+            description: 'd',},
+          { src: images['../assets/portfolioImages/'+'0'+5+'.jpg'].default,
+            title: 'DJ John Digweed at The Warehouse Project nightclub, Manchester, UK', 
+            description: 'e',},
+          { src: images['../assets/portfolioImages/'+'0'+6+'.jpg'].default,
+            title: 'European Intl. Championships, Pokemon, London, UK',
+            description: 'f',},
+          { src: images['../assets/portfolioImages/'+'0'+7+'.jpg'].default,
+            title: '1972 Lotus Europa Twin Cam, Brighton, UK',
+            description: 'g',},
+          { src: images['../assets/portfolioImages/'+'0'+8+'.jpg'].default,
+            title: 'Koenigsegg CC850 driven by Tom Cruise, LEGO HQ, Denmark',
+            description: 'h',},
+          { src: images['../assets/portfolioImages/'+'0'+9+'.jpg'].default,
+            title: '1982 Merlin Roadster Plus Two, Ruddington, UK',
+            description: 'i',},
+
           
 
           /*{ src: images['../assets/portfolioImages/'+'0'+3+'.jpg'].default },*/
