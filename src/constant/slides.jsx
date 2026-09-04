@@ -1,15 +1,17 @@
+const images = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}', { eager: true }); // Dynamically import all (image) files in the portfolioimages folder:
+
 export const slides = [
    
   
-          { src: '../assets/portfolioImages/'+'0'+1+'.jpg',
+          { src: images['../assets/portfolioImages/'+'0'+3+'.jpg'].default,
             title: 'London Thames North Bank, UK',
             description: 'London Thames North Bank, UK',
            },
-          { src: '../assets/portfolioImages/'+'0'+2+'.jpg',
+          { src: images['../assets/portfolioImages/'+'0'+2+'.jpg'].default,
             title: 'London Thames North Bank, UK',
             description: 'London Thames North Bank, UK',
            },
-          { src: '../assets/portfolioImages/'+'0'+3+'.jpg',
+          { src: images['../assets/portfolioImages/'+'0'+3+'.jpg'].default,
             title: 'London Thames North Bank, UK',
             description: 'London Thames North Bank, UK',
            },
