@@ -2,10 +2,11 @@ import React, {useState, useCallback} from "react";
 import Container from "./Container";
 import Subtitle from "./ui/Subtitle";
 import Title from "./ui/Title";
-import { imgTitles } from "../constant/imgTitles";
+import { imgTitles } from "../constant/slides";
 import { AiOutlineMenu } from "react-icons/ai";
 import { MdArrowOutward } from "react-icons/md";
 import PortfolioCard from "./ui/PortfolioCard";
+import { slides } from "../constant/slides";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
@@ -38,11 +39,7 @@ const Photos = () => {
       <Lightbox
         open={open}
         close={() => setOpen(false)}
-        slides={[
-          { src: images['../assets/portfolioImages/'+'0'+1+'.jpg'].default },
-          { src: images['../assets/portfolioImages/'+'0'+2+'.jpg'].default },
-          { src: images['../assets/portfolioImages/'+'0'+3+'.jpg'].default },
-        ]}
+        slides={slides}
       />
       
           

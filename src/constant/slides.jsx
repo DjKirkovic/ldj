@@ -1,5 +1,24 @@
-export const imgTitles = [
-    'London Thames North Bank, UK',
+export const slides = [
+   
+  
+          { src: '../assets/portfolioImages/'+'0'+1+'.jpg',
+            title: 'London Thames North Bank, UK',
+            description: 'London Thames North Bank, UK',
+           },
+          { src: '../assets/portfolioImages/'+'0'+2+'.jpg',
+            title: 'London Thames North Bank, UK',
+            description: 'London Thames North Bank, UK',
+           },
+          { src: '../assets/portfolioImages/'+'0'+3+'.jpg',
+            title: 'London Thames North Bank, UK',
+            description: 'London Thames North Bank, UK',
+           },
+          
+
+          /*{ src: images['../assets/portfolioImages/'+'0'+3+'.jpg'].default },*/
+        
+  /*
+  'London Thames North Bank, UK',
     'Tokyo Downtown, Japan',
     'Sydney Opera House & Harbour Bridge, Australia',
     //'Sheikh Zayed Road, Dubai, United Arab Emirates',
