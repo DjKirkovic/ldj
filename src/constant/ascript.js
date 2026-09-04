@@ -51,7 +51,7 @@ lightbox.addEventListener('click', () => {
 <div id="gallery" class="grid grid-cols-1 sm:frid-cols-2 md:grid-cols-3 gap-6">
 
 </div>
-<div id="lightbox" class="fised inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden">
+<div id="lightbox" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden">
 </div>
 </body>
 </html>
