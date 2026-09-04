@@ -32,9 +32,9 @@
 
 .images-container {
     max-width: 1200px;
-    margin: 1rem auto;
+    margin: 0.5rem auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(12rem, 0.25fr));
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 0.22fr));
     gap: 0.5rem;
 }
 
