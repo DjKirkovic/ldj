@@ -3,16 +3,17 @@ import Container from "./Container";
 import Subtitle from "./ui/Subtitle";
 import Title from "./ui/Title";
 import { imgTitles } from "../constant/imgTitles";
-
-//import script from "../constant/script.js";
 import { AiOutlineMenu } from "react-icons/ai";
 import { MdArrowOutward } from "react-icons/md";
 import PortfolioCard from "./ui/PortfolioCard";
 
-//import { portfolioData } from "../constant/data";
-// Dynamically import all images in the portfolioimages folder:
-const images = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}', { eager: true });
+const portfolioImages = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}', {
+   eager: true,
+   query: '?url',
+   import: 'default',
+});
 
+//const images = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}', { eager: true }); // Dynamically import all images in the portfolioimages folder:
 
 const Photos = () => {
 
@@ -31,7 +32,7 @@ const Photos = () => {
         
 
         {
-          Object.values(images).map((image, index) => (
+          Object.values(portfolioImages).map((image, index) => (
             <img key={index} src={image.default} alt={'Image ${index + 1}'} title={''+imgTitles[index]} />
           ))}
 
