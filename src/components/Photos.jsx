@@ -10,7 +10,7 @@ import Pics from "./Pics";
 import { slides } from "../constant/slides";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-import {Captions, Download, Fullscreen, Zoom, Thumbnails} from "yet-another-react-lightbox/plugins";
+import {Counter, Captions, Download, Fullscreen, Zoom, Thumbnails} from "yet-another-react-lightbox/plugins";
 import "yet-another-react-lightbox/plugins/captions.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import "yet-another-react-lightbox/plugins/counter.css";
