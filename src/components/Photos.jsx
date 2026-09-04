@@ -78,7 +78,7 @@ const Photos = () => {
       </div>
 
 
-      <div className="display: toggle ? grid grid-cols-3 gap-2 pt-10 : none"> 
+      <div style={{ display: toggle ? 'grid grid-cols-3 gap-2 pt-10' : 'none' }}> 
       {
                 Object.values(images).map((image, index) => (
                   <img key={index} src={image.default} alt={'Image ${index + 1}'} title={''+index+imgTitles[index]} onClick={(index) => handleClick(index)} />
@@ -88,7 +88,7 @@ const Photos = () => {
           
       </div>
 
-       <div className="display: toggle ? none : grid grid-cols-3 gap-2 pt-10"> 
+       <div style={{ display: toggle ? 'none' : 'block' }}>
       {
                
                   <img key={index} src={images.default} alt={'Image ${index + 1}'} title={''+index+imgTitles[index]} onClick={(index) => handleClick(index)} />
