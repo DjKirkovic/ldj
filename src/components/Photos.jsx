@@ -6,6 +6,8 @@ import { imgTitles } from "../constant/imgTitles";
 import { AiOutlineMenu } from "react-icons/ai";
 import { MdArrowOutward } from "react-icons/md";
 import PortfolioCard from "./ui/PortfolioCard";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 
 /*
 const portfolioImages = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}', {
@@ -14,47 +16,48 @@ const portfolioImages = import.meta.glob('../assets/portfolioImages/*.{png,jpg,j
    import: 'default',
 });
 */
-/*
-const portfolioImages = [
-  '../assets/portfolioImages/01.jpg',
-  '../assets/portfolioImages/02.jpg',
-  '../assets/portfolioImages/03.jpg',
-  '../assets/portfolioImages/04.jpg',
-  '../assets/portfolioImages/05.jpg',
-  '../assets/portfolioImages/06.jpg',
-  ];
-
-const gallery = document.getElementById('gallery');
-
-Object.values(portfolioImages).forEach((src) => {
-   const img = document.createElement('img');
-   img.src = src;
-   img.classList.add('w-full', 'h-auto', 'object-cover', 'rounded-lg');
-   img.setAttribute('data-lightbox', 'mygallery');
-   gallery.appendChild(img);
-});
-
-const lightbox = document.getElementById('lightbox');
-const lightboxImg = document.getElementById('lightbox-img');
-
-gallery.addEventListener('click', (e) => {
-   if (e.target.tagName === 'IMG') {
-       lightboxImg.src = e.target.src;
-       lightbox.classList.remove('hidden');
-   }
-});
-
-lightbox.addEventListener('click', () => {
-   lightbox.classList.add('hidden');
-});
-*/
-
-//onClick={() => handleClick(index)
 
 const images = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}', { eager: true }); // Dynamically import all (image) files in the portfolioimages folder:
 
 
 const Photos = () => {
+ const [open, setOpen] = React.useState(false);
+
+ return (
+    <Container className="border-black">
+      <div className="flex flex-col items-center">
+        <Subtitle title="" />
+        <Title title="Fotos" />
+      </div>
+
+
+      <div> 
+      
+        <button type="button" onClick={() => setOpen(true)}>
+        Open Lightbox
+      </button>
+
+      <Lightbox
+        open={open}
+        close={() => setOpen(false)}
+        slides={[
+          { src: "../assets/portfolioImages/01.jpg" },
+          { src: "../assets/portfolioImages/02.jpg" },
+          { src: "../assets/portfolioImages/03.jpg" },
+        ]}
+      />
+      
+          
+      </div>
+
+
+      
+    </Container>
+  );
+};
+
+export default Photos;
+/*
 
 var index; // Initialize index to 0
   var indexId = 2; // Initialize index to 0
