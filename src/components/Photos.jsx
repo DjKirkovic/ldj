@@ -7,7 +7,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { MdArrowOutward } from "react-icons/md";
 import PortfolioCard from "./ui/PortfolioCard";
 
-const portfolioImages = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}', {
+const images = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}', {
    eager: true,
    query: '?url',
    import: 'default',
@@ -32,7 +32,7 @@ const Photos = () => {
         
 
         {
-          Object.values(portfolioImages).map((image, index) => (
+          Object.values(images).map((image, index) => (
             <img key={index} src={image.default} alt={'Image ${index + 1}'} title={''+imgTitles[index]} />
           ))}
 
