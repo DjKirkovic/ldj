@@ -26,7 +26,7 @@ const portfolioImages = import.meta.glob('../assets/portfolioImages/*.{png,jpg,j
 const Photos = () => {
  /* const [open, setOpen] = React.useState(false);
  */
-const [index, setIndex] = useState<number>(-1);
+const [index, setIndex] = useState(-1);
 
  return (
     <Container className="border-black">
@@ -48,8 +48,6 @@ const [index, setIndex] = useState<number>(-1);
         "showToggle": true,
         "descriptionTextAlign": "end"
       }}
-        //open={open}
-        //close={() => setOpen(false)}
         index={index}
         open={index >= 0}
         close={() => setIndex(-1)}
