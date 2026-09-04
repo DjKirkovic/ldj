@@ -64,14 +64,14 @@ const Photos = () => {
 
 
 
-<div class="md-:container md:mx-auto px-40 bg-gray-200">
+<body class="md-:container md:mx-auto px-40 bg-gray-200">
   <div id="gallery" class="grid grid-cols-1 sm:frid-cols-2 md:grid-cols-3 gap-6">
 
   </div>
   <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden">
     <img id="lightbox-img" src="" alt="Lightbox Image" class="max-w-full max-h-full" />
   </div>
-</div>        
+</body>        
 
        
 
