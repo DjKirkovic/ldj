@@ -7,11 +7,22 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { MdArrowOutward } from "react-icons/md";
 import PortfolioCard from "./ui/PortfolioCard";
 
+/*
 const portfolioImages = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}', {
    eager: true,
    query: '?url',
    import: 'default',
 });
+*/
+
+const portfolioImages = [
+  '../assets/portfolioImages/01.jpg',
+  '../assets/portfolioImages/02.jpg',
+  '../assets/portfolioImages/03.jpg',
+  '../assets/portfolioImages/04.jpg',
+  '../assets/portfolioImages/05.jpg',
+  '../assets/portfolioImages/06.jpg',
+  ];
 
 const gallery = document.getElementById('gallery');
 
