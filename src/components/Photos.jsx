@@ -16,9 +16,7 @@ const portfolioImages = import.meta.glob('../assets/portfolioImages/*.{png,jpg,j
    import: 'default',
 });
 */
-
 const images = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}', { eager: true }); // Dynamically import all (image) files in the portfolioimages folder:
-
 
 const Photos = () => {
  const [open, setOpen] = React.useState(false);
@@ -41,9 +39,9 @@ const Photos = () => {
         open={open}
         close={() => setOpen(false)}
         slides={[
-          { src: "images['../assets/portfolioImages/'+'0'+1+'.jpg'].default" },
-          { src: "../assets/portfolioImages/02.jpg" },
-          { src: "../assets/portfolioImages/03.jpg" },
+          { src: images['../assets/portfolioImages/'+'0'+1+'.jpg'].default },
+          { src: images['../assets/portfolioImages/'+'0'+2+'.jpg'].default },
+          { src: images['../assets/portfolioImages/'+'0'+3+'.jpg'].default },
         ]}
       />
       
