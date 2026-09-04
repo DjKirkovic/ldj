@@ -41,7 +41,7 @@ const Photos = () => {
         open={open}
         close={() => setOpen(false)}
         slides={[
-          { src: "../assets/portfolioImages/01.jpg" },
+          { src: "images['../assets/portfolioImages/'+'0'+1+'.jpg'].default" },
           { src: "../assets/portfolioImages/02.jpg" },
           { src: "../assets/portfolioImages/03.jpg" },
         ]}
