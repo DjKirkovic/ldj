@@ -91,7 +91,7 @@ const Photos = () => {
        <div className="grid grid-cols-3 gap-2 pt-10" style={{ display: toggle ? 'none' : 'block' }}>
       {
                
-                  <img key={index} src={images[index].default} alt={'Image ${index + 1}'} title={''+index+imgTitles[index]} onClick={(index) => handleClick(index)} />
+                  <img key={index} src={images[index]} alt={'Image ${index + 1}'} title={''+index+imgTitles[index]} onClick={(index) => handleClick(index)} />
                 
       }
       
