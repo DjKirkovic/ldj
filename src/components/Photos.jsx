@@ -2,7 +2,7 @@ import React, {useState, useCallback} from "react";
 import Container from "./Container";
 import Subtitle from "./ui/Subtitle";
 import Title from "./ui/Title";
-import { imgTitles } from "../constant/slides";
+//import { imgTitles } from "../constant/slides";
 import { AiOutlineMenu } from "react-icons/ai";
 import { MdArrowOutward } from "react-icons/md";
 import PortfolioCard from "./ui/PortfolioCard";
