@@ -49,7 +49,7 @@ const [index, setIndex] = useState(-1);
         "showToggle": true,
         "descriptionTextAlign": "end"
       }}
-      counter={{ container: {style: {position: "absolute", top: "center", right: "10px"}}}}
+      counter={{ container: {style: {top: "unset", bottom: 0}}}}
         index={index}
         open={index >= 0}
         close={() => setIndex(-1)}
