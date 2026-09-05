@@ -14,6 +14,7 @@ import {Counter, Captions, Download, Fullscreen, Zoom, Thumbnails} from "yet-ano
 import "yet-another-react-lightbox/plugins/captions.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import "yet-another-react-lightbox/plugins/counter.css";
+import Slideshow from "yet-another-react-lightbox/plugins/slideshow";
 
 /*
 const portfolioImages = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}', {
@@ -44,7 +45,7 @@ const [index, setIndex] = useState(-1);
       <Pics data={slides} onClick={(currentIndex) => setIndex(currentIndex)} />
 
       <Lightbox
-      plugins={[Counter, Captions, Download, Fullscreen, Zoom, Thumbnails]}
+      plugins={[Counter, Captions, Download, Fullscreen, Zoom, Thumbnails, Slideshow]}
       //title={{ container: {style: {top: 100, bottom: 100}}}}
       
       styles={{ 
