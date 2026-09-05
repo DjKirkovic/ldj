@@ -49,14 +49,31 @@ const [index, setIndex] = useState(-1);
       
       styles={{ 
         //captionsTitle: { color: "blue" },
+        
+        maxWidth: 600,
+        margin: "20px auto",
+        
+        
         captionsTitle: { 
           color: "blue",
+          toolbarWidth: "10px",
+          toolbar: { style: { 
+            //width: "10%",
+            width: "10px",
+           } },
 
         },
         captionsTitleContainer: { 
           top: "85%",
+          //right: "10%",
+          
           //left: "50%",
           textAlign: "center",
+          toolbar: {  
+            //width: "10%",
+            width: "10px",
+           } ,
+
          },
         captionsDescription: { color: "red" },
                   //captions: {title: { color: "blue" }},
