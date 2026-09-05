@@ -83,7 +83,7 @@ const [index, setIndex] = useState(-1);
         captionsDescriptionContainer: { 
           backgroundColor: "rgba(0, 0, 0, 0)",
           top: "85%",
-          bottom: "95%",
+          bottom: "98%",
           //right: "-70%",
          }, 
     }}      
