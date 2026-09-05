@@ -52,9 +52,10 @@ const [index, setIndex] = useState(-1);
         
         maxWidth: 600,
         margin: "20px auto",
-        
+        maxChars: 100,
         
         captionsTitle: { 
+          maxChars: 100,
           color: "blue",
           toolbarWidth: "10px",
           toolbar: { style: { 
