@@ -60,7 +60,7 @@ const [index, setIndex] = useState(-1);
           toolbarWidth: "10px",
           toolbar: { style: { 
             //width: "10%",
-            width: "10px",
+            width: "100px",
            } },
 
         },
