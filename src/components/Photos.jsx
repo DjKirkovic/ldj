@@ -65,7 +65,8 @@ const [index, setIndex] = useState(-1);
         },
         captionsTitleContainer: { 
           top: "85%",
-          right: "-60%",
+          right: "-70%",
+          bottom: "85%",
           
           //left: "50%",
           textAlign: "center",
