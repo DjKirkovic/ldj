@@ -9,6 +9,9 @@ import PortfolioCard from "./ui/PortfolioCard";
 import Pics from "./Pics";
 import { slides } from "../constant/slides";
 import Lightbox from "yet-another-react-lightbox";
+
+import FullscreenRef from "yet-another-react-lightbox";
+
 import "yet-another-react-lightbox/styles.css";
 import {Counter, Captions, Download, Fullscreen, Zoom, Thumbnails} from "yet-another-react-lightbox/plugins";
 import "yet-another-react-lightbox/plugins/captions.css";
@@ -30,6 +33,8 @@ const Photos = () => {
  */
 const [index, setIndex] = useState(-1);
 
+const fullscreenRef = React.useRef(null);
+
  return (
     <Container className="border-black">
       <div className="flex flex-col items-center">
@@ -48,6 +53,38 @@ const [index, setIndex] = useState(-1);
       plugins={[Counter, Captions, Download, Fullscreen, Zoom, Thumbnails, Slideshow]}
       //title={{ container: {style: {top: 100, bottom: 100}}}}
       
+      fullscreen={{ ref: fullscreenRef }}
+      
+      buttonFullscreen={{
+      onClick: { style: { display: "none"  } },
+      }}
+
+
+
+
+/*       iconEnterFullscreen={{ 
+      on: {
+        click: () => { 
+          console.log('Fullscreen button clicked'); 
+    }      
+    }
+  }}
+
+   iconExitFullscreen={{ 
+      on: {
+        click: () => { 
+          console.log('Exit fullscreen button clicked'); 
+    }      
+    }
+  }}
+ */
+
+//      on={{
+          /* click: () => console.log('Image clicked'), */
+          //click: () => {iconEnterFullscreen: () => null},        
+    //      click: () => {buttonFullscreen: { disabled: "true" }},        
+  //      }}
+
       styles={{ 
        //make title & desc fit
         
