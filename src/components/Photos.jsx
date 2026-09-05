@@ -48,6 +48,8 @@ const [index, setIndex] = useState(-1);
       //title={{ container: {style: {top: 100, bottom: 100}}}}
       
       styles={{ 
+       //make title & desc fit
+        
         //captionsTitle: { color: "blue" },
         
         //maxWidth: 600,

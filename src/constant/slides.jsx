@@ -10,7 +10,7 @@ export const slides = [
           },
           { src: images[`${prefix}02.jpg`].default,
             title: 'Tokyo Downtown, Japan',
-            description: 'Shibuya Crossing, verdens travleste fodgængerfelt, set fra Tokyo Tower',
+            description: 'Akabanebashi Crossing fodgængerfeltet set fra Tokyo Tower',
           },
           { src: images[`${prefix}03.jpg`].default,
             title: 'Sydney Opera House & Harbour Bridge, Australia',
