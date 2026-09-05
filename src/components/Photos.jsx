@@ -67,7 +67,7 @@ const [index, setIndex] = useState(-1);
 
         },
         captionsTitleContainer: { 
-          backgroundColor: "rgba(0, 0, 0, 0.05)",
+          backgroundColor: "rgba(0, 0, 0, 0.15)",
           width: "158%",
           //maxWidth: "100vw",
           top: "80%",
