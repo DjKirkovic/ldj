@@ -47,9 +47,12 @@ const [index, setIndex] = useState(-1);
       plugins={[Counter, Captions, Download, Fullscreen, Zoom, Thumbnails]}
       captions={{ 
         "showToggle": true,
-        "descriptionTextAlign": "end"
+        "descriptionTextAlign": "center",
+        "title": {style: {top: "unset", bottom: 0}},
+        //descriptionTextAlign?: "start" | "end" | "center";
+        container: {style: {top: "unset", bottom: 0}}
       }}
-      counter={{ container: {style: {top: "unset", bottom: 0}}}}
+      counter={{ container: {style: {top: 0, bottom: 0}}}}
         index={index}
         open={index >= 0}
         close={() => setIndex(-1)}
