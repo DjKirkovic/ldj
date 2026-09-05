@@ -45,14 +45,57 @@ const [index, setIndex] = useState(-1);
 
       <Lightbox
       plugins={[Counter, Captions, Download, Fullscreen, Zoom, Thumbnails]}
+      //title={{ container: {style: {top: 100, bottom: 100}}}}
+      
+      styles={{ 
+        //captionsTitle: { color: "blue" },
+        captionsTitle: { 
+          color: "blue",
+
+        },
+        captionsTitleContainer: { 
+          top: "1000px",
+          //left: "50%",
+          textAlign: "center",
+         },
+        captionsDescription: { color: "red" },
+                  //captions: {title: { color: "blue" }},
+        //description: { color: "red" },
+        //title: { color: "red" } 
+    }}
+    //captionsTitle: { color: "blue" },
+   // captionsDescription: { color: "red" },
+    //description: { color: "red" },
+    //title: { color: "red" },
+  
+      
       captions={{ 
+  container: {style: {
+    captionsTitle: { color: "blue" },
+    captionsDescription: { color: "red" },
+    description: { color: "red" },
+    title: { color: "red" },
+  }},
         "showToggle": true,
-        "descriptionTextAlign": "center",
-        "title": {style: {top: "unset", bottom: 0}},
-        //descriptionTextAlign?: "start" | "end" | "center";
-        container: {style: {top: "unset", bottom: 0}}
+    //"descriptionTextAlign": "center",
+        //"align": "center",
+        //"title": "center",
+        //"title": {style: {top: 300, bottom: 300}}
+    "descriptionTextAlign": "center", //description text alignment, can be "start", "center" or "end"
+   // title: { container: {style: { captionsTitle: { color: "blue" }}}}, //title container top position
+//   title: { container: {style: {top: "100px" }}}, //title container top position
+//title: { color: "blue" },    
+//captionsTitle: { color: "blue" },
+   
+  // captionsTitleContainer: { top: "10px" }
+   //"titleContainerTop": 100, //title container top position
+        //"title": { container: {style: {color: "yellow"}}},
+        //"title": { container: {style: {top: 100}} }
+   //     "title": { container: {style: {top: 100}} }
+        //container: {style: {top: 100, bottom: 100}}
       }}
-      counter={{ container: {style: {top: 0, bottom: 0}}}}
+      //title={{style: {top: 100}}}
+      counter={{ container: {style: {top: 0, bottom: 0, left: 0}}}} //image number counter position, top left
         index={index}
         open={index >= 0}
         close={() => setIndex(-1)}
