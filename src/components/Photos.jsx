@@ -59,6 +59,7 @@ const [index, setIndex] = useState(-1);
         captionsTitle: { 
           color: "blue",
           //toolbarWidth: "10px",
+          
           toolbar: { style: { 
             //width: "10%",
            // width: "200px",
@@ -66,25 +67,23 @@ const [index, setIndex] = useState(-1);
 
         },
         captionsTitleContainer: { 
-          backgroundColor: "rgba(0, 0, 0, 0)",
+          backgroundColor: "rgba(0, 0, 0, 25)",
           top: "80%",
-          right: "-70%",
-          bottom: "90%",
+          right: "-57.5%",
+          //bottom: "10%",
+          padding: "1px",
           
           //left: "50%",
           textAlign: "center",
-          toolbar: {  
-            //width: "10%",
-            width: "200px",
-           } ,
 
          },
         captionsDescription: { color: "red" },
         captionsDescriptionContainer: { 
-          backgroundColor: "rgba(0, 0, 0, 0)",
-          top: "85%",
-          bottom: "98%",
+          backgroundColor: "rgba(255, 255, 255, 100)",
+          top: "92.5%",
+          //bottom: "98%",
           //right: "-70%",
+          padding: "0px",
          }, 
     }}      
       captions={{ 
@@ -92,6 +91,29 @@ const [index, setIndex] = useState(-1);
       "showToggle": true,
     "descriptionTextAlign": "center", //description text alignment, can be "start", "center" or "end"
       }}
+      thumbnails={{
+        borderRadius: 4,
+          padding: 1,
+          gap: 2,
+          position: "center",//bottom gives film strip roll function
+   
+        /*  
+        ref: thumbnailsRef,
+          width: 120,
+          height: 80,
+          position: "bottom",
+          border: 1,
+          borderColor: "blue",
+          borderStyle: "dashed",
+          borderRadius: 4,
+          padding: 4,
+          gap: 16,
+          imageFit: "contain",
+          vignette: true,
+          hidden: true,
+          showToggle: true,
+          */
+        }}
       counter={{ container: {style: {top: 0, bottom: 0, left: 0}}}} //image number counter position, top left
         index={index}
         open={index >= 0}

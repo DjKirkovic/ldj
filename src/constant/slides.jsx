@@ -30,15 +30,15 @@ export const slides = [
           },
           { src: images[`${prefix}07.jpg`].default,
             title: '1972 Lotus Europa Twin Cam, Brighton, UK',
-            description: 'Lavprofil sportsvogn, som blev produceret i 1971-1975.',
+            description: 'Lavprofil sportsvogn, som blev produceret fra 1971-1975',
           },
           { src: images[`${prefix}08.jpg`].default,
             title: 'Koenigsegg CC850, LEGO HQ, Denmark',
-            description: 'Tophastighed på 450 km/t, lanceret i 2023, og her kørt af Tom Cruise.',
+            description: 'Tophastighed på 450 km/t, lanceret i 2023, her kørt af Tom Cruise',
           },
           { src: images[`${prefix}09.jpg`].default,
             title: '1982 Merlin Roadster Plus Two, Ruddington, UK',
-            description: 'Klassisk sportsvogn (prod. 1982-1985) ved gammel benzinstander.',
+            description: 'Klassisk sportsvogn (prod. 1982-1985) ved gammel benzinstander',
           },
 
           
