@@ -120,7 +120,7 @@ const fullscreenRef = React.useRef(null);
          },
         captionsDescription: { color: "red" },
         captionsDescriptionContainer: { 
-          backgroundColor: "rgba(255, 255, 255, 100)",
+          backgroundColor: "rgba(0, 0, 0, 100)",
           top: "92.5%",
           //bottom: "98%",
           //right: "-70%",
