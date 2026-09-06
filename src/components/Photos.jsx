@@ -2,16 +2,9 @@ import React, {useState, useCallback} from "react";
 import Container from "./Container";
 import Subtitle from "./ui/Subtitle";
 import Title from "./ui/Title";
-//import { imgTitles } from "../constant/slides";
-import { AiOutlineMenu } from "react-icons/ai";
-import { MdArrowOutward } from "react-icons/md";
-import PortfolioCard from "./ui/PortfolioCard";
 import Pics from "./Pics";
 import { slides } from "../constant/slides";
 import Lightbox from "yet-another-react-lightbox";
-
-import FullscreenRef from "yet-another-react-lightbox";
-
 import "yet-another-react-lightbox/styles.css";
 import {Counter, Captions, Fullscreen, Zoom, Thumbnails} from "yet-another-react-lightbox/plugins";
 import "yet-another-react-lightbox/plugins/captions.css";
@@ -29,11 +22,8 @@ const portfolioImages = import.meta.glob('../assets/portfolioImages/*.{png,jpg,j
 //const images = import.meta.glob('../assets/portfolioImages/*.{png,jpg,jpeg,svg}', { eager: true }); // Dynamically import all (image) files in the portfolioimages folder:
 
 const Photos = () => {
- /* const [open, setOpen] = React.useState(false);
- */
-const [index, setIndex] = useState(-1);
 
-const fullscreenRef = React.useRef(null);
+const [index, setIndex] = useState(-1);
 
  return (
     <Container className="border-black">
@@ -53,76 +43,17 @@ const fullscreenRef = React.useRef(null);
       plugins={[Counter, Captions, Fullscreen, Zoom, Thumbnails, Slideshow]}
       //title={{ container: {style: {top: 100, bottom: 100}}}}
       
-      fullscreen={{ ref: fullscreenRef }}
-      
-      /*
-      buttonFullscreen={{
-      onClick: { style: { display: "none"  } },
-      }}
-      */
-
-
-
-/*       iconEnterFullscreen={{ 
-      on: {
-        click: () => { 
-          console.log('Fullscreen button clicked'); 
-    }      
-    }
-  }}
-
-   iconExitFullscreen={{ 
-      on: {
-        click: () => { 
-          console.log('Exit fullscreen button clicked'); 
-    }      
-    }
-  }}
- */
-
-//      on={{
-          /* click: () => console.log('Image clicked'), */
-          //click: () => {iconEnterFullscreen: () => null},        
-    //      click: () => {buttonFullscreen: { disabled: "true" }},        
-  //      }}
-
       styles={{ 
-       //make title & desc fit
-        
-        //captionsTitle: { color: "blue" },
-        
         //maxWidth: 600,
         //margin: "20px auto",
         //maxChars: 100,
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         captionsTitle: { 
+          //color: "blue",
           //overflow: "visible",
           fontSize: "0.7rem",
-          //textAlign: "end",
         //  marginRight: "0%",
         //  marginLeft: "2%",
-          //alignItems: "center",
-          //justifyContent: "center",
           textAlign: "center",
           width: "100vw",
           //toolbarWidth 
@@ -132,81 +63,10 @@ const fullscreenRef = React.useRef(null);
           width: "158vw",
           //maxWidth: "100vw",
           top: "88%",
-     //     left: "unset",
-       //   right: "unset",
           //left: "50%",
-          //right: "-57.5%",
-          //bottom: "10%",
-          
-          //left: "50%",
-//          alignItems: "end",
+          //right: "-57.5%",          
           padding: "1px",
-          //justifyContent: "center",
-  //        marginRight: "0%",
-    //      marginLeft: "2%"
          },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
- captionsTitle: { 
-          color: "blue",
-          //toolbarWidth: "10px",
-          
-          toolbar: { style: { 
-            //width: "10%",
-           // width: "200px",
-           } },
-
-        },
-        captionsTitleContainer: { 
-          backgroundColor: "rgba(0, 0, 0, 0.25)",
-          width: "158%",
-          //maxWidth: "100vw",
-          top: "80%",
-          //right: "-57.5%",
-          //bottom: "10%",
-          padding: "1px",
-          
-          //left: "50%",
-          textAlign: "center",
-
-         },
-*/
-
-
 
         captionsDescription: { color: "red" },
         captionsDescriptionContainer: { 
