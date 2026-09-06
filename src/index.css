@@ -33,7 +33,7 @@
 .images-container {
     max-width: 1200px;
     margin: 0.5rem auto;
-    padding-left: 0.5rem;
+    padding-left: 0.75rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(11rem, 0.22fr));
     gap: 0.5rem;
