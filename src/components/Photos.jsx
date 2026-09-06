@@ -95,7 +95,93 @@ const fullscreenRef = React.useRef(null);
         //margin: "20px auto",
         //maxChars: 100,
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         captionsTitle: { 
+          //overflow: "visible",
+          fontSize: "0.7rem",
+          //textAlign: "end",
+        //  marginRight: "0%",
+        //  marginLeft: "2%",
+          //alignItems: "center",
+          //justifyContent: "center",
+          textAlign: "center",
+          width: "100vw",
+          //toolbarWidth 
+        },
+        captionsTitleContainer: { 
+          backgroundColor: "rgba(100, 100, 100, 1)",
+          width: "158vw",
+          //maxWidth: "100vw",
+          top: "80%",
+     //     left: "unset",
+       //   right: "unset",
+          //left: "50%",
+          //right: "-57.5%",
+          //bottom: "10%",
+          
+          //left: "50%",
+//          alignItems: "end",
+          padding: "1px",
+          //justifyContent: "center",
+  //        marginRight: "0%",
+    //      marginLeft: "2%"
+         },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ captionsTitle: { 
           color: "blue",
           //toolbarWidth: "10px",
           
@@ -118,6 +204,10 @@ const fullscreenRef = React.useRef(null);
           textAlign: "center",
 
          },
+*/
+
+
+
         captionsDescription: { color: "red" },
         captionsDescriptionContainer: { 
           backgroundColor: "rgba(0, 0, 0, 100)",
@@ -130,7 +220,8 @@ const fullscreenRef = React.useRef(null);
       captions={{ 
   
       "showToggle": true,
-    "descriptionTextAlign": "center", //description text alignment, can be "start", "center" or "end"
+    //"titleTextAlign": "center", //title text alignment, can be "start", "center" or "end"
+      "descriptionTextAlign": "center", //description text alignment, can be "start", "center" or "end"
       }}
       thumbnails={{
         borderRadius: 4,
