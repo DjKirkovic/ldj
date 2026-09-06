@@ -131,7 +131,7 @@ const fullscreenRef = React.useRef(null);
           backgroundColor: "rgba(100, 100, 100, 1)",
           width: "158vw",
           //maxWidth: "100vw",
-          top: "80%",
+          top: "88%",
      //     left: "unset",
        //   right: "unset",
           //left: "50%",
