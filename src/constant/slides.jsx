@@ -18,9 +18,8 @@ export const slides = [
             title: 'London Thames North Bank, UK',
             description: 'Panorama over byen, set fra London City Hall',
           },
-        ]
+        
 
-/*
 
           { src: iLoc[`${prefix}01/02.jpg`].default,
             title: 'Tokyo Downtown, Japan',
@@ -62,6 +61,8 @@ export const slides = [
             title: 'Girl with hairband',
             description: 'Pige med hårbøjle',
           },
+          ]
+/*
           {
             src: iWed[`${prefix}03/65.jpg`].default,
             title: 'Ring on finger',
