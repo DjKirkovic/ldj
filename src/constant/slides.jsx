@@ -40,6 +40,11 @@ export const slides = [
             title: '1982 Merlin Roadster Plus Two, Ruddington, UK',
             description: 'Klassisk sportsvogn (prod. 1982-1985) ved gammel benzinstander',
           },
+          {
+            src: images[`${prefix}10.jpg`].default,
+            title: 'Wedding, UK',
+            description: 'Sammen under paraplyen',
+          },
 
           
 
