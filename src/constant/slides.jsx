@@ -45,6 +45,61 @@ export const slides = [
             title: 'Wedding, UK',
             description: 'Sammen under paraplyen',
           },
+          {
+            src: images[`${prefix}11.jpg`].default,
+            title: 'Portrait, child',
+            description: 'Klar til en dukkert',
+          },
+          {
+            src: images[`${prefix}12.jpg`].default,
+            title: 'Portrait, adult',
+            description: 'Stilfuldt påklædt',
+          },
+          {
+            src: images[`${prefix}13.jpg`].default,
+            title: 'Griffon over coastline, Benalmádena, Spain',
+            description: 'Højt at svæve...',
+          },
+          {
+            src: images[`${prefix}14.jpg`].default,
+            title: 'Emus, Wilsons Promontory, Victoria, Australia',
+            description: 'Målfoto',
+          },
+          {
+            src: images[`${prefix}15.jpg`].default,
+            title: 'Red Deer, Wollaton Park, Nottingham, UK',
+            description: 'Kronhjorte på vagt',
+          },
+          {
+            src: images[`${prefix}16.jpg`].default,
+            title: 'El Teide volcano, Tenerife, Canary Islands, Spain',
+            description: 'Områdeudsigt højt oppefra',
+          },
+          {
+            src: images[`${prefix}17.jpg`].default,
+            title: 'Whitsunday Islands Beach, Queensland Waters, Australia',
+            description: 'Whitehaven strands kridthvide sand',
+          },
+          {
+            src: images[`${prefix}18.jpg`].default,
+            title: 'Rub\' al Khali Desert / The \'Empty Quarter\', Arabia',
+            description: 'Solnedgang i ørkenen',
+          },
+          {
+            src: images[`${prefix}19.jpg`].default,
+            title: 'Street food',
+            description: 'Madservice på gadeplan',
+          },
+          {
+            src: images[`${prefix}20.jpg`].default,
+            title: 'Drinks reception',
+            description: 'Champagne og juice',
+          },
+          {
+            src: images[`${prefix}20.jpg`].default,
+            title: 'Chocolate cake and ice cream dessert',
+            description: 'Søde fristelser',
+          },
 
           
 
