@@ -105,12 +105,10 @@ export const slides = [
             title: 'Koenigsegg CC850, LEGO HQ, Denmark',
             description: 'Tophastighed på 450 km/t, lanceret i 2023, her kørt af Tom Cruise',
           },
-          { src: iSpos[`${prefix}07/210.jpg`].default,
+          { src: iSpo[`${prefix}07/210.jpg`].default,
             title: '1982 Merlin Roadster Plus Two, Ruddington, UK',
             description: 'Klassisk sportsvogn (prod. 1982-1985) ved gammel benzinstander',
           },
-          ]
-/*
           {
             src: iWil[`${prefix}08/211.jpg`].default,
             title: 'Griffon over coastline, Benalmádena, Spain',
@@ -161,7 +159,8 @@ export const slides = [
             title: 'Blueberries',
             description: 'Blåbær',
           },
-
+]
+/*
           */
 
           /*{ src: images['../assets/portfolioImages/'+'0'+3+'.jpg'].default },*/
