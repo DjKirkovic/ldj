@@ -105,7 +105,7 @@ export const slides = [
             title: 'Nikon 70-200mm f2.8E FL VR',
             description: 'Zoomobjektiv',
           },
-          {  src: images[`${prefix}121.jpg`].default,
+          {  src: images[`${prefix}122.jpg`].default,
             title: 'Computer chip',
             description: 'Forstørret kig på elektronisk kredsløb',
           },
