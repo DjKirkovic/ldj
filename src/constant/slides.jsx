@@ -205,4 +205,4 @@ export const slides = [
     'Petronas Towers, Kuala Lumpur, Malaysia',
     'St. Peter\'s Square, Rome / Vatican City, Italy',
     'Egyptian statues, art museum, Denmark',*/
-  ];
+  
