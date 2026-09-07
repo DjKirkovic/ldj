@@ -96,7 +96,7 @@ export const slides = [
             description: 'Champagne og juice',
           },
           {
-            src: images[`${prefix}20.jpg`].default,
+            src: images[`${prefix}21.jpg`].default,
             title: 'Chocolate cake and ice cream dessert',
             description: 'Søde fristelser',
           },
