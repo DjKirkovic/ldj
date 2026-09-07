@@ -18,6 +18,10 @@ export const slides = [
             title: 'London Thames North Bank, UK',
             description: 'Panorama over byen, set fra London City Hall',
           },
+        ]
+
+/*
+
           { src: iLoc[`${prefix}01/02.jpg`].default,
             title: 'Tokyo Downtown, Japan',
             description: 'Akabanebashi Crossing fodgængerfeltet set fra Tokyo Tower',
@@ -160,7 +164,7 @@ export const slides = [
             description: 'Blåbær',
           },
 
-          
+          */
 
           /*{ src: images['../assets/portfolioImages/'+'0'+3+'.jpg'].default },*/
         
