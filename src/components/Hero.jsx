@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="flex flex-col items-center">
         <TitleHome title="foto247. Professionel fotograf. Fotos til virksomhed og private. " />
         <h2 className="text-7xl font-bold text-black">
-            <span className="text-yellow-400">foto</span><span className="text-blue-500">24</span><span className="text-red-500">7</span>
+            <span className="text-yellow-400">foto</span><span className="text-blue-500">24</span>/<span className="text-red-500">7</span>
             <br />
           </h2>
       </div>
