@@ -105,6 +105,10 @@ export const slides = [
             title: 'Nikon 70-200mm f2.8E FL VR',
             description: 'Zoomobjektiv',
           },
+          {  src: images[`${prefix}121.jpg`].default,
+            title: 'Computer chip',
+            description: 'Forstørret kig på elektronisk kredsløb',
+          },
 
           
 
@@ -143,7 +147,6 @@ export const slides = [
     'Chocolate cake and ice cream dessert',
     /*'Laboratory samples',
     'Biochemist, UK',
-    'Computer chip',
     'Burj Khalifa, Dubai, UAE - World\'s Tallest Building',
     'Petronas Towers, Kuala Lumpur, Malaysia',
     'St. Peter\'s Square, Rome / Vatican City, Italy',
