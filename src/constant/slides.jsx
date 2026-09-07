@@ -18,9 +18,6 @@ export const slides = [
             title: 'London Thames North Bank, UK',
             description: 'Panorama over byen, set fra London City Hall',
           },
-        
-
-
           { src: iLoc[`${prefix}01/02.jpg`].default,
             title: 'Tokyo Downtown, Japan',
             description: 'Akabanebashi Crossing fodgængerfeltet set fra Tokyo Tower',
@@ -40,7 +37,7 @@ export const slides = [
           { src: iEve[`${prefix}02/33.jpg`].default,
           title: 'Pokémon Championships, London, UK',
           description: 'Øjeblikket TontonBatteuse vandt EUIC i PoGo',
-        },
+          },
           {
             src: iWed[`${prefix}03/61.jpg`].default,
             title: 'Umbrella',
@@ -61,8 +58,6 @@ export const slides = [
             title: 'Girl with hairband',
             description: 'Pige med hårbøjle',
           },
-          ]
-/*
           {
             src: iWed[`${prefix}03/65.jpg`].default,
             title: 'Ring on finger',
@@ -164,7 +159,8 @@ export const slides = [
             title: 'Blueberries',
             description: 'Blåbær',
           },
-
+]
+/*
           */
 
           /*{ src: images['../assets/portfolioImages/'+'0'+3+'.jpg'].default },*/
