@@ -155,7 +155,7 @@ const Photos = () => {
       <div> 
       
       {/* <button type="button" onClick={() => setOpen(true)}>Open Lightbox</button> */}
-        <div style={{ display: 'block' }}> 
+        <div style={{ display: 'block', color: 'green' }}> 
           <p>Vælg kategori(er):</p>
           {CATS.map((cat) => (
             <label key={cat} style={{ display: 'inline', padding: '5px', letterSpacing: '1px'}}>
@@ -167,6 +167,7 @@ const Photos = () => {
               {cat}
             </label>
           ))}
+          <p>Antal billeder vist: {<span style={{color: "black"}}>{fslides.length}</span>}</p>
           {/* <p>Valgt: {selectedCats.join(', ') || 'Ingen'}</p> */}
         </div>
 
