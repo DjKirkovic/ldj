@@ -204,6 +204,11 @@ export const slides = [
             description: 'Blåbær',
             cat: '10',
           },
+          { src: iMisc[`${prefix}10/275.jpg`].default,
+            title: 'Full Moon',
+            description: 'Fuldmåne',
+            cat: '10',
+          },
 ]
         
   /*
