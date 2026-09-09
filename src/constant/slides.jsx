@@ -33,7 +33,7 @@ export const slides = [
             description: 'Solnedgang over byens vartegn',
             cat: '1',
           },
-          { src: iArc[`${prefix}01/04.jpg`].default,
+          { src: iArc[`${prefix}01/041.jpg`].default,
             title: 'Burj Khalifa, Dubai, UAE',
             description: 'Verdens højeste bygning - på 829m!',
             cat: '1',
