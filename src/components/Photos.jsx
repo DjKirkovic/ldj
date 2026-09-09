@@ -37,7 +37,25 @@ const Photos = () => {
         slides
         :
         slides.filter(slide => slide.cat === ""+indexI)
-        setSlides(newSlides);
+        
+const modArray = newSlides.map(o => ({ ...o, width: 1400 }));
+/*
+        for (const s in newSlides)
+            {
+              newSlides[s].width = 1400,
+              newSlides[s].height = 932
+              //newSlides[s].src = newSlides.src,
+              s.description = newSlides.description,
+              s.width = 1400,
+              s.height = 932
+              
+            }
+          }
+
+          */
+
+        setSlides(modArray);
+
 
     };
        

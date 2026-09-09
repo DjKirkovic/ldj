@@ -28,7 +28,7 @@ export const slides = [
           cat: '1',
           width: 1400, height: 932 
           },
-          { src: iArc[`${prefix}01/03.jpg`].default,
+          { src: iArc[`${prefix}01/031.jpg`].default,
             title: 'Sydney Opera House & Harbour Bridge, Australia',
             description: 'Solnedgang over byens vartegn',
             cat: '1',
