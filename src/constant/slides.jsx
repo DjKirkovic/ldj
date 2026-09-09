@@ -18,7 +18,6 @@ export const slides = [
             title: 'London Thames North Bank, UK',
             description: 'Panorama over byen, set fra London City Hall',
             cat: '1',
-            //width: 700, height: 466 
           },
           { src: iArc[`${prefix}01/02.jpg`].default,
           title: 'Tokyo Downtown, Japan',
