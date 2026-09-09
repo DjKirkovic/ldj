@@ -14,7 +14,7 @@ export const slides = [
 
 // load in images in categories: 01 Location / cityscapes, 02 Event, 03 Wedding, 04 Portrait, 05 Product, 06 Marketing (/Branding), 07 Sport, 08 Wildlife, 09 Landscape (/Nature incl. astro), 10 Cuisine (Food/drink)
   
-          { src: iArc[`${prefix}01/01.jpg`].default,
+          { src: iArc[`${prefix}01/011.jpg`].default,
             title: 'London Thames North Bank, UK',
             description: 'Panorama over byen, set fra London City Hall',
             cat: '1',
