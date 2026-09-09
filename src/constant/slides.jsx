@@ -10,6 +10,8 @@ const iLan = import.meta.glob('../assets/portfolioImages/09/*.{png,jpg,jpeg,svg}
 const iMisc = import.meta.glob('../assets/portfolioImages/10/*.{png,jpg,jpeg,svg}', { eager: true }); // Dynamically import all (image) files in the portfolioimages folder:
 
 const prefix = '../assets/portfolioImages/';
+const w = 1400;
+const h = 932;
 export const slides = [
 
 // load in images in categories: 01 Location / cityscapes, 02 Event, 03 Wedding, 04 Portrait, 05 Product, 06 Marketing (/Branding), 07 Sport, 08 Wildlife, 09 Landscape (/Nature incl. astro), 10 Cuisine (Food/drink)
@@ -18,11 +20,13 @@ export const slides = [
             title: 'London Thames North Bank, UK',
             description: 'Panorama over byen, set fra London City Hall',
             cat: '1',
+            width: 700, height: 466 
           },
           { src: iArc[`${prefix}01/02.jpg`].default,
           title: 'Tokyo Downtown, Japan',
           description: 'Akabanebashi Crossing fodgængerfeltet set fra Tokyo Tower',
-            cat: '1',
+          cat: '1',
+          width: w, height: h 
           },
           { src: iArc[`${prefix}01/03.jpg`].default,
             title: 'Sydney Opera House & Harbour Bridge, Australia',
