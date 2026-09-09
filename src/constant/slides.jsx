@@ -26,7 +26,7 @@ export const slides = [
           title: 'Tokyo Downtown, Japan',
           description: 'Akabanebashi Crossing fodgængerfeltet set fra Tokyo Tower',
           cat: '1',
-          width: 1400, height: 932 
+          width: 2100, height: 1398 
           },
           { src: iArc[`${prefix}01/031.jpg`].default,
             title: 'Sydney Opera House & Harbour Bridge, Australia',

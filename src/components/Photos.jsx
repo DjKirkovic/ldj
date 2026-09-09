@@ -38,7 +38,7 @@ const Photos = () => {
         :
         slides.filter(slide => slide.cat === ""+indexI)
         
-const modArray = newSlides.map(o => ({ ...o, width: 1400 }));
+const modArray = newSlides.map(o => ({ ...o, width: 2100 }));
 /*
         for (const s in newSlides)
             {
