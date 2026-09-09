@@ -37,7 +37,7 @@ export const slides = [
           },
           { src: iArc[`${prefix}01/10.jpg`].default,
             title: 'The Frame, Dubai, UAE',
-            description: 'Tæt på den 150m høje "Billedrammen"',
+            description: 'Tæt på det 150m høje monument "Billedrammen"',
             cat: '1',
           },
           { src: iEve[`${prefix}02/31.jpg`].default,
