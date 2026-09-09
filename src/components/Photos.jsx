@@ -155,7 +155,7 @@ const Photos = () => {
       <div> 
       
       {/* <button type="button" onClick={() => setOpen(true)}>Open Lightbox</button> */}
-        <div style={{ display: 'flex', width: '100vw', alignContent: 'center' }}>
+        <div style={{ display: 'block' }}> 
           <p>Vælg kategori(er):</p>
           {CATS.map((cat) => (
             <label key={cat} style={{ display: 'inline', padding: '5px', letterSpacing: '1px'}}>
