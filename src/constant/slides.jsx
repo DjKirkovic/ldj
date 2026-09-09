@@ -20,13 +20,13 @@ export const slides = [
             title: 'London Thames North Bank, UK',
             description: 'Panorama over byen, set fra London City Hall',
             cat: '1',
-            width: 700, height: 466 
+            //width: 700, height: 466 
           },
           { src: iArc[`${prefix}01/02.jpg`].default,
           title: 'Tokyo Downtown, Japan',
           description: 'Akabanebashi Crossing fodgængerfeltet set fra Tokyo Tower',
           cat: '1',
-          width: w, height: h 
+          width: 1400, height: 932 
           },
           { src: iArc[`${prefix}01/03.jpg`].default,
             title: 'Sydney Opera House & Harbour Bridge, Australia',
