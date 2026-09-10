@@ -83,7 +83,7 @@ const modArray = newSlides.map(o => ({ ...o, width: 2100 }));
           <div style={{display:'flex', color: "white", width: fslides.length == 0 ? "100%" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"grey", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}>Vælg en kategori</div>
           <div style={{ display: 'flex', width: '100vw'}}>
 
-          <div style={{display:'flex', color: "white", width: fslides.length == 0 ? "100%" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"green", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}></div>
+          <div style={{display:'flex', color: "white", width: fslides.length == 0 ? "100%" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"blue", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}></div>
           </div>
         <Pics data={fslides} onClick={(currentIndex) => setIndex(currentIndex)} />
 <div style={{ display: 'block'}}>
