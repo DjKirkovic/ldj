@@ -69,14 +69,16 @@ const modArray = newSlides.map(o => ({ ...o, width: 2100 }));
       
       {/* <button type="button" onClick={() => setOpen(true)}>Open Lightbox</button> */}
         <div style={{ display: 'block', color: 'green', alignItems: "center", justifyContent: "center" }}> 
+        <div style={{ display: 'flex', width: '100%', alignItems: "center", justifyContent: "center" }}> 
+         
          {/*  <p>Vælg kategori(er):</p> */}
           {CATS.map((cat) => (
-            <label key={cat} style={{ display: 'inline-flex', padding: '0px', borderLeft: '0px', letterSpacing: '0px', fontWeight: cat === "Alle" ? "bold" : "unset"}}>
+            <label key={cat} style={{ display: 'inline-flex', justifyContent: "center", padding: '0px', borderLeft: '0px', letterSpacing: '0px', fontWeight: cat === "Alle" ? "bold" : "unset"}}>
               <input type="radio" checked={selectedCats.includes(cat)} style={{display: 'inline-flex', marginRight: '0px'}} onChange={() => handleToggle(cat)}/>
               {cat}
             </label>
           ))}
-          
+         </div> 
           {/* <button type="button" visibility={fslides.length == 0 ? "hidden" : "visible"} onClick={() => setOpen(true)}>Open Lightbox</button> */}
         </div>
           <div style={{display:'block', color: 'black', width: '100vw', label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "hidden" : "visible", alignItems: "center", justifyContent: "center"}}>Antal billeder vist: {<span style={{color: "black", paddingLeft: '5px',}}>{" "+fslides.length.toString()}</span>}</div>
