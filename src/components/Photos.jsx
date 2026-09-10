@@ -55,7 +55,7 @@ const Photos = () => {
         <div style={{ display: 'flex', color: 'green', alignItems: "center", justifyContent: "center" }}> 
         <div style={{ display: 'inline', color: 'green', alignItems: "center", justifyContent: "center" }}> 
           {CATS.map((cat) => (
-            <label key={cat} style={{ display: 'inline-flex', justifyContent: "center", padding: '3px', borderLeft: '0px', fontWeight: cat === "Alle" ? "bold" : "unset"}}>
+            <label key={cat} style={{ display: 'inline-flex', justifyContent: "center", padding: '5px', borderLeft: '0px', fontWeight: cat === "Alle" ? "bold" : "unset"}}>
               <input type="radio" checked={selectedCats.includes(cat)} style={{display: 'inline-flex', marginRight: '2px'}} onChange={() => handleToggle(cat)}/>
               {cat}
             </label>
@@ -63,7 +63,7 @@ const Photos = () => {
          </div> 
         </div>
           <div style={{display:'flex', color: 'black', width: '100vw', label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "hidden" : "visible", alignItems: "center", justifyContent: "center"}}>Antal billeder vist: {<span style={{color: "black", paddingLeft: '5px',}}>{" "+fslides.length.toString()}</span>}</div>
-          <div style={{display:'flex', color: "white", width: fslides.length == 0 ? "100%" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"blue", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}>Vælg en kategori</div>
+          <div style={{display:'flex', color: "white", width: fslides.length == 0 ? "100%" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"grey", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}>Vælg en kategori</div>
         <Pics data={fslides} onClick={(currentIndex) => setIndex(currentIndex)} />
 <div>
         <Lightbox
