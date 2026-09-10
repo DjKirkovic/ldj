@@ -17,7 +17,7 @@ const Photos = () => {
   
   const [index, setIndex] = useState(-1);
   
-  const CATS = ['Arkitektur', 'Event', 'Bryllup', 'Portræt', 'Produkt', 'Marketing', 'Sport', 'Dyreliv', 'Landskab', 'Diverse', 'All'];
+  const CATS = ['Arkitektur', 'Event', 'Bryllup', 'Portræt', 'Produkt', 'Marketing', 'Sport', 'Dyreliv', 'Landskab', 'Diverse', 'Alle'];
   // 01 Location / cityscapes, 02 Event, 03 Wedding, 04 Portrait, 05 Product, 06 Marketing (/Branding), 07 Sport, 08 Wildlife, 09 Landscape (/Nature incl. astro), 10 Cuisine (Food/drink)
   
   const [selectedCats, setSelectedCats] = useState([]);
@@ -81,8 +81,8 @@ const modArray = newSlides.map(o => ({ ...o, width: 2100 }));
          </div> 
           {/* <button type="button" visibility={fslides.length == 0 ? "hidden" : "visible"} onClick={() => setOpen(true)}>Open Lightbox</button> */}
         </div>
-          <div style={{display:'block', color: 'black', width: '100vw', label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "hidden" : "visible", alignItems: "center", justifyContent: "center"}}>Antal billeder vist: {<span style={{color: "black", paddingLeft: '5px',}}>{" "+fslides.length.toString()}</span>}</div>
-          <div style={{display:'block', color: "white", width: fslides.length == 0 ? "20%" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"grey", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}>Vælg en kategori</div>
+          <div style={{display:'flex', color: 'black', width: '100vw', label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "hidden" : "visible", alignItems: "center", justifyContent: "center"}}>Antal billeder vist: {<span style={{color: "black", paddingLeft: '5px',}}>{" "+fslides.length.toString()}</span>}</div>
+          <div style={{display:'flex', color: "white", width: fslides.length == 0 ? "100%" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"grey", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}>Vælg en kategori</div>
           {/* <div style={{ display: 'block', width: '100vw'}}>
 
           <div style={{display:'block', color: "white", width: fslides.length == 0 ? "100vw" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"red", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}></div>
