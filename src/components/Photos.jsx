@@ -69,7 +69,7 @@ const modArray = newSlides.map(o => ({ ...o, width: 2100 }));
       
       {/* <button type="button" onClick={() => setOpen(true)}>Open Lightbox</button> */}
         <div style={{ display: 'block', color: 'green', alignItems: "center", justifyContent: "center" }}> 
-        <div style={{ display: 'flex', width: '100%', alignItems: "center", justifyContent: "center" }}> 
+        <div style={{ display: 'flex', color: 'green', alignItems: "center", justifyContent: "center" }}> 
          
          {/*  <p>Vælg kategori(er):</p> */}
           {CATS.map((cat) => (
@@ -85,7 +85,7 @@ const modArray = newSlides.map(o => ({ ...o, width: 2100 }));
           <div style={{display:'block', color: "white", width: fslides.length == 0 ? "20%" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"grey", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}>Vælg en kategori</div>
           <div style={{ display: 'block', width: '100vw'}}>
 
-          <div style={{display:'block', color: "white", width: fslides.length == 0 ? "100vw" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"blue", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}></div>
+          <div style={{display:'block', color: "white", width: fslides.length == 0 ? "100vw" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"green", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}></div>
           </div>
         <Pics data={fslides} onClick={(currentIndex) => setIndex(currentIndex)} />
 <div style={{ display: 'block', width: '100%'}}>
