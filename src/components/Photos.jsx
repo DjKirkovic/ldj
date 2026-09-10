@@ -82,23 +82,17 @@ const modArray = newSlides.map(o => ({ ...o, width: 2100 }));
           {/* <button type="button" visibility={fslides.length == 0 ? "hidden" : "visible"} onClick={() => setOpen(true)}>Open Lightbox</button> */}
         </div>
           <div style={{display:'flex', color: 'black', width: '100vw', label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "hidden" : "visible", alignItems: "center", justifyContent: "center"}}>Antal billeder vist: {<span style={{color: "black", paddingLeft: '5px',}}>{" "+fslides.length.toString()}</span>}</div>
-          <div style={{display:'flex', color: "white", width: fslides.length == 0 ? "100%" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"red", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}>Vælg en kategori</div>
+          <div style={{display:'flex', color: "white", width: fslides.length == 0 ? "100%" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"grey", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}>Vælg en kategori</div>
           {/* <div style={{ display: 'block', width: '100vw'}}>
 
           <div style={{display:'block', color: "white", width: fslides.length == 0 ? "100vw" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"red", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}></div>
           </div> */}
         <Pics data={fslides} onClick={(currentIndex) => setIndex(currentIndex)} />
-<div style={{ display: 'flex', width: '100px'}}>
+<div>
         <Lightbox
         plugins={[Counter, Captions, Fullscreen, Zoom, Thumbnails, Slideshow]}
         //title={{ container: {style: {top: 100, bottom: 100}}}}
         styles={{ 
-          //display: 'flex',
-          //maxWidth: 100,
-          //width: '100px',
-          
-          //maxWidth: 10,
-          //maxWidth: 600, margin: "20px auto", maxChars: 100, 
           captionsTitle: { 
             fontSize: "0.7rem", //color: "blue", overflow: "visible", marginRight, marginLeft: "2%",
             textAlign: "center",
