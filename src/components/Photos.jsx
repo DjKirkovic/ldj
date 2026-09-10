@@ -79,11 +79,11 @@ const modArray = newSlides.map(o => ({ ...o, width: 2100 }));
           
           {/* <button type="button" visibility={fslides.length == 0 ? "hidden" : "visible"} onClick={() => setOpen(true)}>Open Lightbox</button> */}
         </div>
-          <div style={{display:'block', color: 'black', label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "hidden" : "visible", alignItems: "center", justifyContent: "center"}}>Antal billeder vist: {<span style={{color: "black", paddingLeft: '5px',}}>{" "+fslides.length.toString()}</span>}</div>
+          <div style={{display:'block', color: 'black', width: '100vw', label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "hidden" : "visible", alignItems: "center", justifyContent: "center"}}>Antal billeder vist: {<span style={{color: "black", paddingLeft: '5px',}}>{" "+fslides.length.toString()}</span>}</div>
           <div style={{display:'block', color: "white", width: fslides.length == 0 ? "20%" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"grey", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}>Vælg en kategori</div>
           <div style={{ display: 'block', width: '100vw'}}>
 
-          <div style={{display:'block', color: "white", width: fslides.length == 0 ? "100vw" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"blue", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}></div>
+          <div style={{display:'block', color: "white", width: fslides.length == 0 ? "100vw" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"green", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}></div>
           </div>
         <Pics data={fslides} onClick={(currentIndex) => setIndex(currentIndex)} />
 <div style={{ display: 'block', width: '100%'}}>
