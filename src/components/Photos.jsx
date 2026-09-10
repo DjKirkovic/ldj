@@ -17,7 +17,7 @@ const Photos = () => {
   
   const [index, setIndex] = useState(-1);
   
-  const CATS = ['Arkitektur', 'Event', 'Bryllup', 'Portræt', 'Produkt', 'Marketing', 'Sport', 'Dyreliv', 'Landskab', 'Diverse', 'Alle'];
+  const CATS = ['Arkitektur', 'Event', 'Bryllup', 'Portræt', 'Produkt', 'Marketing', 'Sport', 'Dyreliv', 'Landskab', 'Diverse', 'All'];
   // 01 Location / cityscapes, 02 Event, 03 Wedding, 04 Portrait, 05 Product, 06 Marketing (/Branding), 07 Sport, 08 Wildlife, 09 Landscape (/Nature incl. astro), 10 Cuisine (Food/drink)
   
   const [selectedCats, setSelectedCats] = useState([]);
