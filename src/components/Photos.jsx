@@ -88,7 +88,7 @@ const modArray = newSlides.map(o => ({ ...o, width: 2100 }));
         plugins={[Counter, Captions, Fullscreen, Zoom, Thumbnails, Slideshow]}
         //title={{ container: {style: {top: 100, bottom: 100}}}}
         styles={{ 
-          maxWidth: 10,
+          //maxWidth: 10,
           //maxWidth: 600, margin: "20px auto", maxChars: 100, 
           captionsTitle: { 
             fontSize: "0.7rem", //color: "blue", overflow: "visible", marginRight, marginLeft: "2%",
@@ -119,7 +119,7 @@ const modArray = newSlides.map(o => ({ ...o, width: 2100 }));
           gap: 2,
           position: "center",//bottom gives film strip roll function
           }}
-          counter={{ container: {style: {top: 0, bottom: 0, left: 0}}}} //image number counter position, top left
+          /* counter={{ container: {style: {top: 0, bottom: 0, left: 0}}}} //image number counter position, top left */
           index={index}
           open={index >= 0}
           close={() => setIndex(-1)}
