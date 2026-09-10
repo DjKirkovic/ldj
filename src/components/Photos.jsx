@@ -71,7 +71,7 @@ const modArray = newSlides.map(o => ({ ...o, width: 2100 }));
         <div style={{ display: 'inline-flex', color: 'green', width: '100vw', alignItems: "center", justifyContent: "center" }}> 
          {/*  <p>Vælg kategori(er):</p> */}
           {CATS.map((cat) => (
-            <label key={cat} style={{ display: 'inline', padding: '10px', borderLeft: '0px', letterSpacing: '0px', fontWeight: cat === "Alle" ? "bold" : "unset"}}>
+            <label key={cat} style={{ display: 'inline', padding: '0px', borderLeft: '0px', letterSpacing: '0px', fontWeight: cat === "Alle" ? "bold" : "unset"}}>
               <input type="radio" checked={selectedCats.includes(cat)} style={{display: 'inline-flex', marginRight: '3px'}} onChange={() => handleToggle(cat)}/>
               {cat}
             </label>
