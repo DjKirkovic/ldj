@@ -65,7 +65,7 @@ const modArray = newSlides.map(o => ({ ...o, width: 2100 }));
         <Subtitle title="" />
         <Title title="Fotos" />
       </div>
-      <div style={{ display: 'block', width: '100vw'}}> 
+      <div> 
       
       {/* <button type="button" onClick={() => setOpen(true)}>Open Lightbox</button> */}
         <div style={{ display: 'block', color: 'green', alignItems: "center", justifyContent: "center" }}> 
