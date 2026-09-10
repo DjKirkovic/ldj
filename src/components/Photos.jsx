@@ -85,10 +85,10 @@ const modArray = newSlides.map(o => ({ ...o, width: 2100 }));
           <div style={{display:'block', color: "white", width: fslides.length == 0 ? "20%" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"grey", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}>Vælg en kategori</div>
           <div style={{ display: 'block', width: '100vw'}}>
 
-          <div style={{display:'block', color: "white", width: fslides.length == 0 ? "100vw" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"blue", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}></div>
+          <div style={{display:'block', color: "white", width: fslides.length == 0 ? "100vw" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"red", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}></div>
           </div>
         <Pics data={fslides} onClick={(currentIndex) => setIndex(currentIndex)} />
-<div style={{ display: 'block', width: '100px'}}>
+<div style={{ display: 'flex', width: '100px'}}>
         <Lightbox
         plugins={[Counter, Captions, Fullscreen, Zoom, Thumbnails, Slideshow]}
         //title={{ container: {style: {top: 100, bottom: 100}}}}
