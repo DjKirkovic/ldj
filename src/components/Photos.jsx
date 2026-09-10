@@ -68,7 +68,7 @@ const modArray = newSlides.map(o => ({ ...o, width: 2100 }));
       <div> 
       
       {/* <button type="button" onClick={() => setOpen(true)}>Open Lightbox</button> */}
-        <div style={{ display: 'inline-flex', color: 'green', width: '100vw', alignItems: "center", justifyContent: "center" }}> 
+        <div style={{ display: 'inline', color: 'green', width: '100vw', alignItems: "center", justifyContent: "center" }}> 
          {/*  <p>Vælg kategori(er):</p> */}
           {CATS.map((cat) => (
             <label key={cat} style={{ display: 'inline', padding: '0px', borderLeft: '0px', letterSpacing: '0px', fontWeight: cat === "Alle" ? "bold" : "unset"}}>
