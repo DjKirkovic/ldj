@@ -83,12 +83,11 @@ const modArray = newSlides.map(o => ({ ...o, width: 2100 }));
           <div style={{display:'flex', color: "white", width: fslides.length == 0 ? "100%" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"grey", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}>Vælg en kategori</div>
           
         <Pics data={fslides} onClick={(currentIndex) => setIndex(currentIndex)} />
-
+<div style={{ display: 'flex'}}>
         <Lightbox
         plugins={[Counter, Captions, Fullscreen, Zoom, Thumbnails, Slideshow]}
         //title={{ container: {style: {top: 100, bottom: 100}}}}
         styles={{ 
-          display:'flex',
           
           //maxWidth: 10,
           //maxWidth: 600, margin: "20px auto", maxChars: 100, 
@@ -127,6 +126,7 @@ const modArray = newSlides.map(o => ({ ...o, width: 2100 }));
           close={() => setIndex(-1)}
           slides={fslides}
           />   
+          </div>
       </div>  
     </Container>
   );
