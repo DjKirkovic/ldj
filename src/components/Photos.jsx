@@ -88,7 +88,7 @@ const modArray = newSlides.map(o => ({ ...o, width: 2100 }));
         plugins={[Counter, Captions, Fullscreen, Zoom, Thumbnails, Slideshow]}
         //title={{ container: {style: {top: 100, bottom: 100}}}}
         styles={{ 
-          maxWidth: 10,
+          //maxWidth: 10,
           //maxWidth: 600, margin: "20px auto", maxChars: 100, 
           captionsTitle: { 
             fontSize: "0.7rem", //color: "blue", overflow: "visible", marginRight, marginLeft: "2%",
@@ -97,7 +97,7 @@ const modArray = newSlides.map(o => ({ ...o, width: 2100 }));
           },
           captionsTitleContainer: { 
             backgroundColor: "rgba(100, 100, 100, 1)",
-            width: "158vw", //maxWidth: "100vw",
+            width: "100vw", //maxWidth: "100vw",
             top: "88%", //left, right
             padding: "1px",
           },
