@@ -38,26 +38,9 @@ const Photos = () => {
         :
         slides.filter(slide => slide.cat === ""+indexI)
         
-const modArray = newSlides.map(o => ({ ...o, width: 2100 }));
-/*
-        for (const s in newSlides)
-            {
-              newSlides[s].width = 1400,
-              newSlides[s].height = 932
-              //newSlides[s].src = newSlides.src,
-              s.description = newSlides.description,
-              s.width = 1400,
-              s.height = 932
-              
-            }
-          }
-
-          */
-
-        setSlides(modArray);
-
-
-    };
+      const modArray = newSlides.map(o => ({ ...o, width: 2100 }));
+      setSlides(modArray);
+  };
        
     return (
       <Container className="border-black">
@@ -68,25 +51,19 @@ const modArray = newSlides.map(o => ({ ...o, width: 2100 }));
       <div> 
       
       {/* <button type="button" onClick={() => setOpen(true)}>Open Lightbox</button> */}
+      {/* <button type="button" visibility={fslides.length == 0 ? "hidden" : "visible"} onClick={() => setOpen(true)}>Open Lightbox</button> */}
         <div style={{ display: 'flex', color: 'green', alignItems: "center", justifyContent: "center" }}> 
         <div style={{ display: 'inline', color: 'green', alignItems: "center", justifyContent: "center" }}> 
-         
-         {/*  <p>Vælg kategori(er):</p> */}
           {CATS.map((cat) => (
-            <label key={cat} style={{ display: 'inline-flex', justifyContent: "center", padding: '5px', borderLeft: '0px', fontWeight: cat === "Alle" ? "bold" : "unset"}}>
+            <label key={cat} style={{ display: 'inline-flex', justifyContent: "center", padding: '3px', borderLeft: '0px', fontWeight: cat === "Alle" ? "bold" : "unset"}}>
               <input type="radio" checked={selectedCats.includes(cat)} style={{display: 'inline-flex', marginRight: '2px'}} onChange={() => handleToggle(cat)}/>
               {cat}
             </label>
           ))}
          </div> 
-          {/* <button type="button" visibility={fslides.length == 0 ? "hidden" : "visible"} onClick={() => setOpen(true)}>Open Lightbox</button> */}
         </div>
           <div style={{display:'flex', color: 'black', width: '100vw', label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "hidden" : "visible", alignItems: "center", justifyContent: "center"}}>Antal billeder vist: {<span style={{color: "black", paddingLeft: '5px',}}>{" "+fslides.length.toString()}</span>}</div>
-          <div style={{display:'flex', color: "white", width: fslides.length == 0 ? "100%" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"grey", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}>Vælg en kategori</div>
-          {/* <div style={{ display: 'block', width: '100vw'}}>
-
-          <div style={{display:'block', color: "white", width: fslides.length == 0 ? "100vw" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"red", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}></div>
-          </div> */}
+          <div style={{display:'flex', color: "white", width: fslides.length == 0 ? "100%" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"blue", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}>Vælg en kategori</div>
         <Pics data={fslides} onClick={(currentIndex) => setIndex(currentIndex)} />
 <div>
         <Lightbox
