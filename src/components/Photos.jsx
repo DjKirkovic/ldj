@@ -68,23 +68,19 @@ const modArray = newSlides.map(o => ({ ...o, width: 2100 }));
       <div> 
       
       {/* <button type="button" onClick={() => setOpen(true)}>Open Lightbox</button> */}
-        <div style={{ display: 'block', color: 'green' }}> 
+        <div style={{ display: 'inline-flex', color: 'green', width: '100%', alignItems: "center", justifyContent: "center" }}> 
          {/*  <p>Vælg kategori(er):</p> */}
           {CATS.map((cat) => (
-            <label key={cat} style={{ display: 'inline', padding: '5px', letterSpacing: '1px', fontWeight: cat === "Alle" ? "bold" : "unset"}}>
-              <input
-                type="radio"
-                checked={selectedCats.includes(cat)}
-                onChange={() => handleToggle(cat)}
-                />
+            <label key={cat} style={{ display: 'inline', padding: '10px', borderLeft: '0px', letterSpacing: '0px', fontWeight: cat === "Alle" ? "bold" : "unset"}}>
+              <input type="radio" checked={selectedCats.includes(cat)} style={{display: 'inline-flex', marginRight: '3px'}} onChange={() => handleToggle(cat)}/>
               {cat}
             </label>
           ))}
           
-          <div style={{display:'flex', label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "hidden" : "visible", alignItems: "center", justifyContent: "center"}}>Antal billeder vist: {<span style={{color: "black"}}>{" "+fslides.length.toString()}</span>}</div>
-          <div style={{display:'flex', color: "white", width: fslides.length == 0 ? "100%" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"grey", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}>Vælg en kategori</div>
           {/* <button type="button" visibility={fslides.length == 0 ? "hidden" : "visible"} onClick={() => setOpen(true)}>Open Lightbox</button> */}
         </div>
+          <div style={{display:'flex', label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "hidden" : "visible", alignItems: "center", justifyContent: "center"}}>Antal billeder vist: {<span style={{color: "black"}}>{" "+fslides.length.toString()}</span>}</div>
+          <div style={{display:'flex', color: "white", width: fslides.length == 0 ? "100%" : "0px", height: fslides.length == 0 ? "100px" : "0px", backgroundColor:"grey", label: fslides.length == 0 ? "abc def" : "", visibility: fslides.length == 0 ? "visible" : "hidden", alignItems: "center", justifyContent: "center"}}>Vælg en kategori</div>
           
         <Pics data={fslides} onClick={(currentIndex) => setIndex(currentIndex)} />
 
