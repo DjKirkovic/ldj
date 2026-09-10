@@ -44,10 +44,20 @@
     height: 10rem;
     cursor: pointer;
 }
-
+/*
+.image:hover{
+    transform: scale(1.1);
+}
+*/
 .image img {
+    transition: 1s;
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 8px;
+}
+
+.image img:hover{
+    transform: scale(1.3);
+    filter: grayscale(100%);
 }
