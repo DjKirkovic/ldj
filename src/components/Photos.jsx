@@ -65,10 +65,10 @@ const modArray = newSlides.map(o => ({ ...o, width: 2100 }));
         <Subtitle title="" />
         <Title title="Fotos" />
       </div>
-      <div style={{ display: 'flex', width: '100vw'}}> 
+      <div style={{ display: 'block', width: '100vw'}}> 
       
       {/* <button type="button" onClick={() => setOpen(true)}>Open Lightbox</button> */}
-        <div style={{ display: 'flex', color: 'green', width: '100%', alignItems: "center", justifyContent: "center" }}> 
+        <div style={{ display: 'block', color: 'green', width: '100%', alignItems: "center", justifyContent: "center" }}> 
          {/*  <p>Vælg kategori(er):</p> */}
           {CATS.map((cat) => (
             <label key={cat} style={{ display: 'inline', padding: '0px', borderLeft: '0px', letterSpacing: '0px', fontWeight: cat === "Alle" ? "bold" : "unset"}}>
