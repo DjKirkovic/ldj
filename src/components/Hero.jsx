@@ -49,7 +49,7 @@ const Hero = () => {
               </ul>
               
               <p class="mb-8">
-                Websiden er under ombygning &#40;oktober 2026&#41;, så hold <br />
+                Websiden er under ombygning &#40;november 2026&#41;, så hold <br />
                 øje med nyt på siderne Om & Kontakt!
               </p>
 
